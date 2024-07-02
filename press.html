@@ -1,0 +1,38 @@
+---
+layout: page
+title: Press
+permalink: /press/
+tags: press, media, outreach
+---
+
+<div class="home">
+  <div class="posts">
+    {% for entry in site.data.press %}
+      <div class="post py2">
+        <p class="post-meta">{{ entry.date | date: site.date_format }}, in {{ entry.publisher }}</p>
+        <a href="{{ entry.url }}" class="post-link"><h3 class="h3 post-title">{{ entry.title }}</h3></a>
+        <span class="post-summary">
+        {% if entry.excerpt %}
+          {{ entry.excerpt }}
+        {% endif %}
+        </span>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- old version below -->
+<!--<div class="home">
+  {% for entry in site.data.press %}
+    <p style="font-size:1.15em; line-height:1;"><a href="{{ entry.url }}">{{ entry.title }}</a><br>
+	<span style="color:gray; font-size:0.8em;">
+	{% if entry.publisher.size > 0 and entry.date > 0 %}
+	  {{ entry.publisher | strip }}, {{ entry.date | date: "%Y" | strip }}
+	{% elsif entry.publisher.size > 0 %}
+	  {{ entry.publisher | strip }}
+	{% elsif entry.date > 0 %}
+	  {{ entry.date | date: "%Y" | strip }}
+	{% endif %}
+	</span></p>
+  {% endfor %}
+</div>-->

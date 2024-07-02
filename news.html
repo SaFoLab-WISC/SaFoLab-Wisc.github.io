@@ -1,0 +1,21 @@
+---
+layout: page
+title: News
+permalink: /news/
+tags: news
+---
+
+<div class="home">
+  <i>Check out our <a href="https://www.youtube.com/@uscliralab">YouTube channel</a> for latest talks and supplementary videos for our publications.</i>
+  <table class="news">
+    <tr>
+	<td width="100%">
+	  <ul>
+	    {% for entry in site.data.news %}
+		  <li><b>{{ entry.date | date: site.date_format}}:</b> {{ entry.content }}</li>
+		{% endfor %}
+	  </ul>
+	</td>
+	</tr>
+  </table>
+</div>

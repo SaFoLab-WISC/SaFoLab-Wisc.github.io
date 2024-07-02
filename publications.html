@@ -1,0 +1,77 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+tags: publications
+---
+
+<script>
+  function download_file(name, contents, mime_type) {
+    // preprocessing for bibtex
+	while(contents.includes("  ")) {
+		contents = contents.replace(new RegExp("  ", 'g'), " ");
+	}
+	contents = contents.replace(new RegExp("\n", 'g'), "");
+	contents = contents.split(",");
+	contents = contents[0] + ",\n" + contents.slice(1, contents.length)
+	contents = contents.replace(new RegExp("},", 'g'), "}");
+	contents = contents.replace(new RegExp("} ", 'g'), "}");
+	contents = contents.replace(new RegExp(" }", 'g'), "}");
+	contents = contents.split("}");
+	var final_text = ""
+	for(var i=0 ; i < contents.length - 1 ; i++) {
+		if(i < contents.length - 2) {
+			final_text += contents[i] + "},\n "
+		}
+	}
+	final_text = final_text.substring(0, final_text.length-3) + "\n}";
+	
+    mime_type = mime_type || "text/plain";
+    var blob = new Blob([final_text], {type: mime_type});
+    var dlink = document.createElement('a');
+	document.body.appendChild(dlink);
+    dlink.download = name;
+    dlink.href = window.URL.createObjectURL(blob);
+    dlink.onclick = function(e) {
+      // revokeObjectURL needs a delay to work properly
+      var that = this;
+      setTimeout(function() {
+          window.URL.revokeObjectURL(that.href);
+      }, 1500);
+    };
+    dlink.click();
+    dlink.remove();
+    document.body.removeChild(dlink);
+  }
+</script>
+
+<div class="home">
+  <table class="publications">
+    {% for paper in site.data.publications %}
+    <tr style="height:150px;"">
+      <td><b>{{ paper.title }}</b><br>
+	  {{ paper.authors }}<br>
+	  <i>{{ paper.venue }}</i><br>
+	  {% if paper.bibtex.size > 0 %}
+	    <button class="btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i class="{{ site.publication_buttons['bibtex'] }}"></i> BibTeX</button>
+	  {% endif %}
+	  {% for link in paper.links %}
+	    <a href="{{ link.url | default: '#' }}"><button class="btn"><i class="{{ site.publication_buttons[link.type] }}"></i> {{ link.display }}</button></a>
+	  {% endfor %}
+	  {% if paper.note.size > 0 %}
+	    <br><span style="color:gray; font-size:small;">{{ paper.note }}</span>
+	  {% endif %}
+	  {% if paper.specialnote.size > 0 %}
+	    <br><span style="color:red; font-size:small;">{{ paper.specialnote }}</span>
+	  {% endif %}
+	  </td>
+      <td style="vertical-align:middle; width:30%;">
+	  {% if paper.picture.size > 0 %}
+		<center><img src="{{ paper.picture }}" style="max-height:150px; border-radius:15%;" /></center>
+	  {% endif %}
+	  </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+

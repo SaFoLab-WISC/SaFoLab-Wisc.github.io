@@ -1,0 +1,48 @@
+---
+layout: page
+title: People
+permalink: /people/
+tags: people
+---
+
+<div class="home">
+  {% for rank in site.people_ranks %}
+    {% assign counter = 0 %}
+    {% for person in site.data.people %}
+	  {% if rank.keyword == person.rank %}
+        {% assign counter = counter | plus: 1 %}
+      {% endif %}
+	{% endfor %}
+	{% if counter > 0 %}
+	  <h1 class="h3">{{ rank.display }}</h1>
+	  <table class="people">
+        {% for person in site.data.people %}
+		  {% if rank.keyword == person.rank %}
+          <tr>
+            <td width="105">
+			{% if person.home_url.size > 0 %}
+			  {% if person.rank!='alumni' %}<a href="{{ person.home_url }}" class="people"><img src="{{ person.picture | default: '/images/people/default-white.png' }}" width="100" style="border-radius:15%;" /></a>{% endif %}</td>
+			  <td><a href="{{ person.home_url }}" class="people">{{ person.name }}</a>
+			{% else %}
+              {% if person.rank!='alumni' %}<img src="{{ person.picture | default: '/images/people/default-white.png' }}" width="100" style="border-radius:15%;" />{% endif %}</td>
+			  <td>{{ person.name }}
+			{% endif %}&nbsp;
+			{% if person.home_url.size > 0 %}
+			  <a href="{{ person.home_url }}" class="people"><button class="btn"><i class="{{ site.people_buttons['home'] }}"></i> </button></a>
+			{% endif %}
+			{% for link in person.links %}
+			  <a href="{{ link.url | default: '#' }}" class="people"><button class="btn"><i class="{{ site.people_buttons[link.type] }}"></i> </button></a>
+			{% endfor %}
+			{% if person.coadvisor.size > 0 %}
+			  &nbsp;<span style="color:gray; font-size:small;">(Co-advised with {{ person.coadvisor }})</span>
+			{% endif %}
+			<br>
+            {{ person.description }}
+			</td>
+          </tr>
+		  {% endif %}
+        {% endfor %}
+      </table>
+	{% endif %}
+  {% endfor %}
+</div>
