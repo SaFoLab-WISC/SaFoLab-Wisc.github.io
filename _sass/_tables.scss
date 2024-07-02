@@ -1,0 +1,186 @@
+/*
+  Table styles copied from Bootstrap
+  Copyright (c) 2013 Twitter, Inc
+*/
+
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: 12px;
+        line-height: 1.9;
+        vertical-align: top;
+        border-top: 0px solid #333;
+      }
+    }
+  }
+  // Bottom align for column headings
+  > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #333;
+  }
+  // Remove top border from thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child {
+    > tr:first-child {
+      > th,
+      > td {
+        border-top: 0;
+      }
+    }
+  }
+  // Account for multiple tbody instances
+  > tbody + tbody {
+    border-top: 0px solid #333;
+  }
+}
+
+table.people {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: 6px;
+        line-height: 1.2;
+        vertical-align: top;
+        border-top: 0px solid #333;
+      }
+    }
+  }
+  // Bottom align for column headings
+  > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #333;
+  }
+  // Remove top border from thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child {
+    > tr:first-child {
+      > th,
+      > td {
+        border-top: 0;
+      }
+    }
+  }
+  // Account for multiple tbody instances
+  > tbody + tbody {
+    border-top: 0px solid #333;
+  }
+}
+
+table.publications {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+	  border-top: 1px solid #333;
+      > th,
+      > td {
+        padding: 12px;
+        line-height: 1.4;
+        vertical-align: top;
+        border-top: 0px solid #333;
+      }
+    }
+  }
+  // Bottom align for column headings
+  > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #333;
+  }
+  // Remove top border from thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child {
+    > tr:first-child {
+      > th,
+      > td {
+        border-top: 0;
+      }
+    }
+  }
+  // Account for multiple tbody instances
+  > tbody + tbody {
+    border-top: 0px solid #333;
+  }
+}
+
+table.news {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: 0px;
+        line-height: 1.8;
+        vertical-align: top;
+        border-top: 0px solid #333;
+		> p {
+		  text-align: left;
+		  padding-left: 35px;
+		  padding-top: 10px;
+		  font-size: 0.7rem;
+		}		
+		> ul {
+  		  margin: 0;
+	  	  list-style-type: none;
+	    }
+	    > ul > li {
+		  font-size: 0.7rem;
+		  text-indent: -15px;
+	    }
+	    > ul > li:before {
+ 		  content: "- ";
+	    }
+      }
+    }
+  }
+  // Bottom align for column headings
+  > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #333;
+  }
+  // Remove top border from thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child {
+    > tr:first-child {
+      > th,
+      > td {
+        border-top: 0;
+      }
+    }
+  }
+  // Account for multiple tbody instances
+  > tbody + tbody {
+    border-top: 2px solid #333;
+  }
+}

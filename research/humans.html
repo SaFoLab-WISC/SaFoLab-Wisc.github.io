@@ -1,0 +1,119 @@
+---
+layout: research_page
+title: Learning from Interactions
+permalink: /research/humans
+tags: research, humans, computational models of humans
+---
+
+<p><figure style="width:20%; float:right;"><img src="/images/research/golf.png" /><figcaption>Learning human preferences by asking them about comparison between trajectories.</figcaption></figure>
+	The field of robotics has made significant advances over the past few decades, and we can finally start thinking about intricate and long-term interactions with humans and the environment.
+The question that still remains is how and what we can learn from these intricate interactions.  
+</p>
+
+<p>
+In ILIAD, we are interested in two core objectives: 1) efficiently learning computational models of human behavior (reward functions or policies) from diverse sources of interaction data, and 2) learning effective robot policies from interaction data. 
+This introduces a set of research challenges including but not limited to:
+<ul>
+	<li> How can we actively and efficiently collect data in a low data regime setting such as in interactive robotics?
+	</li>
+	<li> How can we tap into different sources and modalities --- perfect and imperfect demonstrations, comparison and ranking queries, physical feedback, language instructions, videos --- to learn an effective human model or robot policy?
+</li>
+<li>
+		What inductive biases and priors can help with effectively learning from human/interaction data?
+	</li>
+
+</ul>
+
+
+<!-- Machine learning has seen great success in domains where vast amounts of data are easily available, such as image-recognition and natural language processing; or where an accurate simulator is available for virtual data collection, such as in games like Go and DotA. In domains such as robotics, physical and practical constraints (such as time, cost, and human effort) limit the amount of available data, and despite recent progress, physics-based simulators are yet to reach the level of accuracy required to allow us to train robots in simulation and then deploy them in the real-world. In light of this fact, we develop active-learning methods.
+ -->
+ 	
+ </p>
+
+<h4>Active Learning of Reward Functions</h4>
+<p><figure style="width:60%; float:right;"><img src="/images/research/active-2.png" /><figcaption>Through pairwise comparisons, we learn human's preference reward functions.</figcaption></figure>
+
+	Human preferences play a key role in specifying how robotics systems should act, i.e., how an assistive robot arm should move, or how an autonomous car should drive. However, a significant part of the success of reward learning algorithms can be attributed to the availability of large amounts of labeled data. Unfortunately, collecting and labeling data can be costly and time-consuming in most robotics applications. In addition, humans are not always capable of reliably assigning a success value (reward) to a given robot action, and their demonstrations are more often than not suboptimal due to the difficulty of operating robots with more than a few degrees of freedom. 
+
+	Our work develops active learning algorithms that efficiently query users for the most informative piece of data 
+	[<a href="/pdfs/publications/sadigh2017active.pdf">RSS 2017</a>,
+	<a href="/pdfs/publications/biyik2018batch.pdf"> CoRL 2018</a>,
+	<a href="pdfs/publications/palan2019learning.pdf"> RSS 2019</a>,
+	<a href="/pdfs/publications/biyik2019asking.pdf"> CoRL 2019</a>,
+	<a href="/pdfs/publications/basu2019active.pdf"> IROS 2019</a>,
+	<a href="/pdfs/publications/biyik2019green.pdf"> CDC 2019</a>,
+	<a href="/pdfs/publications/biyik2020active.pdf"> RSS 2020</a>,
+	<a href="/pdfs/publications/li2021roial.pdf"> ICRA 2021</a>,
+	<a href="/pdfs/publications/beliaev2021incentivizing.pdf"> ICCPS 2021</a>,
+	<a href="/pdfs/publications/biyik2021aprel.pdf"> AI-HRI 2021</a>,
+	<a href="/pdfs/publications/myers2021learning.pdf"> CoRL 2021a</a>,
+	<a href="/pdfs/publications/wilde2021learning.pdf"> CoRL 2021b</a>].
+<p>
+	In our work, we also consider: <a href="/pdfs/publications/myers2021learning.pdf">learning expressive and multimodal reward functions</a>, <a href="/pdfs/publications/biyik2020active.pdf">learning non-linear reward functions</a>, <a href="https://iliad.stanford.edu/blog/2018/10/06/batch-active-preference-based-learning-of-reward-functions/">batch active learning of reward functions>, <a href="/pdfs/publications/basu2019active.pdf">dynamically changing human reward functions</a>, as well as <a href="/pdfs/publications/biyik2019asking.pdf">optimizing for the ease of queries</a> to enable a more reliable and intuitive interaction with humans.
+
+<h4>Learning from Diverse Sources of Data</h4>
+<p>
+	We study learning from diverse sources of data from humans, such as <a href="/pdfs/publications/cao2021learning.pdf"> optimal and suboptimal demonstrations</a>, <a href="pdfs/publications/sadigh2017active.pdf">pairwise comparisons</a>, <a href="/pdfs/publications/biyik2019green.pdf">best-of-many selections</a>, <a href="/pdfs/publications/myers2021learning.pdf">rankings</a>, <a href="/pdfs/publications/wilde2021learning.pdf">scale feedback</a>, <a href="/pdfs/publications/li2021learning.pdf">physical corrections</a>, and <a href="/pdfs/publications/karamcheti2020learning.pdf">language instructions</a>. We also investigate how to optimally <a href="https://iliad.stanford.edu/blog/2019/06/24/learning-reward-functions-by-integrating-human-demonstrations-and-preferences/">integrate these different sources</a>. Specifically, when learning from both expert demonstrations and active comparison queries, we prove that the optimal integration is to warm-start the reward learning algorithm by learning from expert demonstrations, and fine-tune the model using active preferences. Aside from learning through queries, we also investigate how to understand other sources of human robot interaction, such as physical interactions. By reasoning over human physical corrections, robots can adaptively improve their reward estimates. 
+
+</p>
+	<div style="text-align: center"><img src="{{ site.baseurl }}/images/posts/palan2019learning/schem.png"/></div>
+
+<h4>Learning from Imperfect Demonstrations</h4>
+<p>
+Standard imitation learning algorithms often rely on expert and optimal demonstrations. In practice, it is expensive to obtain a large number of expert data, but we usually have access to a plethora of imperfect demonstrations--suboptimal behavior that can range from random noise or failures to nearly optimal demonstrations. 
+	The main challenge of learning from imperfect demonstrations is excavating useful knowledge from this data and avoiding the influence of harmful behaviors. We need to down-weight those noisy or malicious inputs while learning from those nearly optimal state and actions. We develop an approach that assigns a feasibility metric to deal with out-of-dynamics demonstrations and an optimality metric to deal with suboptimal demonstrations [<a href="/pdfs/publications/cao2021learning.pdf">RA-L 2021</a>]. We further demonstrate such metrics can be directly learned from a small number of ranking data, and propose an iterative approach that learns a confidence value over demonstrations and the policy parameters [<a href="https://arxiv.org/abs/2110.14754">NeurIPS 2021</a>].
+</p>
+
+<h4>Risk-Aware Human Models</h4>
+<p>
+Many of today’s robots model humans as if they are always optimal or noisily rational. Both of these models make sense when the human receives deterministic rewards. But in real world scenarios, rewards are rarely deterministic. Instead, we consider settings, where humans need to make choices subject to risk and uncertainty. In these settings, humans exhibit a cognitive bias towards suboptimal behavior.
+</p>
+
+<p>
+We adopt a well-known Risk-Aware human model from behavioral
+economics called Cumulative Prospect Theory and enable robots
+to leverage this model during human-robot interaction. <a href="http://iliad.stanford.edu/blog/2020/03/19/when-humans-arent-optimal-robots-that-collaborate-with-risk-aware-humans/">Our work</a> extends existing
+rational human models so that collaborative robots can anticipate
+and plan around suboptimal human behavior during interaction.
+</p>
+
+<!-- <p>
+<b> Collaborative Block Stacking.</b> We demonstrate this risk-aware modeling and planning in a collaborative block stacking task. The robot is collaboratively building a tower with a human. The two can either build an efficient but unstable tower, or an inefficient but stable one. The robot here plans with two different models of the human: the noisily rational baseline and our Risk-Aware model. Planning with these models leads the robot to choose two different trajectories:
+</p>
+
+<center>
+<img style="max-width:80%;" src="{{ site.baseurl }}/images/posts/kwon2020when/image12.png"/>
+</center>
+<center>
+<img style="max-width:80%;" src="{{ site.baseurl }}/images/posts/kwon2020when/image13.gif"/>
+</center> -->
+
+<!-- <p>
+<b>Aggressive but Rational.</b> When the robot is using the noisily rational model, it immediately goes for the closer cup, since this behavior is more efficient. Put another way, the robot using the noisily rational model incorrectly anticipates that the human wants to make the efficient but unstable tower. This erroneous prediction causes the human and robot to clash, and the robot has to undo its mistake (as you can see in the video above).
+</p> -->
+
+<center>
+<img style="max-width:80%;" src="{{ site.baseurl }}/images/posts/kwon2020when/image14.png"/>
+</center>
+<center>
+<img style="max-width:80%;" src="{{ site.baseurl }}/images/posts/kwon2020when/image15.gif"/>
+</center>
+
+<!-- <p>
+<b>Conservative and Risk-Aware.</b>  -->
+<p>
+In a collaborative cup stacking task, a Risk-Aware robot correctly predicts how the human wants to stack cups: it correctly anticipates that the human is overly concerned about the tower falling, and starts to build the less efficient but stable tower. Having the right prediction here prevents the human and robot from reaching for the same cup, so that they more seamlessly collaborate during the task! 
+Our work integrates learning techniques along with modeling cognitive biases to anticipate human behavior in risk-sensitive scenarios, and better coordinate and collaborate with humans [<a href="/pdfs/publications/cao2020reinforcement.pdf">RSS 2020b</a>, <a href="/pdfs/publications/kwon2020when.pdf">HRI 2020</a>].
+</p>
+
+
+<strong>Incomplete List of Related Publications:</strong>
+<ul style="font-size: small;">
+<li>Vivek Myers, Erdem Bıyık, Nima Anari, Dorsa Sadigh. <strong>Learning Multimodal Rewards from Rankings</strong>. <i>Proceedings of the 5th Conference on Robot Learning (CoRL), 2021</i>. <a href="/pdfs/publications/myers2021learning.pdf">[PDF]</a></li>
+<li>Erdem Bıyık, Dylan P. Losey, Malayandi Palan, Nicholas C. Landolfi, Gleb Shevchuk, Dorsa Sadigh. <strong>Learning Reward Functions from Diverse Sources of Human Feedback: Optimally Integrating Demonstrations and Preferences</strong>. <i>The International Journal of Robotics Research (IJRR), 2021</i>. <a href="/pdfs/publications/biyik2021learning.pdf">[PDF]</a></li>
+<li>Songyuan Zhang, Zhangjie Cao, Dorsa Sadigh, Yanan Sui.<strong>Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality</strong>. <i>Conference on Neural Information Processing Systems (NeurIPS), 2021</i>. <a href="https://arxiv.org/abs/2110.14754">[PDF]</a></li>
+<li>Mengxi Li, Alper Canberk, Dylan P. Losey, Dorsa Sadigh.<strong>Learning Human Objectives from Sequences of Physical Corrections</strong>. <i>International Conference on Robotics and Automation (ICRA), 2021.</i>. <a href="/pdfs/publications/li2021learning.pdf">[PDF]</a></li>
+<li>Erdem Bıyık*, Nicolas Huynh*, Mykel J. Kochenderfer, Dorsa Sadigh. <strong>Active Preference-Based Gaussian Process Regression for Reward Learning</strong>. <i>Proceedings of Robotics: Science and Systems (RSS), July 2020</i>. <a href="/pdfs/publications/biyik2020active.pdf">[PDF]</a></li>
+<li>Minae Kwon, Erdem Bıyık, Aditi Talati, Karan Bhasin, Dylan P. Losey, Dorsa Sadigh. <strong>When Humans Aren't Optimal: Robots that Collaborate with Risk-Aware Humans</strong>. <i>ACM/IEEE International Conference on Human-Robot Interaction (HRI), March 2020</i>. <a href="/pdfs/publications/kwon2020when.pdf">[PDF]</a></li>
+<li>Dorsa Sadigh, Anca D. Dragan, S. Shankar Sastry, Sanjit A. Seshia. <strong>Active Preference-Based Learning of Reward Functions</strong>. <i>Proceedings of Robotics: Science and Systems (RSS), July 2017</i>. <a href="/pdfs/publications/sadigh2017active.pdf">[PDF]</a></li>
+</ul>

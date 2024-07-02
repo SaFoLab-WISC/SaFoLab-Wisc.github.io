@@ -1,0 +1,169 @@
+{% assign default_paths = site.pages | map: "path" %}
+{% assign page_paths = site.header_pages | default: default_paths %}
+
+<nav class="site-nav" id="links" style="margin-top:20px;">
+{% for path in page_paths %}
+    
+    {% assign page_orig = site.pages | where: "path", path | first %}
+    
+    {% if page_orig.title %}
+		{% if page_orig.url == page.url %}
+			<a href="{{ page_orig.url }}" class="current-page">{{ page_orig.title }}</a>
+		{% else %}
+			<a href="{{ page_orig.url }}">{{ page_orig.title }}</a>
+		{% endif %}	
+    {% endif %}
+
+{% endfor %}
+<a href="https://www.youtube.com/{{ site.youtube_handle }}" target="_blank">Videos</a>
+
+{% if site.show_social_icons %}
+  <!--<div class="social-icons" style="float: right;">
+  <div class="social-icons-right">-->
+    {% if page.title == "Press" %}
+      <a class="fa fa-newspaper tooltip current-page" href="{{ site.baseurl }} /press"><span class="tooltiptext">Press</span></a>
+      <a class="fa fa-camera tooltip" href="{{ site.baseurl }} /photos"><span class="tooltiptext">Photos</span></a>
+    {% elsif page.title == "Photos" %}
+      <a class="fa fa-newspaper tooltip" href="{{ site.baseurl }} /press"><span class="tooltiptext">Press</span></a>
+      <a class="fa fa-camera tooltip current-page" href="{{ site.baseurl }} /photos"><span class="tooltiptext">Photos</span></a>
+    {% else %}
+      <a class="fa fa-newspaper tooltip" href="{{ site.baseurl }} /press"><span class="tooltiptext">Press</span></a>
+      <a class="fa fa-camera tooltip" href="{{ site.baseurl }} /photos"><span class="tooltiptext">Photos</span></a>
+    {% endif %}
+    {% if site.github_username %}
+      <a class="fa fa-github tooltip" href="https://github.com/{{ site.github_username }}"><span class="tooltiptext">GitHub</span></a>
+    {% endif %}
+    {% if site.youtube_handle %}
+      <a class="fa fa-youtube-play tooltip" href="https://youtube.com/{{ site.youtube_handle }}"><span class="tooltiptext">YouTube</span></a>
+    {% endif %}
+    {% if site.reddit_username %}
+    <a class="fa fa-reddit tooltip" href="https://reddit.com/user/{{ site.reddit_username }}"><span class="tooltiptext">Reddit</span></a>
+    {% endif %}
+    {% if site.bitbucket_username %}
+      <a class="fa fa-bitbucket tooltip" href="https://bitbucket.org/{{ site.bitbucket_username }}"><span class="tooltiptext">BitBucket</span></a>
+    {% endif %}
+    {% if site.stackoverflow_id %}
+      <a class="fa fa-stack-overflow tooltip" href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}"><span class="tooltiptext">Stack Overflow</span></a>
+    {% endif %}
+    {% if site.twitter_username %}
+      <a class="fa fa-twitter tooltip" href="https://twitter.com/{{ site.twitter_username }}"><span class="tooltiptext">Twitter</span></a>
+    {% endif %}
+    {% if site.skype_username %}
+      <a class="fa fa-skype tooltip" href="skype:{{ site.skype_username }}?userinfo"><span class="tooltiptext">Skype</span></a>
+    {% endif %}
+    {% if site.steam_nickname %}
+      <a class="fa fa-steam-square tooltip" href="http://steamcommunity.com/id/{{ site.steam_nickname }}"><span class="tooltiptext">Steam</span></a>
+    {% endif %}
+    {% if site.google_plus_id %}
+      <a class="fa fa-google-plus tooltip" href="https://plus.google.com/{{ site.google_plus_id }}/posts"><span class="tooltiptext">Google+</span></a>
+    {% endif %}
+    {% if site.email %}
+      <a class="fa fa-envelope tooltip" href="mailto:{{ site.email }}"><span class="tooltiptext">Email</span></a>
+    {% endif %}
+    {% if site.linkedin_username %}
+      <a class="fa fa-linkedin tooltip" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><span class="tooltiptext">LinkedIn</span></a>
+    {% endif %}
+    {% if site.angellist_username %}
+      <a class="fa fa-angellist tooltip" href="https://angel.co/{{ site.angellist_username }}"><span class="tooltiptext">AngelList</span></a>
+    {% endif %}
+    {% if site.medium_id %}
+      <a class="fa fa-medium tooltip" href="https://medium.com/@{{ site.medium_id }}"><span class="tooltiptext">Medium</span></a>
+    {% endif %}
+    {% if site.telegram_username %}
+      <a class="fa fa-telegram tooltip" href="https://t.me/{{ site.telegram_username }}"><span class="tooltiptext">Telegram</span></a>
+    {% endif %}
+    {% if site.vk_id %}
+      <a class="fa fa-vk tooltip" href="https://vk.com/{{ site.vk_id }}"><span class="tooltiptext">VK</span></a>
+    {% endif %}
+  <!--</div>
+  <div class="right">-->
+    {% if site.bitcoin_url %}
+      <a class="fa fa-bitcoin tooltip" href="{{ site.bitcoin_url }}"><span class="tooltiptext">Bitcoin</span></a>
+    {% endif %}
+    {% if site.paypal_url %}
+      <a class="fa fa-paypal tooltip" href="{{ site.paypal_url }}"><span class="tooltiptext">PayPal</span></a>
+    {% endif %}
+    {% if site.flattr_button %}
+      {{ site.flattr_button }}
+    {% endif %}
+    <!--<a class="fa fa-rss tooltip" href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="tooltiptext">RSS</span></a>-->
+  <!--</div>
+  </div>-->
+  <div class="clearfix"></div>
+{% endif %}
+</nav>
+
+
+
+
+
+<nav class="site-nav" id="dropdown" style="margin-top:20px;">
+<select onchange="location = this.value;">
+<option value="{{ site.url }}">Home</option>
+{% for path in page_paths %}
+    {% assign page_orig = site.pages | where: "path", path | first %}
+    {% if page_orig.title %}
+      {% if page_orig.url == page.url %}
+		<option value="{{ page_orig.url }}" selected>{{ page_orig.title }}</option>
+	  {% else %}
+		<option value="{{ page_orig.url }}">{{ page_orig.title }}</option>
+	  {% endif %}	
+    {% endif %}
+{% endfor %}
+{% if site.show_social_icons %}
+    <option value="{{ site.baseurl }}/press">Press</option>
+    {% if site.github_username %}
+      <option value="https://github.com/{{ site.github_username }}">GitHub</option>
+    {% endif %}
+    {% if site.youtube_handle %}
+      <option value="https://youtube.com/{{ site.youtube_handle }}">YouTube</option>
+    {% endif %}
+    {% if site.reddit_username %}
+      <option value="https://reddit.com/user/{{ site.reddit_username }}">Reddit</option>
+    {% endif %}
+    {% if site.bitbucket_username %}
+      <option value="https://bitbucket.org/{{ site.bitbucket_username }}">BitBucket</option>
+    {% endif %}
+    {% if site.stackoverflow_id %}
+      <option value="https://stackoverflow.com/users/{{ site.stackoverflow_id }}">Stack Overflow</option>
+    {% endif %}
+    {% if site.twitter_username %}
+      <option value="https://twitter.com/{{ site.twitter_username }}">Twitter</option>
+    {% endif %}
+    {% if site.skype_username %}
+      <option value="skype:{{ site.skype_username }}?userinfo">Skype</option>
+    {% endif %}
+    {% if site.steam_nickname %}
+      <option value="http://steamcommunity.com/id/{{ site.steam_nickname }}">Steam</option>
+    {% endif %}
+    {% if site.google_plus_id %}
+      <option value="https://plus.google.com/{{ site.google_plus_id }}/posts">Google+</option>
+    {% endif %}
+    {% if site.email %}
+      <option value="mailto:{{ site.email }}">Email</option>
+    {% endif %}
+    {% if site.linkedin_username %}
+      <option value="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</option>
+    {% endif %}
+    {% if site.angellist_username %}
+      <option value="https://angel.co/{{ site.angellist_username }}">AngelList</option>
+    {% endif %}
+    {% if site.medium_id %}
+      <option value="https://medium.com/@{{ site.medium_id }}">Medium</option>
+    {% endif %}
+    {% if site.telegram_username %}
+      <option value="https://t.me/{{ site.telegram_username }}">Telegram</option>
+    {% endif %}
+    {% if site.vk_id %}
+      <option value="https://vk.com/{{ site.vk_id }}">VK</option>
+    {% endif %}
+    {% if site.bitcoin_url %}
+      <option value="{{ site.bitcoin_url }}">Bitcoin</option>
+    {% endif %}
+    {% if site.paypal_url %}
+      <option value="{{ site.paypal_url }}">PayPal</option>
+    {% endif %}
+{% endif %}
+</select>
+</nav>
+

@@ -1,0 +1,61 @@
+---
+layout: research_page
+title: Mixed-Autonomy Coordination
+permalink: /research/implications
+tags: research, social implications, mixed-autonomy traffic
+---
+
+<p><figure style="width:20%; float:right;"><img src="/images/research/implications.png" /></figure>
+Large-scale coordination problems such as driving on highways or negotiating effectively with another agent are ubiquitous. Our ability to develop solutions (sometimes interpreted as norms or equilibria in strategic games) to these decentralized coordination problems have been critical to the development of large-scale societies. Intelligent and autonomous agents need to understand and positively influence these norms. <br>
+
+Under this theme, one of our focuses is on mixed-autonomy traffic networks for the goal of analyzing societal implications of autonomy. We are investigating the effects of autonomous cars on societal objectives such as traffic congestion to see how they can increase traffic flow and reduce delays. More recently, we have studied other mechanisms for influencing to enable reaching socially optimum equilibria beyond the space of driving. We are also interested in mixed-initiative settings, and developing AI agents that can negotiate and coordinate with each other in the presence or absence of a communication channel.
+<br><br>
+</p>
+
+
+<h4>Influencing Human Driving Policies</h4>
+<p><figure style="width:20%; float:right;"><img src="/images/research/cdc2018.png" /><figcaption>Autonomus cars influence human drivers so that they can align on the roads for higher efficiency.</figcaption></figure>
+In addition to the platooning capabilities of autonomous vehicles, they also have the ability to influence other drivers' behaviors. We develop interaction-level policies for autonomous cars to increase the efficiency of the traffic networks by influencing human drivers and maximizing the gain obtained from platooning. Our work is one of the first to connect micro-level vehicle interactions with macro-level traffic models [<a href="/pdfs/publications/lazar2018maximizing.pdf">CDC 2018</a>, <a href="https://iliad.stanford.edu/pdfs/publications/biyik2021incentivizing.pdf"> TCNS 2021</a>].
+</p>
+
+<h4>Influencing Routing Policies</h4>
+<p>
+	<figure style="float:right; width: 40%" >
+	<img src="{{ site.baseurl }}/images/research/altruistic.gif" />
+</figure>
+From a higher-level perspective, it is possible to reduce traffic congestion by carefully optimizing for the autonomy level of the roads. To achieve that, we first analyze different behaviors (Nash Equilibria, Best Nash Equilibria, Robust Best Nash Equilibria) that emerge in mixed-autonomy traffic networks. We introduce the notion of <i>altruistic autonomy</i> that models how a fleet of autonomous vehicles can act altruistically (as opposed to selfishly), by accepting a larger delay. We analyze Best Altruistic Nash Equilibria that can reduce congestion on parallel traffic networks [<a href="/pdfs/publications/biyik2018altruistic.pdf">WAFR 2018</a>, <a href="https://iliad.stanford.edu/pdfs/publications/biyik2021incentivizing.pdf"> TCNS 2021</a>].
+
+ We further develop reinforcement learning algorithms that optimize autonomous cars' routing choices to make sure all cars will experience the minimum possible latency.
+<!-- 	<figure width="560" height="315" style="float:right;"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Hy2S6zbL6Z0?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><figcaption>Optimal routing schemes significantly improve traffic conditions.</figcaption></figure> -->
+ We generalize our works in both absence and presence of altruistic drivers who can (be made) take longer routes for social good, as well as in the presence of perturbations such as accidents [<a href="https://iliad.stanford.edu/pdfs/publications/lazar2021learning.pdf">TR-C</a>].
+</p>
+
+<h4>Emergent Prosociality in Multi-Agent Games</h4>
+<p>
+	<figure style="float:right; width: 40%" >
+	<img src="{{ site.baseurl }}/images/publications/wang2021emergent.png" />
+</figure>
+In addition to the altruistic agents, we also investigate alternative ways to incentivize multi-agent systems to move from a socially suboptimal Nash equilibrium to a more socially desirable one. We study and analyze <i>gifting</i>, a decentralized peer-rewarding mechanism, in matrix games such as Stag Hunt. We show reinforcement learning agents equipped with gifting actions can reach the prosocial equilibrium more often even when they are completely selfish [<a href="https://iliad.stanford.edu/pdfs/publications/wang2021emergent.pdf">IJCAI 2021</a>].
+</p>
+
+<h4>Designing Negotiation Agents</h4>
+<p>
+	 <center>
+<img width="70%" src="{{ site.baseurl }}/images/research/negotiation.png" />
+</center>
+
+Many real-world interactions are mixed-incentive, where agents have partially aligned goals. As AI agents become embedded in society, it is critical they learn to coordinate with their partners to achieve equitable outcomes. Of the skills necessary to do this, negotiation is paramount. Effective negotiators therefore need to optimize for their own self-interest while also being able to compromise where it makes sense for them to do so. We build negotiation agents that improve their capacity to achieve negotiation outcomes that advance their self-interest and are also Pareto-optimal. We accomplish this through targeted data acquisition, using active learning to acquire new data and expand the pool of negotiation examples we train on [<a href="https://iliad.stanford.edu/pdfs/publications/kwon2021targeted.pdf">ICML 2021</a>].
+</p>
+
+
+
+<strong>Incomplete List of Related Publications:</strong>
+<ul style="font-size: small;">
+<li> Erdem Bıyık*, Daniel A. Lazar*, Ramtin Pedarsani, Dorsa Sadigh. <strong>Incentivizing Efficient Equilibria in Traffic Networks with Mixed Autonomy</strong>. <i>IEEE Transactions on Control of Network Systems (TCNS), 2021</i>. <a href="/pdfs/publications/biyik2021incentivizing.pdf">[PDF]</a></li>
+<li> Daniel A. Lazar*, Erdem Bıyık*, Dorsa Sadigh, Ramtin Pedarsani. <strong>Learning How to Dynamically Route Autonomous Vehicles on Shared Roads</strong>. <i>Transportation Research Part C: Emerging Technologies (TR_C), 2021</i>.<a href="/pdfs/publications/lazar2021learning.pdf">[PDF]</a></li>
+<li> Woodrow Z. Wang*, Mark Beliaev*, Erdem Bıyık*, Daniel A. Lazar, Ramtin Pedarsani, Dorsa Sadigh. <strong>Emergent Prosociality in Multi-Agent Games Through Gifting</strong>. <i>30th International Joint Conference on Artificial Intelligence (IJCAI) 2021</i>. <a href="/pdfs/publications/biyik2019green.pdf">[PDF]</a></li>
+<li> Minae Kwon,  Siddharth Karamcheti, Mariano-Florentino Cuéllar, Dorsa Sadigh. <strong>Targeted Data Acquisition for Evolving Negotiation Agents</strong>. <i>International Conference on Machine Learning (ICML), 2021</i>. <a href="/pdfs/publications/kwon2021targeted.pdf">[PDF]</a></li>
+<li>Erdem Bıyık, Daniel A. Lazar, Ramtin Pedarsani, Dorsa Sadigh. <strong>The Green Choice: Learning and Influencing Human Decisions on Shared Roads</strong>. <i>Proceedings of the 58th IEEE Conference on Decision and Control (CDC), December 2019</i>. <a href="/pdfs/publications/biyik2019green.pdf">[PDF]</a></li>
+<!-- <li>Daniel A. Lazar, Kabir Chandrasekher, Ramtin Pedarsani, Dorsa Sadigh. <strong>Maximizing Road Capacity Using Cars that Influence People</strong>. <i>Proceedings of the 57th IEEE Conference on Decision and Control (CDC), December 2018</i>. <a href="/pdfs/publications/lazar2018maximizing.pdf">[PDF]</a></li>
+ -->
+</ul>

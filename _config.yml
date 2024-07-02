@@ -1,11 +1,11 @@
 # Site settings
-title:       SaFoLab-WISC
+title:       USC Lira Lab
 email:       
-author:      SaFoLab-WISC
-description: "SaFo: Safe And secure Foundation mOdel systems Labs"
+author:      USC Lira Lab
+description: "USC Learning and Interactive Robot Autonomy Lab"
 baseurl:     ""
-url:         "https://safolab-wisc.github.io/"
-date_format: "%b, %Y"
+url:         "https://liralab.usc.edu"
+date_format: "%b %-d, %Y"
 header_pages:
  - people.html
  - research.html
