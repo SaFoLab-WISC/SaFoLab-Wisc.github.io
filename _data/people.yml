@@ -1,181 +1,59 @@
 # For ranks and link types, see people_disp_order variable in _config.yml
 
 # PI
-- name: Erdem Bıyık
-  picture: /images/people/erdem.jpg
-  home_url: https://ebiyik.github.io
-  description: Erdem is an Assistant Professor of Computer Science and of Electrical and Computer Engineering - Systems. His research interests broadly cover robot learning, human-robot interaction, and multi-agent systems. He is especially interested in developing algorithms that enable robots to efficiently learn from various forms of human feedback.
+- name: Chaowei Xiao
+  picture: /images/people/chaoweixiao.jpg
+  home_url: https://xiaocw11.github.io
+  description: Chaowei Xiao is an assistant professor at the University of Wisconsin, Madison, and also a research scientist at NVIDIA.
   rank: faculty
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=P-G3sjYAAAAJ
+      url: https://scholar.google.com/citations?user=Juoqtj8AAAAJ&hl=en
     - type: github
-      url: https://github.com/erdem-biyik
+      url: https://github.com/xiaocw11
     - type: twitter
-      url: https://twitter.com/ebiyik_
+      url: https://twitter.com/ChaoweiX
 
 # Phd students
-- name: Ayush Jain
-  picture: /images/people/ayush.png
-  home_url: https://ayushj240.github.io/
-  description: Ayush is a PhD student in the Computer Science Department.
+- name: Xiaogeng Liu
+  picture: /images/people/xiaogengliu.png
+  home_url: https://sheltonliu-n.github.io/
+  description: Xiaogeng Liu is a PhD student in Information Science at the University of Wisconsin-Madison.
   rank: phd
-  coadvisor: Joseph Lim
+  coadvisor: Chaowei Xiao
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=-zEc_sAAAAAJ&hl=en
+      url: https://scholar.google.com.hk/citations?user=Gvs5nz8AAAAJ&hl=zh-CN
     - type: github
-      url: https://github.com/ayushj240/
+      url: https://github.com//SheltonLiu-N
     - type: twitter
-      url: https://twitter.com/Ayushj240
+      url: https://x.com/XiaogengLiu
 
-- name: Jesse Zhang
-  picture: /images/people/jesse.jpg
-  home_url: http://jesbu1.github.io/
-  description: Jesse is a PhD student in the Computer Science Department. He is interested in large pre-trained models for sample-efficient agent adaptation.
+- name: Fangzhou Wu
+  picture: /images/people/fangzhouwu.png
+  home_url: https://sheltonliu-n.github.io/
+  description: Xiaogeng Liu is a PhD student in Information Science at the University of Wisconsin-Madison.
   rank: phd
-  coadvisor: Joseph Lim and Jesse Thomason
+  coadvisor: Chaowei Xiao
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=fSXCOfEAAAAJ&hl=en
+      url: https://scholar.google.com/citations?user=KDYZnvEAAAAJ&hl=en
     - type: github
-      url: https://github.com/jesbu1
+      url: https://github.com/fzwark
     - type: twitter
-      url: https://twitter.com/Jesse_Y_Zhang
-      
-- name: Anthony Liang
-  picture: /images/people/anthony.jpg
-  home_url: http://aliang8.github.io
-  description: Anthony is a PhD student in the Computer Science Department.
+      url: https://x.com/Fangzhouwark
+
+
+- name: Jiongxiao Wang
+  picture: /images/people/jiongxiaowang.png
+  home_url: https://jiongxiao-wang.github.io/
+  description: Jiongxiao Wang is a PhD student in Information Science at the University of Wisconsin-Madison.
   rank: phd
-  coadvisor: Stephen Tu
+  coadvisor: Chaowei Xiao
   links:
     - type: scholar
-      url: https://scholar.google.co.il/citations?user=LjmRrbUAAAAJ&hl=en
+      url: https://scholar.google.com/citations?user=sIGapHMAAAAJ
     - type: github
-      url: https://github.com/aliang8/
+      url: https://github.com/Jayfeather1024
     - type: twitter
-      url: https://twitter.com/Anthony66108836/
-
-- name: Pavel Czempin
-  picture: /images/people/pavel.jpg
-  home_url: https://www.czemp.in/
-  description: Pavel is a PhD student in the Computer Science Department.
-  rank: phd
-  links:
-    - type: scholar
-      url: https://scholar.google.com/citations?user=1O1nONQAAAAJ
-    - type: github
-      url: https://github.com/PavelCz
-    - type: twitter
-      url: https://twitter.com/pczempin
-      
-- name: Yigit Korkmaz
-  picture: /images/people/yigit.png
-  home_url: https://ygtkorkmaz.github.io/
-  description: Yigit is a PhD student in the Computer Science Department.
-  rank: phd
-  links:
-    - type: scholar
-      url: https://scholar.google.com/citations?user=7y3MPVYAAAAJ&hl=en 
-    - type: github
-      url: https://github.com/ygtkorkmaz
-    - type: twitter
-      url: https://twitter.com/yigitkkorkmaz
-
-- name: Yutai Zhou
-  picture: /images/people/yutai.png
-  description: Yutai is a PhD student in the Computer Science Department.
-  rank: phd
-  links:
-    - type: scholar
-      url: https://scholar.google.com/citations?user=035GLzIAAAAJ&hl=en
-    - type: github
-      url: https://github.com/yutaizhou
-    - type: twitter
-      url: https://twitter.com/yutai95
-
-# MS students      
-- name: Dhanush Varma
-  picture: /images/people/dhanush.png
-  description: Dhanush is an MS student in the Electrical and Computer Engineering Department.
-  rank: ms
-  links:
-    - type: github
-      url: https://github.com/Dhanushvarma
-
-# Undergraduates
-- name: Miru Jun
-  picture: /images/people/miru.png
-  description: Miru is an undergraduate in the Computer Science Department.
-  rank: ug
-  links:
-    - type: github
-      url: https://github.com/lemonlemonde
-
-- name: Jaiv Doshi
-  picture: /images/people/jaiv.png
-  description: Jaiv is an undergraduate in the Computer Science Department.
-  rank: ug
-  links:
-    - type: github
-      url: https://github.com/jaivdoshiatusc
-    - type: twitter
-      url: https://twitter.com/jaivdoshi   
-
-- name: Yuxi Qian
-  picture: /images/people/yuxi.png
-  description: Yuxi is an undergraduate in the Computer Science Department.
-  rank: ug
-  links:
-    - type: scholar
-      url: https://scholar.google.com/citations?user=KmGNBSMAAAAJ&hl=en
-    - type: github
-      url: https://github.com/J6mesQian
-    - type: twitter
-      url: https://twitter.com/jaivdoshi   
-
-# Visiting researchers
-- name: Xinhu Li
-  picture: /images/people/xinhu.png
-  description: Xinhu is a visiting researcher in Lira Lab.
-  rank: visiting
-  links:
-    - type: github
-      url: https://github.com/xhlsgit
-
-- name: Zhaojing Yang
-  picture: /images/people/zhaojing.png
-  description: Zhaojing is a visiting researcher in Lira Lab.
-  rank: visiting
-  coadvisor: Xiaolong Wang
-  links:
-    - type: github
-      url: https://github.com/yang-zj1026
-
-# Alumni PhDs
-- name: Sumedh Sontakke
-  picture: /images/people/sumedh.png
-  home_url: https://sumedh7.github.io/
-  description: 'PhD student, CS (Next: Amazon Robotics)'
-  rank: alumnidrs
-  coadvisor: Laurent Itti
-  links:
-    - type: scholar
-      url: https://scholar.google.com/citations?user=sUb_eyUAAAAJ
-    - type: github
-      url: https://github.com/sumedh7
-    - type: twitter
-      url: https://twitter.com/SOTA_kke
-
-# Other alumni
-- name: Thomas Reeves
-  picture: /images/people/thomas.png
-  home_url: https://reevest29.github.io/
-  description: 'MS Student, CS (Next: PhD at USC)'
-  rank: alumni
-  links:
-    - type: github
-      url: https://github.com/Reevest29
-    - type: scholar
-      url: https://scholar.google.com/citations?user=zVDNPpvMya0C
+      url: https://x.com/JiongxiaoW
