@@ -1,119 +1,71 @@
-- date: 2024-02-20
-  content: "Our paper titled \"Batch Active Learning of Reward Functions from Human Preferences\" got accepted to the ACM Transactions on Human-Robot Interaction (THRI)."
+- date: 2024-07
+  content: "4/4 papers are accepted to ECCV on the topic of trustworthy VLM and driving. Two of them are from interns in my group."
 
-- date: 2024-01-30
-  content: "Our paper titled \"A Generalized Acquisition Function for Preference-based Reward Learning\" got accepted to the 2024 International Conference on Robotics and Automation (ICRA)."
+- date: 2024-06
+  content: "Prof. Chaowei Xiao will give a talk to discuss recent progress on the Security in era of Vision Large Language Models at CVPR."
 
-- date: 2023-12-05
-  content: "Our paper titled \"Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback\" got accepted to the Transactions on Machine Learning Research (TMLR)."
+- date: 2024-06
+  content: "Prof. Chaowei Xiao will give a talk to discuss recent progress on the Security in era of Large Language Models at NAACL."
 
-- date: 2023-09-25
-  content: "Our paper titled \"Active Preference-Based Gaussian Process Regression for Reward Learning and Optimization\" got accepted to the International Journal of Robotics Research (IJRR)."
+- date: 2024-05
+  content: "Prof. Chaowei Xiao will give a talk to discuss recent progress on the Security in era of Large Language Models at ICLR."
 
-- date: 2023-09-21
-  content: "Our paper titled \"RoboCLIP: One Demonstration is Enough to Learn Robot Policies\" got accepted to the 37th Conference on Neural Information Processing Systems (NeurIPS)."
+- date: 2024-05
+  content: "Our jailbreak paper is accepted to USENIX Security. Congratulations, Zhiyuan! "
 
-- date: 2023-05-06
-  content: "Our paper titled \"ViSaRL: Visual Reinforcement Learning Guided by Human Saliency\" got accepted to the Pretraining for Robotics Workshop at ICRA 2023."
-
-- date: 2023-01-30
-  content: "Our paper titled \"Active Reward Learning from Online Preferences\" got accepted to the 2023 International Conference on Robotics and Automation (ICRA)."
-
-- date: 2022-09-15
-  content: "Our paper titled \"Assistive Teaching of Motor Control Tasks to Humans\" got accepted to the 36th Conference on Neural Information Processing Systems (NeurIPS)."
-
-- date: 2022-04-12
-  content: "Our paper titled \"How do People Incorporate Advice from Artificial Agents when Making Physical Judgments?\" got accepted to the 2022 Cognitive Science Society Conference (CogSci)."
-
-- date: 2022-01-31
-  content: "Our paper titled \"Leveraging Smooth Attention Prior for Multi-Agent Trajectory Prediction\" got accepted to the 2022 International Conference on Robotics and Automation (ICRA)."
-
-- date: 2022-01-06
-  content: "Our paper titled \"APReL: A Library for Active Preference-based Reward Learning Algorithms\" got accepted to the 17th ACM/IEEE International Conference on Human-Robot Interaction (HRI)."
-
-- date: 2021-12-16
-  content: "Our paper titled \"Partner-Aware Algorithms in Decentralized Cooperative Bandit Teams\" got accepted to the 36th AAAI Conference on Artificial Intelligence."
-
-- date: 2021-09-13
-  content: "Our 2 papers got accepted to the 5th Conference on Robot Learning (CoRL):<br>- Learning Multimodal Rewards from Rankings<br>- Learning Reward Functions from Scale Feedback"
-
-- date: 2021-09-09
-  content: "Our 2 papers got accepted to the Artificial Intelligence for Human-Robot Interaction (AI-HRI) at AAAI Fall Symposium Series:<br>- Partner-Aware Algorithms in Decentralized Cooperative Bandit Teams<br>- APReL: A Library for Active Preference-based Reward Learning Algorithms"
-
-- date: 2021-08-15
-  content: "We have released our Python library <a href=\"https://github.com/Stanford-ILIAD/APReL\">APReL</a>, which unifies active preference-based reward learning algorithms."
-
-- date: 2021-08-04
-  content: "Our paper titled \"Learning Reward Functions from Diverse Sources of Human Feedback: Optimally Integrating Demonstrations and Preferences\" got accepted to The International Journal of Robotics Research (IJRR)."
-
-- date: 2021-07-09
-  content: "Our paper titled \"Learning How to Dynamically Route Autonomous Vehicles on Shared Roads\" got accepted to Transportation Research Part C: Emerging Technologies (TR_C)."
-
-- date: 2021-05-18
-  content: "Our paper titled \"Emergent Prosociality in Multi-Agent Games Through Gifting\" got accepted to the 30th International Joint Conference on Artificial Intelligence (IJCAI)."
-
-- date: 2021-05-05
-  content: "Our paper titled \"Incentivizing Efficient Equilibria in Traffic Networks with Mixed Autonomy\" got accepted to the IEEE Transactions on Control of Network Systems (TCNS)."
-
-- date: 2020-02-28
-  content: "Our paper titled \"ROIAL: Region of Interest Active Learning for Characterizing Exoskeleton Gait Preference Landscapes\" got accepted to the 2021 International Conference on Robotics and Automation (ICRA)."
-
-- date: 2020-12-23
-  content: "Our paper titled \"Incentivizing Routing Choices for Safe and Efficient Transportation in the Face of the COVID-19 Pandemic\" got accepted to the 12th ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS)."
-
-- date: 2020-08-12
-  content: "Our paper titled \"Multi-Agent Safe Planning with Gaussian Processes\" got accepted to the 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)."
-
-- date: 2020-07-13
-  content: "The recordings of our RSS 2020 workshop on \"<a href=\"http://iliad.stanford.edu/rss-workshop/\">Emergent Behaviors in Human-Robot Systems</a>\" are available on <a href=\"https://www.youtube.com/playlist?list=PLALgrVO1YLmsXdaRKWtABqONtA81J0t2O\">YouTube</a>."
-
-- date: 2020-06-25
-  content: "Check our IJRR submission about learning reward functions by optimally combining demonstration and preference data on <a href=\"https://arxiv.org/abs/2006.14091\">arXiv</a>."
-
-- date: 2020-06-22
-  content: "Our talks at RSS 2020 are available on YouTube now:<br>- <a href=\"https://youtu.be/90_tjGtP26s\">Active Preference-Based Gaussian Process Regression for Reward Learning</a><br>- <a href=\"https://youtu.be/envT7b5YRts\">Reinforcement Learning based Control of Imitative Policies for Near-Accident Driving</a>"
-
-- date: 2020-05-06
-  content: "Our 2 papers got accepted to the Robotics: Science and Systems (RSS) 2020 conference:<br>- Active Preference-Based Gaussian Process Regression for Reward Learning<br>- Reinforcement Learning based Control of Imitative Policies for Near-Accident Driving"
-
-- date: 2020-04-07
-  content: "Our paper titled \"When Humans Aren't Optimal: Robots that Collaborate with Risk-Aware Humans\" got honorable mention award at HRI 2020!"
-
-- date: 2020-03-28
-  content: "Check Minae's talk at HRI 2020 on \"When Humans Aren't Optimal: Robots that Collaborate with Risk-Aware Humans\" <a href=\"https://youtu.be/_tlSyFvS1iE\">here</a>."
- 
-- date: 2020-03-06
-  content: "We are organizing a workshop on \"Emergent Behaviors in Human-Robot Systems\" at RSS 2020. Check it out <a href=\"http://iliad.stanford.edu/rss-workshop\">here</a> for more details and the call for contributions."
-
-- date: 2019-12-01
-  content: "Our paper titled \"When Humans Aren't Optimal: Robots that Collaborate with Risk-Aware Humans\" got accepted to 2020 ACM/IEEE International Conference on Human-Robot Interaction (HRI)."
-
-- date: 2019-10-24
-  content: "TechXplore compiled a story about our work \"Asking Easy Questions: A User-Friendly Approach to Active Reward Learning\". Check it out <a href=\"https://techxplore.com/news/2019-10-user-friendly-approach-reward-robots.html\">here</a>."
+- date: 2024-03
+  content: "Five papers at NAACL on LLM security (4 main and 1 finding): two on the backdoor attack, one on backdoor defense, one on jailbreak attacks, and one on model fingerprint. Stay tuned on these exciting fields."
   
-- date: 2019-09-11
-  content: "Our paper titled \"Asking Easy Questions: A User-Friendly Approach to Active Reward Learning\" got accepted to the Conference on Robot Learning (CoRL) 2019."
-
-- date: 2019-09-10
-  content: "Check our preprint about learning dynamic routing of autonomous cars to decrease traffic congestion on <a href=\"https://arxiv.org/abs/1909.03664\">arXiv</a>."
-
-- date: 2019-07-19
-  content: "Our paper titled \"The Green Choice: Learning and Influencing Human Decisions on Shared Roads\" got accepted at CDC 2019!"
+- date: 2024-03
+  content: "PreDa for personalized federated learning is accepted at CVPR 2024."
   
-- date: 2019-07-18
-  content: "Our paper titled \"Active Learning of Reward Dynamics from Hierarchical Queries\" got accepted to 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)."
+- date: 2024-01
+  content: "Three papers at ICLR."
 
-- date: 2019-06-19
-  content: "Check our preprint about batch-mode active learning on <a href=\"https://arxiv.org/abs/1906.07975\">arXiv</a>."
+- date: 2024-01
+  content: "Two papers at TMLR"
 
-- date: 2019-04-08
-  content: "Check our CDC 2019 submission about mixed-autonomy traffic on <a href=\"https://arxiv.org/abs/1904.02209\">arXiv</a>."
+- date: 2023-12
+  content: "Invited Talk at NeurIPS TDW workshop"
 
-- date: 2019-01-27
-  content: "Our paper titled \"Efficient and Safe Exploration in Deterministic Markov Decision Processes with Unknown Transition Models\" got accepted at American Control Conference 2019."
+- date: 2023-10
+  content: "Our paper MoleculeSTM has been accepted to Nature Machine Intelligence. MoleculeSTM aims to align the nature language and molecule representation into the same representation space."
 
-- date: 2018-09-05
-  content: "Our paper titled \"Altruistic Autonomy: Beating Congestion on Shared Roads\" got accepted to the 13th International Workshop on the Algorithmic Foundations of Robotics (WAFR)."
+- date: 2023-10
+  content: "Three papers at EMNLP and one paper at NeurIPS. For our NeurIPS paper, we study a new threat of the instruction tuning of LLMs by injecting the Ads. This is the first work that views the LLMs as the generative model and aims to attack the generative property of LLMs."
+
+- date: 2023-10
+  content: "Our tutorial on Security and Privacy in the Era of Large Language Models is accepted to NAACL."
+
+- date: 2023-05
+  content: "One paper at ACL. Congratulations to zhuofeng and jiazhao. We propose an attention-based method to defend against NLP backdoor attacks"
   
-- date: 2018-09-01
-  content: "Our paper titled \"Batch Active Preference-Based Learning of Reward Functions\" got accepted at Conference on Robot Learning (CoRL) 2018."
+- date: 2023-04
+  content: "Two papers at ICML. Congratulations to Jiachen and Zhiyuan. We propose the first benchmark for code copyright of code generation models."
+
+- date: 2023-02
+  content: "Two papers at CVPR. Congratulations to Yiming and Xiaogeng. Xiaogeng is an intern from my group at ASU."
+
+- date: 2023-02
+  content: "I will give a tutorial at CVPR 2023 on the topic of trustworthiness in the era of Foundation Models. Stay tuned!"
+
+- date: 2023-01
+  content: "Impact Award from Argonne National Laboratory."
+
+- date: 2023-01
+  content: "One paper got accepted to USENIX Security 2023."
+
+- date: 2023-01
+  content: "Three papers are accepted to ICLR 2023 [a]: We explain why and how to use diffusion model to improve adversarial robustness and design DensePure which leverages the pretrained diffusion model and classifier to provide the state-of-the-art certified robustness. [b]:This is our first attemp on retrieval-based framework and AI for drug discovery. We will recently release more work in this research line. Stay tuned!"
+
+- date: 2022-12
+  content: "[12/2022] Our team won the ACM Gordon Bell Special Prize for COVID-19 Research."
+
+- date: 2022-09
+  content: "One papers got accepted to USENIX Security 2023."
+
+- date: 2022-09
+  content: "Two papers got accepted to NeurIPS 2022."
+
+- date: 2022-09
+  content: "Our paper RobustTraj has been accepted to CORL for oral presentations. We explore to train a robust Trajectory Prediction Model against adversarial attacks."
