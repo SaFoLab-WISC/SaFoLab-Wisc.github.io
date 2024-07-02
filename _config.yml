@@ -49,7 +49,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: USC-Lira
+github_username: SofaLab
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
@@ -126,7 +126,6 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-# https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
   - Gemfile.lock
