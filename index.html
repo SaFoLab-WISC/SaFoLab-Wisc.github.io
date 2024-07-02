@@ -112,8 +112,8 @@ img {vertical-align: middle}
     {% assign image_count = site.data.home_images | size %}
     {% for image in site.data.home_images %}
 	  <div class="mySlides fade">
-	    <!--<div class="numbertext">1 / {{ image_count }}</div>-->
-	    <img src="{{ site.baseurl }}/images/gallery/{{ image.filename }}" style="width:100%; height:600px; object-fit: cover;">
+	    <!--<div class="numbertext">1 / {{ image_count }}</div>{{ site.baseurl }}--> 
+	    <img src="/images/gallery/{{ image.filename }}" style="width:100%; height:600px; object-fit: cover;">
         {% if image.caption %}
 	      <div class="text">{{ image.caption }}</div>
         {% endif %}
