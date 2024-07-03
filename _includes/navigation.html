@@ -20,14 +20,14 @@
 {% if site.show_social_icons %}
   <!--<div class="social-icons" style="float: right;">
   <div class="social-icons-right">-->
-    <!-- {% if page.title == "Press" %}
+    {% if page.title == "Press" %}
       <a class="fa fa-newspaper tooltip current-page" href="{{ site.baseurl }} /press"><span class="tooltiptext">Press</span></a>
-      <a class="fa fa-camera tooltip" href="{{ site.baseurl }} /photos"><span class="tooltiptext">Photos</span></a> -->
+      <a class="fa fa-camera tooltip" href="{{ site.baseurl }} /photos"><span class="tooltiptext">Photos</span></a>
     {% elsif page.title == "Photos" %}
-      <!-- <a class="fa fa-newspaper tooltip" href="{{ site.baseurl }} /press"><span class="tooltiptext">Press</span></a> -->
+      <a class="fa fa-newspaper tooltip" href="{{ site.baseurl }} /press"><span class="tooltiptext">Press</span></a>
       <a class="fa fa-camera tooltip current-page" href="{{ site.baseurl }} /photos"><span class="tooltiptext">Photos</span></a>
     {% else %}
-      <!-- <a class="fa fa-newspaper tooltip" href="{{ site.baseurl }} /press"><span class="tooltiptext">Press</span></a> -->
+      <a class="fa fa-newspaper tooltip" href="{{ site.baseurl }} /press"><span class="tooltiptext">Press</span></a>
       <a class="fa fa-camera tooltip" href="{{ site.baseurl }} /photos"><span class="tooltiptext">Photos</span></a>
     {% endif %}
     {% if site.github_username %}
@@ -111,7 +111,7 @@
     {% endif %}
 {% endfor %}
 {% if site.show_social_icons %}
-    <!-- <option value="{{ site.baseurl }}/press">Press</option> -->
+    <option value="{{ site.baseurl }}/press">Press</option>
     {% if site.github_username %}
       <option value="https://github.com/{{ site.github_username }}">GitHub</option>
     {% endif %}
