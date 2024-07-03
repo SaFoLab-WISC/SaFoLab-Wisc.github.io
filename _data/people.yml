@@ -15,19 +15,6 @@
       url: https://twitter.com/ChaoweiX
 
 # Phd students
-- name: Xiaogeng Liu
-  picture: /images/people/xiaogengliu.png
-  home_url: https://sheltonliu-n.github.io/
-  description: He is a first-year Ph.D. student in Information Science at the University of Wisconsin-Madison.
-  rank: phd
-  links:
-    - type: scholar
-      url: https://scholar.google.com.hk/citations?user=Gvs5nz8AAAAJ&hl=zh-CN
-    - type: github
-      url: https://github.com//SheltonLiu-N
-    - type: twitter
-      url: https://x.com/XiaogengLiu
-
 - name: Fangzhou Wu
   picture: /images/people/fangzhouwu.png
   home_url: https://sheltonliu-n.github.io/
@@ -40,7 +27,6 @@
       url: https://github.com/fzwark
     - type: twitter
       url: https://x.com/Fangzhouwark
-
 
 - name: Jiongxiao Wang
   picture: /images/people/jiongxiaowang.png
@@ -55,7 +41,6 @@
     - type: twitter
       url: https://x.com/JiongxiaoW
 
-
 - name: Shutong Wu
   picture: /images/people/shutongwu.png
   home_url: https://cychomatica.github.io/
@@ -68,3 +53,17 @@
       url: https://github.com/cychomatica
     - type: twitter
       url: https://x.com/JiongxiaoW
+
+
+- name: Xiaogeng Liu
+  picture: /images/people/xiaogengliu.png
+  home_url: https://sheltonliu-n.github.io/
+  description: He is a first-year Ph.D. student in Information Science at the University of Wisconsin-Madison.
+  rank: phd
+  links:
+    - type: scholar
+      url: https://scholar.google.com.hk/citations?user=Gvs5nz8AAAAJ&hl=zh-CN
+    - type: github
+      url: https://github.com//SheltonLiu-N
+    - type: twitter
+      url: https://x.com/XiaogengLiu
