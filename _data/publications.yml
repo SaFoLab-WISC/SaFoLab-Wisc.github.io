@@ -100,3 +100,200 @@
           year={2023},
           url={https://openreview.net/forum?id=4AQ4Fnemox}
 }'
+
+
+- title: 'CodeIPPrompt: Intellectual Property Infringement Assessment of Code Language Models.'
+  authors: Zhiyuan Yu, Yuhao Wu, Ning Zhang, Chenguang Wang, Yevgeniy Vorobeychik, Chaowei Xiao.
+  venue: ICML 2023
+  picture: /images/publications/IPPrompt.png
+  topics: LLM Copyright
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: https://proceedings.mlr.press/v202/yu23g/yu23g.pdf
+    - type: website
+      display: Website
+      url: https://sites.google.com/view/codeipprompt
+    - type: code
+      display: Code
+      url: https://github.com/WUSTL-CSPL/CodeIPPrompt
+  bibtex: '@inproceedings{yu2023codeipprompt,
+  title={CodeIPPrompt: Intellectual Property Infringement Assessment of Code Language Models},
+  author={Yu, Zhiyuan and Wu, Yuhao and Zhang, Ning and Wang, Chenguang and Vorobeychik, Yevgeniy and Xiao, Chaowei},
+  booktitle={International conference on machine learning},
+  year={2023},
+  organization={PMLR}
+}'
+
+- title: 'Shall we pretrain autoregressive language models with retrieval? a comprehensive study.'
+  authors: Boxin Wang, Wei Ping, Peng Xu, Lawrence McAfee, Zihan Liu, Mohammad Shoeybi, Yi Dong, Oleksii Kuchaiev, Bo Li, Chaowei Xiao, Anima Anandkumar, Bryan Catanzaro
+  venue: EMNLP 2023
+  picture: /images/publications/emnlp2023_shall.png
+  topics: LLM
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2304.06762
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2304.06762
+    - type: code
+      display: Code
+      url: https://github.com/NVIDIA/Megatron-LM/blob/main/tools/retro/README.md
+  bibtex: '@inproceedings{wang2023shall,
+    title   = {Shall We Pretrain Autoregressive Language Models with Retrieval? A Comprehensive Study},
+    author  = {Boxin Wang and Wei Ping and Peng Xu and Lawrence McAfee and Zihan Liu and Mohammad Shoeybi and Yi Dong and Oleksii Kuchaiev and Bo Li and Chaowei Xiao and Anima Anandkumar and Bryan Catanzaro},
+    journal = {The 2023 Conference on Empirical Methods in Natural Language Processing},
+    year    = {2023}
+}'
+
+
+- title: 'Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning.'
+  authors: Zhuolin Yang, Wei Ping, Zihan Liu, Vijay Korthikanti, Weili Nie, De-An Huang, Linxi Fan, Zhiding Yu, Shiyi Lan, Bo Li, Ming-Yu Liu, Yuke Zhu, Mohammad Shoeybi, Bryan Catanzaro, Chaowei Xiao†, Anima Anandkumar†.
+  note: '† denotes corresponding author.'
+  venue: EMNLP 2023
+  picture: /images/publications/revilm.png
+  topics: Multi-Modal LLM
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2302.04858
+  bibtex: '@inproceedings{yang2023re,
+  archiveprefix = {arxiv},
+  eprint        = {2302.04858},
+  title         = {{Re-ViLM}: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning},
+  author        = {Yang, Zhuolin and Ping, Wei and Liu, Zihan and Korthikanti, Vijay and Nie, Weili and Huang, De-An and Fan, Linxi and Yu, Zhiding and Lan, Shiyi and Li, Bo and others},
+  booktitle     = {ArXiv Preprint},
+  month         = {February},
+  year          = {2023},
+}'
+
+
+- title: Diffusion Models for Adversarial Purification
+  authors: Weili Nie, Brandon Guo, Yujia Huang,Chaowei Xiao, Arash Vahdat, Anima Anandkumar.
+  venue: ICML 2022
+  picture: '/images/publications/diifpure.png'
+  topics: Diffusion & Security
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2205.07460'
+    - type: website
+      display: Website
+      url: 'https://diffpure.github.io/'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2205.07460'
+    - type: code
+      display: Code
+      url: 'https://github.com/NVlabs/DiffPure'
+  bibtex: '@inproceedings{nie2022DiffPure,
+  title={Diffusion Models for Adversarial Purification},
+  author={Nie, Weili and Guo, Brandon and Huang, Yujia and Xiao, Chaowei and Vahdat, Arash and Anandkumar, Anima},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year={2022}
+}'
+
+
+- title: 'A Critical Revisit of Adversarial Robustness in 3D Point Cloud Recognition with Diffusion-Driven Purification'
+  authors: 'Jiachen Sun, Jiongxiao Wang, Weili Nie, Zhiding Yu, Zhuoqing Mao, Chaowei Xiao.'
+  venue: ICML 2023
+  picture: '/images/publications/PointDP.png'
+  topics: Diffusion & Security
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://proceedings.mlr.press/v202/sun23m/sun23m.pdf'
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2208.09801
+  bibtex: '@InProceedings{pmlr-v202-sun23m,
+  title = 	 {A Critical Revisit of Adversarial Robustness in 3{D} Point Cloud Recognition with Diffusion-Driven Purification},
+  author =       {Sun, Jiachen and Wang, Jiongxiao and Nie, Weili and Yu, Zhiding and Mao, Zhuoqing and Xiao, Chaowei},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {33100--33114},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/sun23m/sun23m.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/sun23m.html},
+  abstract = 	 {3D point clouds serve as a crucial data representation in numerous real-world applications such as autonomous driving, robotics, and medical imaging. While the advancements in deep learning have spurred the utilization of 3D point clouds, deep models are notoriously vulnerable to adversarial attacks. Various defense solutions have been proposed to build robust models against adversarial attacks. In this work, we pinpoint a major limitation of the leading empirical defense, adversarial training, when applied to 3D point cloud models: gradient obfuscation, which significantly hampers robustness against potent attacks. To bridge the gap, we propose PointDP, a purification strategy that leverages diffusion models to defend against 3D adversarial attacks. Since PointDP does not rely on predefined adversarial examples for training, it can defend against a variety of threats. We conduct a comprehensive evaluation of PointDP across six representative 3D point cloud architectures, employing sixteen strong and adaptive attacks to manifest its foundational robustness. Our evaluation shows that PointDP achieves significantly better (i.e., 12.6%-40.3%) adversarial robustness than state-of-the-art methods under strong attacks bounded by different $\ell_p$ norms.}
+}
+'
+
+
+- title: 'DiffSmooth: Certifiably Robust Learning via Diffusion Models and Local Smoothing'
+  authors: 'Jiawei Zhang, , Zhongzhu Chen, Huan Zhang, Chaowei Xiao, Bo Li.'
+  venue: USENIX Security Symposium, 2023
+  picture: '/images/publications/diffsmooth.png'
+  topics: Diffusion & Security
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://www.usenix.org/system/files/usenixsecurity23-zhang-jiawei.pdf'
+    - type: code
+      display: Code
+      url: 'https://github.com/javyduck/DiffSmooth'
+  bibtex: '@inproceedings {287372,
+author = {Jiawei Zhang and Zhongzhu Chen and Huan Zhang and Chaowei Xiao and Bo Li},
+title = {{DiffSmooth}: Certifiably Robust Learning via Diffusion Models and Local Smoothing},
+booktitle = {32nd USENIX Security Symposium (USENIX Security 23)},
+year = {2023},
+isbn = {978-1-939133-37-3},
+address = {Anaheim, CA},
+pages = {4787--4804},
+url = {https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-jiawei},
+publisher = {USENIX Association},
+month = aug,
+}'
+
+# - title: 'DensePure: Understanding Diffusion Models towards Adversarial Robustness.'
+#   authors: Chaowei Xiao*, Zhongzhu Chen*, Kun Jin*, Jiongxiao Wang*, Weili Nie, Mingyan Liu, Anima Anandkumar, Bo Li, Dawn Song
+#   venue: ICLR 2023
+#   picture: /images/publications/
+#   topics: Diffusion & Security
+#   year: 2023
+#   links:
+#     - type: pdf
+#       display: PDF
+#       url: 
+#     - type: website
+#       display: Website
+#       url: 
+#     - type: arxiv
+#       display: arXiv
+#       url: 
+#     - type: code
+#       display: Code
+#       url: 
+#   bibtex: 
+
+# - title: 
+#   authors: 
+#   venue: 
+#   picture: /images/publications/
+#   topics: LLM
+#   year: 2023
+#   links:
+#     - type: pdf
+#       display: PDF
+#       url: 
+#     - type: website
+#       display: Website
+#       url: 
+#     - type: arxiv
+#       display: arXiv
+#       url: 
+#     - type: code
+#       display: Code
+#       url: 
+#   bibtex: 
