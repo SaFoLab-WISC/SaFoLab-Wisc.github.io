@@ -25,6 +25,229 @@
 
   # note: '* denotes equal contribution. † denotes equal advising.'
 
+  # 69 - needs image and code
+- title: 'Dolphins: Multi-modal Language Model for Driving'
+  authors: Yingzi Ma, Yulong Cao, Jiachen Sun, Marco Pavone, Chaowei Xiao
+  venue: ECCV 2024
+  year: 2024
+  topics: Multi-modal Models, Autonomous Driving
+  links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2312.00438
+    - type: website
+      display: Website
+      url: https://vlm-driver.github.io/
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2312.00438
+    - type: code
+      display: Code
+      url: https://github.com/SaFoLab-WISC/Dolphins
+  bibtext: '@misc{ma2023dolphinsmultimodallanguagemodel,
+      title={Dolphins: Multimodal Language Model for Driving}, 
+      author={Yingzi Ma and Yulong Cao and Jiachen Sun and Marco Pavone and Chaowei Xiao},
+      year={2023},
+      eprint={2312.00438},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2312.00438}, 
+}'
+
+  #68 - needs image and code
+- title: 'Leveraging Hierarchical Feature Sharing for Efficient Dataset Condensation'
+  authors: Haizhong Zheng, Jiachen Sun, Shutong Wu, Bhavya Kaikhura, Zhuoqing Mao, Chaowei Xiao, Atul Prakash
+  venue: ECCV 2024
+  year: 2024
+    links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2310.07506
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2310.07506
+  bibtext: '@misc{zheng2023leveraginghierarchicalfeaturesharing,
+      title={Leveraging Hierarchical Feature Sharing for Efficient Dataset Condensation}, 
+      author={Haizhong Zheng and Jiachen Sun and Shutong Wu and Bhavya Kailkhura and Zhuoqing Mao and Chaowei Xiao and Atul Prakash},
+      year={2023},
+      eprint={2310.07506},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2310.07506}, 
+}'
+
+  # 67 - AdaShield
+  - title: 'AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting'
+  authors: Yu Wang, Xiaogeng Liu, Yu Li, Muhao Chen, Chaowei Xiao
+  venue: ECCV 2024
+  year: 2024
+  links:
+  - type: pdf
+    display: PDF
+    url: https://arxiv.org/pdf/2403.09513
+  - type: arxiv
+    display: arXiv
+    url: https://arxiv.org/abs/2403.09513
+  - type: code
+    display: Code
+    url: https://github.com/SaFoLab-WISC/AdaShield
+  bibtext: '@misc{wang2024adashieldsafeguardingmultimodallarge,
+      title={AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting}, 
+      author={Yu Wang and Xiaogeng Liu and Yu Li and Muhao Chen and Chaowei Xiao},
+      year={2024},
+      eprint={2403.09513},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2403.09513}, 
+}'
+
+  # 66 RealGen - needs image
+  - title: 'RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios'
+  authors: Wenhao Ding, Yulong Cao, Ding Zhao, Chaowei Xiao, Marco Pavone
+  venue: ECCV 202
+  year: 2024
+  links:
+  - type: pdf
+    display: PDF
+    url: https://arxiv.org/pdf/2312.13303
+  - type: arxiv
+    display: arXiv
+    url: https://arxiv.org/pdf/2312.13303
+  - type: website
+    display: Website
+    url: https://realgen.github.io/
+  bibtext: '@misc{ding2023realgenretrievalaugmentedgeneration,
+      title={RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios}, 
+      author={Wenhao Ding and Yulong Cao and Ding Zhao and Chaowei Xiao and Marco Pavone},
+      year={2023},
+      eprint={2312.13303},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2312.13303}, 
+}'
+
+
+# 65 RLHF - needs image maybe website
+- title: 'On the exploitability of reinforcement learning with human feedback for large language models'
+  authors: Jiongxiao Wang, Junlin Wu, Muhao Chen, Yevgeniy Vorobeychik, Chaowei Xiao
+  venue: ACL 2024
+  year: 2024
+  topics: LLM Safety
+  links:
+  - type: pdf
+    display: PDF
+    url: https://arxiv.org/pdf/2311.09641
+  - type: arxiv
+    display: arXiv
+    url: https://arxiv.org/abs/2311.09641
+  bibtext: '@misc{wang2024rlhfpoisonrewardpoisoningattack,
+      title={RLHFPoison: Reward Poisoning Attack for Reinforcement Learning with Human Feedback in Large Language Models}, 
+      author={Jiongxiao Wang and Junlin Wu and Muhao Chen and Yevgeniy Vorobeychik and Chaowei Xiao},
+      year={2024},
+      eprint={2311.09641},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2311.09641}, 
+}'
+
+  # 64 Position Paper TrustLLM
+- title: 'Position Paper: TrustLLM: Trustworthiness in Large Language Models'
+  authors: Yue Huang, Lichao Sun, Haoran Wang, Siyuan Wu, Qihui Zhang, Yuan Li, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Hanchi Sun, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bertie Vidgen, Bhavya Kailkhura, Caiming Xiong, Chaowei Xiao et al.
+  venue: ICML 2024
+  year: 2024
+  topics: LLM Safety
+    links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2401.05561
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2401.05561
+    - type: code
+      display: Code
+      url: https://github.com/HowieHwong/TrustLLM
+    - type: website
+      display: Website
+      url: https://trustllmbenchmark.github.io/TrustLLM-Website/
+  bibtext: '@misc{sun2024trustllmtrustworthinesslargelanguage,
+      title={TrustLLM: Trustworthiness in Large Language Models}, 
+      author={Lichao Sun and Yue Huang and Haoran Wang and Siyuan Wu and Qihui Zhang and Yuan Li and Chujie Gao and Yixin Huang and Wenhan Lyu and Yixuan Zhang and Xiner Li and Zhengliang Liu and Yixin Liu and Yijue Wang and Zhikun Zhang and Bertie Vidgen and Bhavya Kailkhura and Caiming Xiong and Chaowei Xiao and Chunyuan Li and Eric Xing and Furong Huang and Hao Liu and Heng Ji and Hongyi Wang and Huan Zhang and Huaxiu Yao and Manolis Kellis and Marinka Zitnik and Meng Jiang and Mohit Bansal and James Zou and Jian Pei and Jian Liu and Jianfeng Gao and Jiawei Han and Jieyu Zhao and Jiliang Tang and Jindong Wang and Joaquin Vanschoren and John Mitchell and Kai Shu and Kaidi Xu and Kai-Wei Chang and Lifang He and Lifu Huang and Michael Backes and Neil Zhenqiang Gong and Philip S. Yu and Pin-Yu Chen and Quanquan Gu and Ran Xu and Rex Ying and Shuiwang Ji and Suman Jana and Tianlong Chen and Tianming Liu and Tianyi Zhou and William Wang and Xiang Li and Xiangliang Zhang and Xiao Wang and Xing Xie and Xun Chen and Xuyu Wang and Yan Liu and Yanfang Ye and Yinzhi Cao and Yong Chen and Yue Zhao},
+      year={2024},
+      eprint={2401.05561},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2401.05561}, 
+}'
+
+# 63 PerAda - needs image
+- title: 'PerAda: Parameter-Efficient Federated Learning Personalization with Generalization Guarantees'
+  authors: Chulin Xie, De-An Huang, Wenda Chu, Daguang Xu, Chaowei Xiao, Bo Li, Anima Anandkumar
+  venue: CVPR 2024
+  year: 2024
+  links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2302.06637
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2302.06637
+  bibtext: '@misc{xie2024peradaparameterefficientfederatedlearning,
+      title={PerAda: Parameter-Efficient Federated Learning Personalization with Generalization Guarantees}, 
+      author={Chulin Xie and De-An Huang and Wenda Chu and Daguang Xu and Chaowei Xiao* and Bo Li* and Anima Anandkumar},
+      year={2024},
+      eprint={2302.06637},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2302.06637}, 
+}'
+
+ # 62
+- title: 'Do Not Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models'
+  authors: Zhiyuan Yu, Xiaogeng Liu, Shuning Liang, Zach Cameron, Chaowei Xiao, Ning Zhang
+  venue: USENIX Security 2024
+  year: 2024
+  topics: LLM Safety
+  links:
+  - type: pdf
+    display: PDF
+    url: https://arxiv.org/pdf/2403.17336
+  - type: arxiv
+    display: arXiv
+    url: https://arxiv.org/abs/2403.17336
+  bibtext: '@misc{yu2024dontlistenmeunderstanding,
+      title={Don''t Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models}, 
+      author={Zhiyuan Yu and Xiaogeng Liu and Shunning Liang and Zach Cameron and Chaowei Xiao and Ning Zhang},
+      year={2024},
+      eprint={2403.17336},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2403.17336}, 
+}'
+
+# 61
+- title: 'ChatGPT as an Attack Tool: Stealthy Textual Backdoor Attack via Blackbox Generative Model Trigger'
+  authors: Jiazhao Li, Yijin Yang, Zhuofeng Wu, V.G. Vinod Vydiswaran, Chaowei Xiao
+  venue: NAACL 2024
+  year: 2024
+  topics: LLM Safety
+    links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2304.14475
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2304.14475
+  bibtext: '@misc{li2023chatgptattacktoolstealthy,
+      title={ChatGPT as an Attack Tool: Stealthy Textual Backdoor Attack via Blackbox Generative Model Trigger}, 
+      author={Jiazhao Li and Yijin Yang and Zhuofeng Wu and V. G. Vinod Vydiswaran and Chaowei Xiao},
+      year={2023},
+      eprint={2304.14475},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2304.14475}, 
+}'
+
+# 60
 - title: 'Instructional fingerprinting of large language models.'
   authors: Jiashu Xu, Fei Wang, Mingyu Derek Ma, Pang Wei Koh, Chaowei Xiao, Muhao Chen.
   venue: NAACL 2024
@@ -50,6 +273,147 @@
       primaryClass={cs.CR}
 }'
 
+# 59 - needs pic
+- title: 'Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models'
+  authors: Jiashu Xu, Fei Wang, Mingyu Derek Ma, Chaowei Xiao, Muhao Chen
+  venue: NAACL 2024
+  topics: LLM Safety
+  year: 2024
+  links:
+  - type: pdf
+    display: PDF
+    url: https://arxiv.org/pdf/2305.14710
+  - type: arxiv
+    display: arXiv
+    url: https://arxiv.org/abs/2305.14710
+  bibtex: '@misc{xu2024instructionsbackdoorsbackdoorvulnerabilities,
+      title={Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models}, 
+      author={Jiashu Xu and Mingyu Derek Ma and Fei Wang and Chaowei Xiao and Muhao Chen},
+      year={2024},
+      eprint={2305.14710},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2305.14710}, 
+}'
+
+# 58
+- title: 'From Shortcuts to Triggers: Backdoor Defense with Denoised PoE'
+  authors: Qin Liu, Fei Wang, Chaowei Xiao, Muhao Chen
+  venue: NAACL 2024
+  topics: LLM Safety
+  year: 2024
+  links:
+  - type: pdf
+    display: PDF
+    url: https://arxiv.org/pdf/2305.14910
+  - type: arxiv
+    display: arXiv
+    url: https://arxiv.org/abs/2305.14910
+  - type: code
+    display: Code
+    url: https://github.com/luka-group/DPoE
+  bibtex: '@misc{liu2024shortcutstriggersbackdoordefense,
+      title={From Shortcuts to Triggers: Backdoor Defense with Denoised PoE}, 
+      author={Qin Liu and Fei Wang and Chaowei Xiao and Muhao Chen},
+      year={2024},
+      eprint={2305.14910},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2305.14910}, 
+}'
+
+# 57
+- title: 'Cognitive Overload: Jailbreaking Large Language Models with Overloaded Logical Thinking'
+  authors: Nan Xu, Fei Wang, Ben Zhou, Bangzheng Li, Chaowei Xiao, Muhao Chen
+  venue: NAACL Findings 2024
+  topics: LLM Safety
+  year: 2024
+  links:
+  - type: pdf
+    display: PDF
+    url: https://arxiv.org/pdf/2311.09827
+  - type: arxiv
+    display: arXiv
+    url: https://arxiv.org/abs/2311.09827
+  bibtex: '@misc{xu2024cognitiveoverloadjailbreakinglarge,
+      title={Cognitive Overload: Jailbreaking Large Language Models with Overloaded Logical Thinking}, 
+      author={Nan Xu and Fei Wang and Ben Zhou and Bang Zheng Li and Chaowei Xiao and Muhao Chen},
+      year={2024},
+      eprint={2311.09827},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2311.09827}, 
+}'
+
+# 56
+- title: 'Reinforcement Learning with Human Feedback for Realistic Traffic Simulation'
+  authors: Yulong Cao, Boris Ivanovic, Chaowei Xiao, Marco Pavone
+  venue: ICRA 2024
+  year: 2024
+  links:
+  - type: pdf
+    display: PDF
+    url: https://arxiv.org/pdf/2309.00709
+  - type: arxiv
+    display: arXiv
+    url: https://arxiv.org/abs/2309.00709
+  bibtex: '@misc{cao2023reinforcementlearninghumanfeedback,
+      title={Reinforcement Learning with Human Feedback for Realistic Traffic Simulation}, 
+      author={Yulong Cao and Boris Ivanovic and Chaowei Xiao and Marco Pavone},
+      year={2023},
+      eprint={2309.00709},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2309.00709}, 
+}'
+
+# 55 
+- title: 'Prismer: A Vision-Language Model with Multi-Task Experts'
+  authors: Shikun Liu, Linxi Fan, Edward Johns, Zhiding Yu, Chaowei Xiao, Anima Anandkumar
+  venue: TLMR 2024
+  topics: Multi-Modal LLM
+  year: 2024
+  links:
+  - type: pdf
+    display: PDF
+    url: 'https://arxiv.org/pdf/2303.02506'
+  - type: arxiv
+    display: arXiv
+    url: 'https://arxiv.org/abs/2303.02506'
+  bibtex: '@misc{liu2024prismervisionlanguagemodelmultitask,
+      title={Prismer: A Vision-Language Model with Multi-Task Experts}, 
+      author={Shikun Liu and Linxi Fan and Edward Johns and Zhiding Yu and Chaowei Xiao and Anima Anandkumar},
+      year={2024},
+      eprint={2303.02506},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2303.02506}, 
+}'
+  
+# 54
+- title: 'Voyager: An open-ended embodied agent with large language models'
+  authors: Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, Anima Anandkumar
+  venue: TLMR 2024
+  topics: LLM
+  year: 2024
+  links:
+  - type: pdf
+    display: PDF
+    url: https://arxiv.org/pdf/2305.16291
+  - type: arxiv
+    display: arXiv
+    url: https://arxiv.org/abs/2305.16291
+  bibtex: '@misc{wang2023voyageropenendedembodiedagent,
+      title={Voyager: An Open-Ended Embodied Agent with Large Language Models}, 
+      author={Guanzhi Wang and Yuqi Xie and Yunfan Jiang and Ajay Mandlekar and Chaowei Xiao and Yuke Zhu and Linxi Fan and Anima Anandkumar},
+      year={2023},
+      eprint={2305.16291},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2305.16291}, 
+}'
+
+# 53
 - title: 'AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models.'
   authors: Xiaogeng Liu, Nan Xu, Muhao Chen, Chaowei Xiao.
   venue: ICLR 2024
@@ -75,7 +439,81 @@
       url={https://openreview.net/forum?id=7Jwpw4qKkb}
 }'
 
+# 52
+- title: 'ChatGPT-powered Conversational Drug Editing Using Retrieval and Domain Feedback'
+  authors: Shengchao Liu, Jiongxiao Wang, Yijin Yang, Chengpeng Wang, Ling Liu, Hongyu Guo, Chaowei Xiao
+  venue: ICLR 2024
+  topics: LLM
+  year: 2024
+  links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2305.18090
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2305.18090
+    - type: code
+      display: Code
+      url: https://github.com/chao1224/ChatDrug
+    - type: website
+      display: Website
+      url: https://chao1224.github.io/ChatDrug
+  bibtex: '@misc{liu2023chatgptpoweredconversationaldrugediting,
+      title={ChatGPT-powered Conversational Drug Editing Using Retrieval and Domain Feedback}, 
+      author={Shengchao Liu and Jiongxiao Wang and Yijin Yang and Chengpeng Wang and Ling Liu and Hongyu Guo and Chaowei Xiao},
+      year={2023},
+      eprint={2305.18090},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.BM},
+      url={https://arxiv.org/abs/2305.18090}, 
+}'
 
+# 51
+- title: 'CALICO: Self-Supervised Camera-LiDAR Contrastive Pre-training for BEV Perception'
+  authors: Jiachen Sun, Haizhong Zheng, Qingzhao Zhang, Atul Prakash, Z. Morley Mao, Chaowei Xiao
+  venue: ICLR 2024
+  year: 2024
+  links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2306.00349
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2306.00349
+  bibtex: '@misc{sun2023calicoselfsupervisedcameralidarcontrastive,
+      title={CALICO: Self-Supervised Camera-LiDAR Contrastive Pre-training for BEV Perception}, 
+      author={Jiachen Sun and Haizhong Zheng and Qingzhao Zhang and Atul Prakash and Z. Morley Mao and Chaowei Xiao},
+      year={2023},
+      eprint={2306.00349},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2306.00349}, 
+}'
+
+
+# 50
+- title: 'Multi-modal molecule structure-text model for text-based retrieval and editing'
+  authors: Shengchao Liu, Weili Nie, Chengpeng Wang, Jiarui Lu, Zhuoran Qiao, Ling Liu, Jian Tang, Chaowei Xiao, Animashree Anandkumar
+  venue: Nature Machine Intelligence
+  year: 2024
+  links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2212.10789
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2212.10789
+  bibtex: '@misc{liu2024multimodalmoleculestructuretextmodel,
+      title={Multi-modal Molecule Structure-text Model for Text-based Retrieval and Editing}, 
+      author={Shengchao Liu and Weili Nie and Chengpeng Wang and Jiarui Lu and Zhuoran Qiao and Ling Liu and Jian Tang and Chaowei Xiao and Anima Anandkumar},
+      year={2024},
+      eprint={2212.10789},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2212.10789}, }'
+
+
+# 49
 - title: 'On the exploitability of instruction tuning.'
   authors: Manli Shu, Jiongxiao Wang, Chen Zhu, Jonas Geiping, Chaowei Xiao†, Tom Goldstein†.
   venue: NeurIPS 2023
@@ -101,7 +539,75 @@
           url={https://openreview.net/forum?id=4AQ4Fnemox}
 }'
 
+# 48
+- title: 'Shall we pretrain autoregressive language models with retrieval? a comprehensive study.'
+  authors: Boxin Wang, Wei Ping, Peng Xu, Lawrence McAfee, Zihan Liu, Mohammad Shoeybi, Yi Dong, Oleksii Kuchaiev, Bo Li, Chaowei Xiao, Anima Anandkumar, Bryan Catanzaro
+  venue: EMNLP 2023
+  picture: /images/publications/emnlp2023_shall.png
+  topics: LLM
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2304.06762
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2304.06762
+    - type: code
+      display: Code
+      url: https://github.com/NVIDIA/Megatron-LM/blob/main/tools/retro/README.md
+  bibtex: '@inproceedings{wang2023shall,
+    title   = {Shall We Pretrain Autoregressive Language Models with Retrieval? A Comprehensive Study},
+    author  = {Boxin Wang and Wei Ping and Peng Xu and Lawrence McAfee and Zihan Liu and Mohammad Shoeybi and Yi Dong and Oleksii Kuchaiev and Bo Li and Chaowei Xiao and Anima Anandkumar and Bryan Catanzaro},
+    journal = {The 2023 Conference on Empirical Methods in Natural Language Processing},
+    year    = {2023}
+}'
 
+# 47
+- title: 'Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning.'
+  authors: Zhuolin Yang, Wei Ping, Zihan Liu, Vijay Korthikanti, Weili Nie, De-An Huang, Linxi Fan, Zhiding Yu, Shiyi Lan, Bo Li, Ming-Yu Liu, Yuke Zhu, Mohammad Shoeybi, Bryan Catanzaro, Chaowei Xiao†, Anima Anandkumar†.
+  note: '† denotes corresponding author.'
+  venue: EMNLP 2023
+  picture: /images/publications/revilm.png
+  topics: Multi-Modal LLM
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: https://arxiv.org/pdf/2302.04858
+  bibtex: '@inproceedings{yang2023re,
+  archiveprefix = {arxiv},
+  eprint        = {2302.04858},
+  title         = {{Re-ViLM}: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning},
+  author        = {Yang, Zhuolin and Ping, Wei and Liu, Zihan and Korthikanti, Vijay and Nie, Weili and Huang, De-An and Fan, Linxi and Yu, Zhiding and Lan, Shiyi and Li, Bo and others},
+  booktitle     = {ArXiv Preprint},
+  month         = {February},
+  year          = {2023},
+}'
+
+# 46
+- title: 'HiCL: Hierarchical Contrastive Learning of Unsupervised Sentence Embeddings'
+  authors: Zhuofeng Wu, Chaowei Xiao, V.G. Vinod Vydiswaran
+  venue: EMNLP 2023
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2310.09720'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2310.09720'
+  bibtex: '@misc{wu2023hiclhierarchicalcontrastivelearning,
+      title={HiCL: Hierarchical Contrastive Learning of Unsupervised Sentence Embeddings}, 
+      author={Zhuofeng Wu and Chaowei Xiao and VG Vinod Vydiswaran},
+      year={2023},
+      eprint={2310.09720},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2310.09720}, 
+}'
+
+# 45
 - title: 'CodeIPPrompt: Intellectual Property Infringement Assessment of Code Language Models.'
   authors: Zhiyuan Yu, Yuhao Wu, Ning Zhang, Chenguang Wang, Yevgeniy Vorobeychik, Chaowei Xiao.
   venue: ICML 2023
@@ -126,79 +632,7 @@
   organization={PMLR}
 }'
 
-- title: 'Shall we pretrain autoregressive language models with retrieval? a comprehensive study.'
-  authors: Boxin Wang, Wei Ping, Peng Xu, Lawrence McAfee, Zihan Liu, Mohammad Shoeybi, Yi Dong, Oleksii Kuchaiev, Bo Li, Chaowei Xiao, Anima Anandkumar, Bryan Catanzaro
-  venue: EMNLP 2023
-  picture: /images/publications/emnlp2023_shall.png
-  topics: LLM
-  year: 2023
-  links:
-    - type: pdf
-      display: PDF
-      url: https://arxiv.org/pdf/2304.06762
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2304.06762
-    - type: code
-      display: Code
-      url: https://github.com/NVIDIA/Megatron-LM/blob/main/tools/retro/README.md
-  bibtex: '@inproceedings{wang2023shall,
-    title   = {Shall We Pretrain Autoregressive Language Models with Retrieval? A Comprehensive Study},
-    author  = {Boxin Wang and Wei Ping and Peng Xu and Lawrence McAfee and Zihan Liu and Mohammad Shoeybi and Yi Dong and Oleksii Kuchaiev and Bo Li and Chaowei Xiao and Anima Anandkumar and Bryan Catanzaro},
-    journal = {The 2023 Conference on Empirical Methods in Natural Language Processing},
-    year    = {2023}
-}'
-
-
-- title: 'Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning.'
-  authors: Zhuolin Yang, Wei Ping, Zihan Liu, Vijay Korthikanti, Weili Nie, De-An Huang, Linxi Fan, Zhiding Yu, Shiyi Lan, Bo Li, Ming-Yu Liu, Yuke Zhu, Mohammad Shoeybi, Bryan Catanzaro, Chaowei Xiao†, Anima Anandkumar†.
-  note: '† denotes corresponding author.'
-  venue: EMNLP 2023
-  picture: /images/publications/revilm.png
-  topics: Multi-Modal LLM
-  year: 2023
-  links:
-    - type: pdf
-      display: PDF
-      url: https://arxiv.org/pdf/2302.04858
-  bibtex: '@inproceedings{yang2023re,
-  archiveprefix = {arxiv},
-  eprint        = {2302.04858},
-  title         = {{Re-ViLM}: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning},
-  author        = {Yang, Zhuolin and Ping, Wei and Liu, Zihan and Korthikanti, Vijay and Nie, Weili and Huang, De-An and Fan, Linxi and Yu, Zhiding and Lan, Shiyi and Li, Bo and others},
-  booktitle     = {ArXiv Preprint},
-  month         = {February},
-  year          = {2023},
-}'
-
-
-- title: Diffusion Models for Adversarial Purification
-  authors: Weili Nie, Brandon Guo, Yujia Huang,Chaowei Xiao, Arash Vahdat, Anima Anandkumar.
-  venue: ICML 2022
-  picture: '/images/publications/diifpure.png'
-  topics: Diffusion & Security
-  year: 2022
-  links:
-    - type: pdf
-      display: PDF
-      url: 'https://arxiv.org/pdf/2205.07460'
-    - type: website
-      display: Website
-      url: 'https://diffpure.github.io/'
-    - type: arxiv
-      display: arXiv
-      url: 'https://arxiv.org/abs/2205.07460'
-    - type: code
-      display: Code
-      url: 'https://github.com/NVlabs/DiffPure'
-  bibtex: '@inproceedings{nie2022DiffPure,
-  title={Diffusion Models for Adversarial Purification},
-  author={Nie, Weili and Guo, Brandon and Huang, Yujia and Xiao, Chaowei and Vahdat, Arash and Anandkumar, Anima},
-  booktitle = {International Conference on Machine Learning (ICML)},
-  year={2022}
-}'
-
-
+# 44
 - title: 'A Critical Revisit of Adversarial Robustness in 3D Point Cloud Recognition with Diffusion-Driven Purification'
   authors: 'Jiachen Sun, Jiongxiao Wang, Weili Nie, Zhiding Yu, Zhuoqing Mao, Chaowei Xiao.'
   venue: ICML 2023
@@ -229,7 +663,86 @@
 }
 '
 
+# 43
+- title: 'Defending against Insertion-based Textual Backdoor Attacks via Attribution'
+  authors: Jiazhao Li, Zhuofeng Wu, Wei Ping, Chaowei Xiao, V.G. Vinod Vydiswaran
+  venue: ACL Finding 2023
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2305.02394'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2305.02394'
+    - type: code
+      display: Code
+      url: 'https://github.com/JiazhaoLi/AttDef'
+  bibtex: '@misc{li2023defendinginsertionbasedtextualbackdoor,
+      title={Defending against Insertion-based Textual Backdoor Attacks via Attribution}, 
+      author={Jiazhao Li and Zhuofeng Wu and Wei Ping and Chaowei Xiao and V. G. Vinod Vydiswaran},
+      year={2023},
+      eprint={2305.02394},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2305.02394}, 
+}'
 
+# 42
+- title: 'Detecting Backdoors During the Inference Stage Based on Corruption Robustness Consistency'
+  authors: Xiaogeng Liu, Shengshan Hu, Haoyu Wang, Minghui Li, Hai Jin, Dengpan Ye, Libing Wu, Chaowei Xiao
+  venue: CVPR 2023
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Detecting_Backdoors_During_the_Inference_Stage_Based_on_Corruption_Robustness_CVPR_2023_paper.pdf'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2303.18191'
+    - type: code
+      display: Code
+      url: 'https://github.com/CGCL-codes/TeCo'
+  bibtex: '@misc{liu2023detectingbackdoorsinferencestage,
+      title={Detecting Backdoors During the Inference Stage Based on Corruption Robustness Consistency}, 
+      author={Xiaogeng Liu and Minghui Li and Haoyu Wang and Shengshan Hu and Dengpan Ye and Hai Jin and Libing Wu and Chaowei Xiao},
+      year={2023},
+      eprint={2303.18191},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2303.18191}, 
+}'
+
+
+# 41
+- title: 'VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion'
+  authors: Yiming Li, Zhiding Yu, Chris Choy, Chaowei Xiao, Jose M. Alvarez, Sanja Fidler, Chen Feng, Anima Anandkumar
+  venue: CVPR 2023
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://openaccess.thecvf.com/content/CVPR2023/papers/Li_VoxFormer_Sparse_Voxel_Transformer_for_Camera-Based_3D_Semantic_Scene_Completion_CVPR_2023_paper.pdf'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2302.12251'
+    - type: code
+      display: Code
+      url: 'https://github.com/NVlabs/VoxFormer'
+  bibtex: '@misc{li2023voxformersparsevoxeltransformer,
+      title={VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion}, 
+      author={Yiming Li and Zhiding Yu and Christopher Choy and Chaowei Xiao and Jose M. Alvarez and Sanja Fidler and Chen Feng and Anima Anandkumar},
+      year={2023},
+      eprint={2302.12251},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2302.12251}, 
+}, 
+}'
+
+
+
+# 40
 - title: 'DiffSmooth: Certifiably Robust Learning via Diffusion Models and Local Smoothing'
   authors: 'Jiawei Zhang, , Zhongzhu Chen, Huan Zhang, Chaowei Xiao, Bo Li.'
   venue: USENIX Security Symposium, 2023
@@ -256,6 +769,8 @@ publisher = {USENIX Association},
 month = aug,
 }'
 
+
+# 39
 - title: 'DensePure: Understanding Diffusion Models towards Adversarial Robustness.'
   authors: Chaowei Xiao*, Zhongzhu Chen*, Kun Jin*, Jiongxiao Wang*, Weili Nie, Mingyan Liu, Anima Anandkumar, Bo Li, Dawn Song
   venue: ICLR 2023
@@ -283,6 +798,32 @@ month = aug,
   year={2022}
 }'
 
+# 38
+- title: 'Defending against Adversarial Audio via Diffusion Model'
+  authors: Shutong Wu, Jiongxiao Wang, Wei Ping, Weili Nie, Chaowei Xiao
+  venue: ICLR 2023
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2303.01507'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2303.01507'
+    - type: code
+      display: Code
+      url: 'https://github.com/cychomatica/AudioPure'
+  bibtex: '@misc{wu2023defendingadversarialaudiodiffusion,
+      title={Defending against Adversarial Audio via Diffusion Model}, 
+      author={Shutong Wu and Jiongxiao Wang and Wei Ping and Weili Nie and Chaowei Xiao},
+      year={2023},
+      eprint={2303.01507},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2303.01507}, 
+}'
+
+# 37
 - title: Retrieval-based Controllable Molecule Generation
   authors: Zichao Wang, Weili Nie, Zhuoran Qiao, Chaowei Xiao , Richard Baraniuk, Anima Anandkumar
   venue: ICLR 2023 (spotlight).
@@ -306,11 +847,44 @@ month = aug,
    year = {2023}
 }'
 
+# 36
+- title: 'SMACK: Semantically Meaningful Adversarial Audio Attack'
+  authors: Zhiyuan Yu, Yuanhaur Chang, Ning Zhang, Chaowei Xiao
+  venue: USENIX Security 2023
+  year: 2023
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://www.usenix.org/system/files/sec23summer_371-yu_zhiyuan-prepub.pdf'
+    - type: website
+      display: Website
+      url: 'https://sites.google.com/view/smack'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2208.11126'
+    - type: code
+      display: Code
+      url: 'https://github.com/WUSTL-CSPL/SMACK'
+  bibtex: '@inproceedings {285477,
+author = {Zhiyuan Yu and Yuanhaur Chang and Ning Zhang and Chaowei Xiao},
+title = {{SMACK}: Semantically Meaningful Adversarial Audio Attack},
+booktitle = {32nd USENIX Security Symposium (USENIX Security 23)},
+year = {2023},
+isbn = {978-1-939133-37-3},
+address = {Anaheim, CA},
+pages = {3799--3816},
+url = {https://www.usenix.org/conference/usenixsecurity23/presentation/yu-zhiyuan-smack},
+publisher = {USENIX Association},
+month = aug
+}'
+
+# 35
 - title: 'GenSLMs: Genome-scale language models reveal SARS-CoV-2 evolutionary dynamics.'
   authors: Maxim Zvyagin*, Alexander Brace*, Kyle Hippe*, Yuntian Deng*, Bin Zhang, Cindy Orozco Bohorquez, Austin Clyde, Bharat Kale, Danilo Perez-Rivera, Heng Ma, Carla M. Mann, Michael Irvin, J. Gregory Pauloski, Logan Ward, Valerie Hayot, Murali Emani, Sam Foreman, Zhen Xie, Diangen Lin, Maulik Shukla, Weili Nie, Josh Romero, Christian Dallago, Arash Vahdat, Chaowei Xiao, Thomas Gibbs, Ian Foster, James J. Davis, Michael E. Papka, Thomas Brettin, Rick Stevens, Anima Anandkumar, Venkatram Vishwanath, Arvind Ramanathan.
   venue: ACM Gordon Bell Special Covid Prize
   picture: '/images/publications/GenSLMs.png'
   topics: AI for Social Good
+  note: '* denotes equal contribution'
   year: 2022
   links:
     - type: pdf
@@ -327,6 +901,315 @@ month = aug,
   publisher={Cold Spring Harbor Laboratory}
 }'
 
+# 34
+- title: 'Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models'
+  authors: Manli Shu, Weili Nie, De-An Huang, Zhiding Yu, Tom Goldstein, Anima Anandkumar, Chaowei Xiao
+  venue: NeurIPS 2022
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2209.07511'
+    - type: website
+      display: Website
+      url: 'https://azshue.github.io/TPT/'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2209.07511'
+    - type: code
+      display: Code
+      url: 'https://github.com/azshue/TPT'
+  bibtex: '@misc{wang2022exploringlimitsdomainadaptivetraining,
+      title={Exploring the Limits of Domain-Adaptive Training for Detoxifying Large-Scale Language Models}, 
+      author={Boxin Wang and Wei Ping and Chaowei Xiao and Peng Xu and Mostofa Patwary and Mohammad Shoeybi and Bo Li and Anima Anandkumar and Bryan Catanzaro},
+      year={2022},
+      eprint={2202.04173},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2202.04173}, 
+}'
+
+# 33
+- title: 'Exploring the Limits of Domain-Adaptive Training for Detoxifying Large-Scale Language Models'
+  authors: Boxin Wang, Wei Ping, Chaowei Xiao, Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Bo Li, Anima Anandkumar, Bryan Catanzaro
+  venue: NeurIPS 2022
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2202.04173'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2202.04173'
+    - type: code
+      display: Code
+      url: 'https://github.com/microsoft/Megatron-DeepSpeed/blob/main/examples/detxoify_lm/README.md'
+  bibtex: '@misc{wang2022exploringlimitsdomainadaptivetraining,
+      title={Exploring the Limits of Domain-Adaptive Training for Detoxifying Large-Scale Language Models}, 
+      author={Boxin Wang and Wei Ping and Chaowei Xiao and Peng Xu and Mostofa Patwary and Mohammad Shoeybi and Bo Li and Anima Anandkumar and Bryan Catanzaro},
+      year={2022},
+      eprint={2202.04173},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2202.04173}, 
+}'
+
+# 32
+- title: 'Robust Trajectory Prediction against Adversarial Attacks'
+  authors: Yulong Cao, Danfei Xu, Xinshuo Weng, Z. Morley Mao, Anima Anandkumar, Chaowei Xiao, Marco Pavone
+  venue: CORL 2022
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2208.00094'
+    - type: website
+      display: Website
+      url: 'https://robustav.github.io/RobustTraj/'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2208.00094'
+    - type: code
+      display: Code
+      url: 'https://github.com/kikacaty/RobustTraj'
+  bibtex: '@misc{cao2022robusttrajectorypredictionadversarial,
+      title={Robust Trajectory Prediction against Adversarial Attacks}, 
+      author={Yulong Cao and Danfei Xu and Xinshuo Weng and Zhuoqing Mao and Anima Anandkumar and Chaowei Xiao and Marco Pavone},
+      year={2022},
+      eprint={2208.00094},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2208.00094}, 
+}'
+
+# 31
+- title: Diffusion Models for Adversarial Purification
+  authors: Weili Nie, Brandon Guo, Yujia Huang,Chaowei Xiao, Arash Vahdat, Anima Anandkumar.
+  venue: ICML 2022
+  picture: '/images/publications/diifpure.png'
+  topics: Diffusion & Security
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2205.07460'
+    - type: website
+      display: Website
+      url: 'https://diffpure.github.io/'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2205.07460'
+    - type: code
+      display: Code
+      url: 'https://github.com/NVlabs/DiffPure'
+  bibtex: '@inproceedings{nie2022DiffPure,
+  title={Diffusion Models for Adversarial Purification},
+  author={Nie, Weili and Guo, Brandon and Huang, Yujia and Xiao, Chaowei and Vahdat, Arash and Anandkumar, Anima},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year={2022}
+}'
+
+# 30
+- title: 'Understanding the robustness in vision transformers'
+  authors: Daquan Zhou, Zhiding Yu, Enze Xie, Chaowei Xiao, Anima Anandkumar, Jiashi Feng, Jose M Alvarez
+  venue: ICML 2022
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/abs/2204.12451'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2204.12451'
+  bibtex: '@misc{zhou2022understandingrobustnessvisiontransformers,
+      title={Understanding The Robustness in Vision Transformers}, 
+      author={Daquan Zhou and Zhiding Yu and Enze Xie and Chaowei Xiao and Anima Anandkumar and Jiashi Feng and Jose M. Alvarez},
+      year={2022},
+      eprint={2204.12451},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2204.12451}, 
+}'
+
+# 29
+- title: 'AdvDO: Realistic Adversarial Attacks for Trajectory Prediction'
+  authors: Yulong Cao, Chaowei Xiao, Anima Anandkumar, Danfei Xu, Marco Pavone
+  venue: ECCV 2022
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650036.pdf'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2209.08744'
+  bibtex: '@misc{cao2022advdorealisticadversarialattacks,
+      title={AdvDO: Realistic Adversarial Attacks for Trajectory Prediction}, 
+      author={Yulong Cao and Chaowei Xiao and Anima Anandkumar and Danfei Xu and Marco Pavone},
+      year={2022},
+      eprint={2209.08744},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2209.08744}, 
+}'
+
+# 28
+- title: 'SecretGen: Privacy Recovery on Pre-trained Models'
+  authors: Zhuowen Yuan, Fan Wu, Yunhui Long, Chaowei Xiao, and Bo Li
+  venue: ECCV 2022
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650137.pdf'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2207.12263'
+  bibtex: '@misc{yuan2022secretgenprivacyrecoverypretrained,
+      title={SecretGen: Privacy Recovery on Pre-Trained Models via Distribution Discrimination}, 
+      author={Zhuowen Yuan and Fan Wu and Yunhui Long and Chaowei Xiao and Bo Li},
+      year={2022},
+      eprint={2207.12263},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2207.12263}, 
+}'
+
+
+
+# 27
+- title: 'Taxonomy of Machine Learning Safety: A Survey and Primer'
+  authors: Sina Mohseni, Zhiding Yu, Chaowei Xiao, and Jay Yadawa, Haotao Wang, and Zhangyang Wang
+  venue: ACM Computing Survey
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2106.04823'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2106.04823'
+  bibtex: '@misc{mohseni2022taxonomymachinelearningsafety,
+      title={Taxonomy of Machine Learning Safety: A Survey and Primer}, 
+      author={Sina Mohseni and Haotao Wang and Zhiding Yu and Chaowei Xiao and Zhangyang Wang and Jay Yadawa},
+      year={2022},
+      eprint={2106.04823},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2106.04823}, 
+}'
+
+
+# 26
+- title: 'RelViT: Concept-guided vision transformer for visual relational reasoning'
+  authors: Xiaojian Ma, Weili Nie, Zhiding Yu, Huaizu Jiang, Chaowei Xiao, Yuke Zhu, Song-Chun Zhu, Anima Anandkumar
+  venue: ICLR 2022
+  year: 2022
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2204.11167'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2204.11167'
+  bibtex: '@misc{ma2022relvitconceptguidedvisiontransformer,
+      title={RelViT: Concept-guided Vision Transformer for Visual Relational Reasoning}, 
+      author={Xiaojian Ma and Weili Nie and Zhiding Yu and Huaizu Jiang and Chaowei Xiao and Yuke Zhu and Song-Chun Zhu and Anima Anandkumar},
+      year={2022},
+      eprint={2204.11167},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2204.11167}, 
+}'
+
+# 25
+- title: 'Behavior Privacy Preserving in RF Sensing'
+  authors: Jianwei Liu, Chaowei Xiao, Kaiyan Cui, Jinsong Han, Xian Xu, Kui Ren
+  venue: IEEE Transactions on Dependable and Secure Computing
+  year: 2022
+  bibtex: '@ARTICLE{9684968,
+  author={Liu, Jianwei and Xiao, Chaowei and Cui, Kaiyan and Han, Jinsong and Xu, Xian and Ren, Kui},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={Behavior Privacy Preserving in RF Sensing}, 
+  year={2023},
+  volume={20},
+  number={1},
+  pages={784-796},
+  keywords={RF signals;Privacy;Authentication;Transmitters;Receivers;Radio frequency;Sensors;RF sensing;behavior recognition;privacy preserving;deep learning},
+  doi={10.1109/TDSC.2022.3143880}
+  }'
+
+
+# 24
+- title: 'Physical-World Attack towards WiFi-based Behavior Recognition'
+  authors: Jianwei Liu, Yinghui He, Chaowei Xiao, Jinsong Han, Le Cheng, Kui Ren
+  venue: INFOCOM 2022
+  year: 2022
+  bibtex:'@INPROCEEDINGS{9796920,
+  author={Liu, Jianwei and He, Yinghui and Xiao, Chaowei and Han, Jinsong and Cheng, Le and Ren, Kui},
+  booktitle={IEEE INFOCOM 2022 - IEEE Conference on Computer Communications}, 
+  title={Physical-World Attack towards WiFi-based Behavior Recognition}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={400-409},
+  keywords={Target recognition;Surveillance;Virtual reality;Smart homes;Medical services;Behavioral sciences;Sensors;Behavior recognition;WiFi;Genetic algorithm;Adversarial sample},
+  doi={10.1109/INFOCOM48880.2022.9796920}}
+'
+
+# 23
+- title: 'Characterizing Attacks on Deep Reinforcement Learning'
+  authors: Xinlei Pan*, Chaowei Xiao*, Warren He, Jian Peng, Mingjie Sun, Jinfeng Yi, Mingyan Liu, Bo Li, Dawn Song
+  venue: AAMAS 2022
+  year: 2022
+  note: '* denotes equal contribution'
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1010.pdf'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/1907.09470'
+  bibtex: '@misc{pan2022characterizingattacksdeepreinforcement,
+      title={Characterizing Attacks on Deep Reinforcement Learning}, 
+      author={Xinlei Pan and Chaowei Xiao and Warren He and Shuang Yang and Jian Peng and Mingjie Sun and Jinfeng Yi and Zijiang Yang and Mingyan Liu and Bo Li and Dawn Song},
+      year={2022},
+      eprint={1907.09470},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/1907.09470}, 
+}'
+
+# 22
+- title: 'Adversarially Robust 3D Point Cloud Recognition Using Self-Supervisions'
+  authors: Jiachen Sun, Yulong Cao, Christopher Choy, Zhiding Yu, Anima Anandkumar, Z. Morley Mao, Chaowei Xiao
+  venue: NeurIPS 2021
+  year: 2021
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://proceedings.neurips.cc/paper_files/paper/2021/file/82cadb0649a3af4968404c9f6031b233-Paper.pdf'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2110.13771'
+    - type: code
+      display: Code
+      url: 'https://github.com/VITA-Group/AugMax'
+  bibtex: '@inproceedings{10.5555/3540261.3541448,
+author = {Sun, Jiachen and Cao, Yulong and Choy, Christopher and Yu, Zhiding and Anandkumar, Anima and Mao, Z. Morley and Xiao, Chaowei},
+title = {Adversarially robust 3D point cloud recognition using self-supervisions},
+year = {2024},
+isbn = {9781713845393},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {3D point cloud data is increasingly used in safety-critical applications such as autonomous driving. Thus, the robustness of 3D deep learning models against adversarial attacks becomes a major consideration. In this paper, we systematically study the impact of various self-supervised learning proxy tasks on different architectures and threat models for 3D point clouds with adversarial training. Specifically, we study MLP-based (PointNet), convolution-based (DGCNN), and transformer-based (PCT) 3D architectures. Through extensive experimentation, we demonstrate that appropriate applications of self-supervision can significantly enhance the robustness in 3D point cloud recognition, achieving considerable improvements compared to the standard adversarial training baseline. Our analysis reveals that local feature learning is desirable for adversarial robustness in point clouds since it limits the adversarial propagation between the point-level input perturbations and the model''s final output. This insight also explains the success of DGCNN and the jigsaw proxy task in achieving stronger 3D adversarial robustness.},
+booktitle = {Proceedings of the 35th International Conference on Neural Information Processing Systems},
+articleno = {1187},
+numpages = {15},
+series = {NIPS ''21}
+}'
+
+# 21
 - title: 'AugMax: Adversarial Composition of Random Augmentations for Robust Training.'
   authors: Haotao Wang,Chaowei Xiao, Jean Kossaifi, Zhiding Yu, Animashree Anandkumar, Zhangyang Wang.
   venue: NeurIPS 2021
@@ -350,6 +1233,77 @@ month = aug,
   year={2021}
 }'
 
+# 20
+- title: 'Efficient Transformers for Language and Vision'
+  authors: Chen Zhu, Wei Ping, Chaowei Xiao, Mohammad Shoeybi, Tom Goldstein, Anima Anandkumar, Bryan Catanzaro
+  venue: NeurIPS 2021
+  year: 2021
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2107.02192'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2107.02192'
+  bibtex: '@misc{zhu2021longshorttransformerefficienttransformers,
+      title={Long-Short Transformer: Efficient Transformers for Language and Vision}, 
+      author={Chen Zhu and Wei Ping and Chaowei Xiao and Mohammad Shoeybi and Tom Goldstein and Anima Anandkumar and Bryan Catanzaro},
+      year={2021},
+      eprint={2107.02192},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2107.02192}, 
+}'
+
+
+# 19
+- title: 'Can Shape Structure Features Improve Model Robustness under Diverse Adversarial Settings?'
+  authors: Mingjie Sun*, Chaowei Xiao*, Zichao Li*, Haonan Qiu, Mingyan Liu, Bo Li
+  venue: ICCV 2021
+  year: 2021
+  note: '* denotes equal contribution'
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://openaccess.thecvf.com/content/ICCV2021/papers/Sun_Can_Shape_Structure_Features_Improve_Model_Robustness_Under_Diverse_Adversarial_ICCV_2021_paper.pdf'
+  bibtex: '@INPROCEEDINGS{9710511,
+  author={Sun, Mingjie and Li, Zichao and Xiao, Chaowei and Qiu, Haonan and Kailkhura, Bhavya and Liu, Mingyan and Li, Bo},
+  booktitle={2021 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
+  title={Can Shape Structure Features Improve Model Robustness under Diverse Adversarial Settings?}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={7506-7515},
+  keywords={Visualization;Systematics;Sensitivity;Shape;Image edge detection;Perturbation methods;Pipelines;Adversarial learning;Recognition and classification},
+  doi={10.1109/ICCV48922.2021.00743}}'
+
+# 18
+- title: 'Application-driven Privacy-preserving Data Publishing with Correlated Attributes'
+  authors: Aria Rezaei, Chaowei Xiao, Bo Li, Jie Gao
+  venue: EWSN 2021
+  year: 2021
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/1812.10193'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/1812.10193'
+    - type: code
+      display: Code
+      url: 'https://github.com/ASGuard-UCI/MSF-ADV'
+  bibtex: '@misc{rezaei2021applicationdrivenprivacypreservingdatapublishing,
+      title={Application-driven Privacy-preserving Data Publishing with Correlated Attributes}, 
+      author={Aria Rezaei and Chaowei Xiao and Jie Gao and Bo Li and Sirajum Munir},
+      year={2021},
+      eprint={1812.10193},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/1812.10193}, 
+}'
+
+
+# 17
 - title: 'Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks.'
   authors: Yulong Cao*, Ningfei Wang*,Chaowei Xiao*, Dawei Yang*, Jin Fang, RuigangYang, Qi Alfred Chen, Mingyan Liu, Bo Li.
   venue: IEEE Symposium on Security and Privacy (IEEE S&P) 2021
@@ -375,7 +1329,84 @@ month = aug,
   month = {May}
 }'
 
+# 16
+- title: 'Robust Deep Reinforcement Learning against Adversarial Perturbations on State Observations'
+  authors: Huan Zhang, Hongge Chen, Chaowei Xiao, Bo Li, Mingyan Liu, Duane Boning, Cho-Jui Hsieh
+  venue: NeurIPS 2020
+  year: 2020
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/2003.08938'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/2003.08938'
+    - type: code
+      display: Code
+      url: 'https://github.com/AI-secure/SemanticAdv'
+  bibtex: '@misc{zhang2021robustdeepreinforcementlearning,
+      title={Robust Deep Reinforcement Learning against Adversarial Perturbations on State Observations}, 
+      author={Huan Zhang and Hongge Chen and Chaowei Xiao and Bo Li and Mingyan Liu and Duane Boning and Cho-Jui Hsieh},
+      year={2021},
+      eprint={2003.08938},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2003.08938}, 
+}'
 
+
+# 15
+- title: 'SemanticAdv: Generating Adversarial Examples via Attribute-conditional Image Editing'
+  authors: Haonan Qiu*, Chaowei Xiao*, Lei Yang*, Xinchen Yan, Honglak Lee, Bo Li
+  venue: ECCV 2020
+  year: 2020
+  note: '* denotes equal contribution'
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/1906.07927'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/1906.07927'
+    - type: code
+      display: Code
+      url: 'https://github.com/AI-secure/SemanticAdv'
+  bibtex: '@misc{qiu2020semanticadvgeneratingadversarialexamples,
+      title={SemanticAdv: Generating Adversarial Examples via Attribute-conditional Image Editing}, 
+      author={Haonan Qiu and Chaowei Xiao and Lei Yang and Xinchen Yan and Honglak Lee and Bo Li},
+      year={2020},
+      eprint={1906.07927},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/1906.07927}, 
+}'
+
+# 14
+- title: 'Towards Stable and Efficient Training of Verifiably Robust Neural Networks'
+  authors: Huan Zhang, Hongge Chen, Chaowei Xiao, Sven Gowal, Robert Stanforth, Bo Li, Duane Boning, Cho-Jui Hsieh
+  venue: ICLR 2020
+  year: 2020
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/1906.06316'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/1906.06316'
+    - type: code
+      display: Code
+      url: 'https://github.com/huanzhang12/CROWN-IBP'
+  bibtex: '@misc{zhang2019stableefficienttrainingverifiably,
+      title={Towards Stable and Efficient Training of Verifiably Robust Neural Networks}, 
+      author={Huan Zhang and Hongge Chen and Chaowei Xiao and Sven Gowal and Robert Stanforth and Bo Li and Duane Boning and Cho-Jui Hsieh},
+      year={2019},
+      eprint={1906.06316},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/1906.06316}, 
+}'
+
+# 13
 - title: 'MeshAdv: Adversarial Meshes for Visual Recognition'
   authors: 'Chaowei Xiao*, Dawei Yang*, Bo Li, Jia Deng, Mingyan Liu'
   venue: CVPR 2019 (oral)
@@ -401,6 +1432,115 @@ month = aug,
   year={2019}
 }'
 
+# 12
+- title: 'AdvIT: Characterizing Adversarial Frames in Videos Based on Temporal Information'
+  authors: Chaowei Xiao, Ruizhi Deng, Bo Li, Taesung Lee, Benjamin Edwards, Jinfeng Yi, Dawn Song, Mingyan Liu, Ian Molloy
+  venue: ICCV 2019
+  year: 2019
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://openaccess.thecvf.com/content_ICCV_2019/papers/Xiao_AdvIT_Adversarial_Frames_Identifier_Based_on_Temporal_Consistency_in_Videos_ICCV_2019_paper.pdf'
+  bibtex: '@article{Xiao2019AdvITAF,
+  title={AdvIT: Adversarial Frames Identifier Based on Temporal Consistency in Videos},
+  author={Chaowei Xiao and Ruizhi Deng and Bo Li and Taesung Lee and Ben Edwards and Jinfeng Yi and Dawn Xiaodong Song and Mingyan D. Liu and Ian Molloy},
+  journal={2019 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year={2019},
+  pages={3967-3976},
+  url={https://api.semanticscholar.org/CorpusID:208001366}
+}'
+
+# 11
+- title: 'Adversarial Sensor Attack on LIDAR-based Perception in Autonomous Driving'
+  authors: Yulong Cao, Chaowei Xiao, Benjamin Cyr, Yimeng Zhou, Won Park, Sara Rampazzi, Qi Alfred Chen, Kevin Fu, Z. Morley Mao
+  venue: CCS 2019
+  year: 2019
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/1907.06826'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/1907.06826'
+  bibtex: '@inproceedings{Cao_2019, series={CCS ’19},
+   title={Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving},
+   url={http://dx.doi.org/10.1145/3319535.3339815},
+   DOI={10.1145/3319535.3339815},
+   booktitle={Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security},
+   publisher={ACM},
+   author={Cao, Yulong and Xiao, Chaowei and Cyr, Benjamin and Zhou, Yimeng and Park, Won and Rampazzi, Sara and Chen, Qi Alfred and Fu, Kevin and Mao, Z. Morley},
+   year={2019},
+   month=nov, collection={CCS ’19} }'
+
+# 10
+- title: 'Improving Robustness of ML Classifiers against Realizable Evasion Attacks Using Conserved Features'
+  authors: Liang Tong, Bo Li, Chen Hajaj, Chaowei Xiao, Ning Zhang, Yevgeniy Vorobeychik
+  venue: USENIX Security 2019
+  year: 2019
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/1708.08327'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/1708.08327'
+  bibtex: '@misc{tong2019improvingrobustnessmlclassifiers,
+      title={Improving Robustness of ML Classifiers against Realizable Evasion Attacks Using Conserved Features}, 
+      author={Liang Tong and Bo Li and Chen Hajaj and Chaowei Xiao and Ning Zhang and Yevgeniy Vorobeychik},
+      year={2019},
+      eprint={1708.08327},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/1708.08327}, 
+}'
+
+# 9
+- title: 'Performing Co-Membership Attacks Against Deep Generative Models'
+  authors: Kin Sum Liu, Chaowei Xiao, Bo Li, Jie Gao
+  venue: ICDM 2019
+  year: 2019
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/1805.09898'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/1805.09898'
+  bibtex: '@misc{liu2019performingcomembershipattacksdeep,
+      title={Performing Co-Membership Attacks Against Deep Generative Models}, 
+      author={Kin Sum Liu and Chaowei Xiao and Bo Li and Jie Gao},
+      year={2019},
+      eprint={1805.09898},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/1805.09898}, 
+}'
+
+# 8
+- title: 'Characterize Adversarial Examples Based on Spatial Consistency Information for Semantic Segmentation'
+  authors: Chaowei Xiao, Ruizhi Deng, Bo Li, Fisher Yu, Mingyan Liu, Dawn Song
+  venue: ECCV 2018
+  year: 2018
+  topics: Security
+  year: 2018
+  links:
+    - type: pdf
+      display: PDF
+      url: 'https://arxiv.org/pdf/1810.05162'
+    - type: arxiv
+      display: arXiv
+      url: 'https://arxiv.org/abs/1810.05162'
+  bibtex: '@misc{xiao2018characterizingadversarialexamplesbased,
+      title={Characterizing Adversarial Examples Based on Spatial Consistency Information for Semantic Segmentation}, 
+      author={Chaowei Xiao and Ruizhi Deng and Bo Li and Fisher Yu and Mingyan Liu and Dawn Song},
+      year={2018},
+      eprint={1810.05162},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/1810.05162}, 
+}'
+
+# 7
 - title: Spatially Transformed Adversarial Examples
   authors: Chaowei Xiao*, Jun-Yan Zhu*, Bo Li, Warren He, Mingyan Liu and Dawn Song
   venue: ICLR, 2018
@@ -427,7 +1567,7 @@ year={2018},
 url={https://openreview.net/forum?id=HyydRMZC-},
 }'
 
-
+# 6
 - title: Generating Adversarial Examples with Adversarial Networks
   authors: Chaowei Xiao, Bo Li, Jun-Yan Zhu, Warren He, Mingyan Liu and Dawn Song
   venue: IJCAI, 2018.
@@ -463,7 +1603,30 @@ url={https://openreview.net/forum?id=HyydRMZC-},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }'
 
+# 5
+title: 'From Patching Delays to Infection Symptoms: Using Risk Profiles for an Early Discovery of Vulnerabilities Exploited in the Wild'
+authors: Chaowei Xiao, Armin Sarabi, Yang Liu, Bo Li, Tudor Dumitra, Mingyan Liu
+venue: Usenix Security 2018
+year: 2018
+topics: Cybersecurity, Vulnerability Discovery, Risk Profiles
+links:
+  - type: pdf 
+    display: PDF
+    url: 'https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-xiao.pdf'
+bibtext: '@inproceedings {217571,
+author = {Chaowei Xiao and Armin Sarabi and Yang Liu and Bo Li and Mingyan Liu and Tudor Dumitras},
+title = {From Patching Delays to Infection Symptoms: Using Risk Profiles for an Early Discovery of Vulnerabilities Exploited in the Wild},
+booktitle = {27th USENIX Security Symposium (USENIX Security 18)},
+year = {2018},
+isbn = {978-1-939133-04-5},
+address = {Baltimore, MD},
+pages = {903--918},
+url = {https://www.usenix.org/conference/usenixsecurity18/presentation/xiao},
+publisher = {USENIX Association},
+month = aug
+}'
 
+# 4
 - title: 'Robust Physical-World Attacks on Machine Learning Models'
   authors: Kevin Eykholt*, Ivan Evtimov*, Earlence Fernandes, Bo Li, Amir Rahmati, Chaowei Xiao, Atul Prakash, Tadayoshi Kohno and Dawn Song
   venue: CVPR, 2018 
@@ -486,6 +1649,73 @@ title = {Robust Physical-World Attacks on Deep Learning Visual Classification},
 booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 month = {June},
 year = {2018}
+}'
+
+# 3
+title: 'Automatic Radio Map Adaptation for Indoor Localization using Smartphones'
+authors: Chenshu Wu, Zheng Yang, Chaowei Xiao
+venue: TMC 2017
+year: 2017
+topics: Indoor Localization, Radio Map, Smartphones
+links:
+  - type: pdf
+    display: PDF
+    url: 'https://cswu.me/papers/tmc17_acmu_paper.pdf'
+bibtext: '@ARTICLE{8003484,
+  author={Wu, Chenshu and Yang, Zheng and Xiao, Chaowei},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={Automatic Radio Map Adaptation for Indoor Localization Using Smartphones}, 
+  year={2018},
+  volume={17},
+  number={3},
+  pages={517-528},
+  keywords={Mobile handsets;Mobile computing;Trajectory;Time measurement;Wireless fidelity;Real-time systems;Sensors;WiFi fingerprints;radio map updating;indoor localization},
+  doi={10.1109/TMC.2017.2737004}}
+'
+
+# 2
+title: 'Static Power of Mobile Devices: Self-updating Radio Maps for Wireless Indoor Localization'
+authors: Chenshu Wu, Zheng Yang, Chaowei Xiao, Chaofan Yang, Yunhao Liu, Mingyan Liu
+venue: INFOCOM 2015
+year: 2015
+topics: Indoor Localization, Radio Maps, Wireless Communication
+links:
+  - type: pdf
+    display: PDF
+    url: 'http://tns.thss.tsinghua.edu.cn/~yangzheng/papers/Wu-Static-INFOCOM2015.pdf'
+bibtext: '@INPROCEEDINGS{7218639,
+  author={Wu, Chenshu and Yang, Zheng and Xiao, Chaowei and Yang, Chaofan and Liu, Yunhao and Liu, Mingyan},
+  booktitle={2015 IEEE Conference on Computer Communications (INFOCOM)}, 
+  title={Static power of mobile devices: Self-updating radio maps for wireless indoor localization}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={2497-2505},
+  keywords={Trajectory;Mobile handsets;Estimation;Sensors;Wireless communication;Mobile communication;Real-time systems},
+  doi={10.1109/INFOCOM.2015.7218639}}
+'
+
+# 1
+- title: 'Tagoram: Real-time Tracking of Mobile RFID Tags to High Precision Using COTS Devices'
+  authors: Lei Yang, Yekui Chen, Xiangyang Li, Chaowei Xiao, Mo Li, Yunhao Liu
+  venue: MobiCom 2014 (Best Paper Award)
+  year: 2014
+  topics: RFID, Real-time Tracking, Mobile Computing
+  bibtext: '@inproceedings{10.1145/2639108.2639111,
+author = {Yang, Lei and Chen, Yekui and Li, Xiang-Yang and Xiao, Chaowei and Li, Mo and Liu, Yunhao},
+title = {Tagoram: real-time tracking of mobile RFID tags to high precision using COTS devices},
+year = {2014},
+isbn = {9781450327831},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2639108.2639111},
+doi = {10.1145/2639108.2639111},
+booktitle = {Proceedings of the 20th Annual International Conference on Mobile Computing and Networking},
+pages = {237–248},
+numpages = {12},
+keywords = {tracking, tagoram, rfid, localization, dah},
+location = {Maui, Hawaii, USA},
+series = {MobiCom 14}
 }'
 
 
