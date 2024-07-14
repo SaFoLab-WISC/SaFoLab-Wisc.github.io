@@ -1145,7 +1145,7 @@ month = aug
   authors: Jianwei Liu, Yinghui He, Chaowei Xiao, Jinsong Han, Le Cheng, Kui Ren
   venue: INFOCOM 2022
   year: 2022
-  bibtex:'@INPROCEEDINGS{9796920,
+  bibtex: '@INPROCEEDINGS{9796920,
   author={Liu, Jianwei and He, Yinghui and Xiao, Chaowei and Han, Jinsong and Cheng, Le and Ren, Kui},
   booktitle={IEEE INFOCOM 2022 - IEEE Conference on Computer Communications}, 
   title={Physical-World Attack towards WiFi-based Behavior Recognition}, 
@@ -1154,8 +1154,7 @@ month = aug
   number={},
   pages={400-409},
   keywords={Target recognition;Surveillance;Virtual reality;Smart homes;Medical services;Behavioral sciences;Sensors;Behavior recognition;WiFi;Genetic algorithm;Adversarial sample},
-  doi={10.1109/INFOCOM48880.2022.9796920}}
-'
+  doi={10.1109/INFOCOM48880.2022.9796920}}'
 
 # 23
 - title: 'Characterizing Attacks on Deep Reinforcement Learning'
