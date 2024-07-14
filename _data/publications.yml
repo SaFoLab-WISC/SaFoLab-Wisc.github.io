@@ -37,7 +37,7 @@
       url: 'https://arxiv.org/pdf/2312.00438'
     - type: website
       display: Website
-      url: 'https://vlm-driver.github.io/''
+      url: 'https://vlm-driver.github.io/'
     - type: arxiv
       display: arXiv
       url: 'https://arxiv.org/abs/2312.00438'
