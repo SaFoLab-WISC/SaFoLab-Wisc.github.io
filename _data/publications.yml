@@ -156,7 +156,7 @@
   venue: ICML 2024
   year: 2024
   topics: LLM Safety
-    links:
+  links:
     - type: pdf
       display: PDF
       url: 'https://arxiv.org/pdf/2401.05561'
@@ -230,7 +230,7 @@
   venue: NAACL 2024
   year: 2024
   topics: LLM Safety
-    links:
+  links:
     - type: pdf
       display: PDF
       url: https://arxiv.org/pdf/2304.14475
