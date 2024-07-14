@@ -34,25 +34,24 @@
   links:
     - type: pdf
       display: PDF
-      url: 'https://arxiv.org/pdf/2312.00438'
+      url: https://arxiv.org/pdf/2312.00438
     - type: website
       display: Website
-      url: 'https://vlm-driver.github.io/'
+      url: https://vlm-driver.github.io/
     - type: arxiv
       display: arXiv
-      url: 'https://arxiv.org/abs/2312.00438'
+      url: https://arxiv.org/abs/2312.00438
     - type: code
       display: Code
-      url: 'https://github.com/SaFoLab-WISC/Dolphins'
-  bibtext: '@misc{ma2023dolphinsmultimodallanguagemodel,
+      url: https://github.com/SaFoLab-WISC/Dolphins
+  bibtex: '@misc{ma2023dolphinsmultimodallanguagemodel,
       title={Dolphins: Multimodal Language Model for Driving}, 
       author={Yingzi Ma and Yulong Cao and Jiachen Sun and Marco Pavone and Chaowei Xiao},
       year={2023},
       eprint={2312.00438},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2312.00438}, 
-}'
+      url={https://arxiv.org/abs/2312.00438}'
 
 # 68
 - title: 'Leveraging Hierarchical Feature Sharing for Efficient Dataset Condensation'
@@ -66,17 +65,16 @@
     - type: arxiv
       display: arXiv
       url: 'https://arxiv.org/abs/2310.07506'
-  bibtext: '@misc{zheng2023leveraginghierarchicalfeaturesharing,
+  bibtex: '@misc{zheng2023leveraginghierarchicalfeaturesharing,
       title={Leveraging Hierarchical Feature Sharing for Efficient Dataset Condensation}, 
       author={Haizhong Zheng and Jiachen Sun and Shutong Wu and Bhavya Kailkhura and Zhuoqing Mao and Chaowei Xiao and Atul Prakash},
       year={2023},
       eprint={2310.07506},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2310.07506}, 
-}'
+      url={https://arxiv.org/abs/2310.07506}}'
 
-  # 67 - AdaShield
+# 67
 - title: 'AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting'
   authors: Yu Wang, Xiaogeng Liu, Yu Li, Muhao Chen, Chaowei Xiao
   venue: ECCV 2024
@@ -91,7 +89,7 @@
   - type: code
     display: Code
     url: https://github.com/SaFoLab-WISC/AdaShield
-  bibtext: '@misc{wang2024adashieldsafeguardingmultimodallarge,
+  bibtex: '@misc{wang2024adashieldsafeguardingmultimodallarge,
       title={AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting}, 
       author={Yu Wang and Xiaogeng Liu and Yu Li and Muhao Chen and Chaowei Xiao},
       year={2024},
