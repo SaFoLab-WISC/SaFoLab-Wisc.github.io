@@ -43,7 +43,7 @@
       url: 'https://arxiv.org/abs/2312.00438'
     - type: code
       display: Code
-      url: https://github.com/SaFoLab-WISC/Dolphins
+      url: 'https://github.com/SaFoLab-WISC/Dolphins'
   bibtext: '@misc{ma2023dolphinsmultimodallanguagemodel,
       title={Dolphins: Multimodal Language Model for Driving}, 
       author={Yingzi Ma and Yulong Cao and Jiachen Sun and Marco Pavone and Chaowei Xiao},
@@ -77,7 +77,7 @@
 }'
 
   # 67 - AdaShield
-  - title: 'AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting'
+- title: 'AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting'
   authors: Yu Wang, Xiaogeng Liu, Yu Li, Muhao Chen, Chaowei Xiao
   venue: ECCV 2024
   year: 2024
@@ -102,7 +102,7 @@
 }'
 
   # 66 RealGen - needs image
-  - title: 'RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios'
+- title: 'RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios'
   authors: Wenhao Ding, Yulong Cao, Ding Zhao, Chaowei Xiao, Marco Pavone
   venue: ECCV 202
   year: 2024
@@ -115,7 +115,7 @@
     url: 'https://arxiv.org/pdf/2312.13303'
   - type: website
     display: Website
-    url: 'https://realgen.github.io/''
+    url: 'https://realgen.github.io/'
   bibtext: '@misc{ding2023realgenretrievalaugmentedgeneration,
       title={RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios}, 
       author={Wenhao Ding and Yulong Cao and Ding Zhao and Chaowei Xiao and Marco Pavone},
