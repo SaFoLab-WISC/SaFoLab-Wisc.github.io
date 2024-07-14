@@ -25,7 +25,7 @@
 
   # note: '* denotes equal contribution. † denotes equal advising.'
 
-  # 69 - needs image and code
+  # 69 - needs image
 - title: 'Dolphins: Multi-modal Language Model for Driving'
   authors: Yingzi Ma, Yulong Cao, Jiachen Sun, Marco Pavone, Chaowei Xiao
   venue: ECCV 2024
@@ -34,13 +34,13 @@
   links:
     - type: pdf
       display: PDF
-      url: https://arxiv.org/pdf/2312.00438
+      url: 'https://arxiv.org/pdf/2312.00438'
     - type: website
       display: Website
-      url: https://vlm-driver.github.io/
+      url: 'https://vlm-driver.github.io/''
     - type: arxiv
       display: arXiv
-      url: https://arxiv.org/abs/2312.00438
+      url: 'https://arxiv.org/abs/2312.00438'
     - type: code
       display: Code
       url: https://github.com/SaFoLab-WISC/Dolphins
@@ -54,18 +54,18 @@
       url={https://arxiv.org/abs/2312.00438}, 
 }'
 
-  #68 - needs image and code
+# 68
 - title: 'Leveraging Hierarchical Feature Sharing for Efficient Dataset Condensation'
   authors: Haizhong Zheng, Jiachen Sun, Shutong Wu, Bhavya Kaikhura, Zhuoqing Mao, Chaowei Xiao, Atul Prakash
   venue: ECCV 2024
   year: 2024
-    links:
+  links:
     - type: pdf
       display: PDF
-      url: https://arxiv.org/pdf/2310.07506
+      url: 'https://arxiv.org/pdf/2310.07506'
     - type: arxiv
       display: arXiv
-      url: https://arxiv.org/abs/2310.07506
+      url: 'https://arxiv.org/abs/2310.07506'
   bibtext: '@misc{zheng2023leveraginghierarchicalfeaturesharing,
       title={Leveraging Hierarchical Feature Sharing for Efficient Dataset Condensation}, 
       author={Haizhong Zheng and Jiachen Sun and Shutong Wu and Bhavya Kailkhura and Zhuoqing Mao and Chaowei Xiao and Atul Prakash},
@@ -84,10 +84,10 @@
   links:
   - type: pdf
     display: PDF
-    url: https://arxiv.org/pdf/2403.09513
+    url: 'https://arxiv.org/pdf/2403.09513'
   - type: arxiv
     display: arXiv
-    url: https://arxiv.org/abs/2403.09513
+    url: 'https://arxiv.org/abs/2403.09513'
   - type: code
     display: Code
     url: https://github.com/SaFoLab-WISC/AdaShield
@@ -109,13 +109,13 @@
   links:
   - type: pdf
     display: PDF
-    url: https://arxiv.org/pdf/2312.13303
+    url: 'https://arxiv.org/pdf/2312.13303'
   - type: arxiv
     display: arXiv
-    url: https://arxiv.org/pdf/2312.13303
+    url: 'https://arxiv.org/pdf/2312.13303'
   - type: website
     display: Website
-    url: https://realgen.github.io/
+    url: 'https://realgen.github.io/''
   bibtext: '@misc{ding2023realgenretrievalaugmentedgeneration,
       title={RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios}, 
       author={Wenhao Ding and Yulong Cao and Ding Zhao and Chaowei Xiao and Marco Pavone},
@@ -136,10 +136,10 @@
   links:
   - type: pdf
     display: PDF
-    url: https://arxiv.org/pdf/2311.09641
+    url: 'https://arxiv.org/pdf/2311.09641'
   - type: arxiv
     display: arXiv
-    url: https://arxiv.org/abs/2311.09641
+    url: 'https://arxiv.org/abs/2311.09641'
   bibtext: '@misc{wang2024rlhfpoisonrewardpoisoningattack,
       title={RLHFPoison: Reward Poisoning Attack for Reinforcement Learning with Human Feedback in Large Language Models}, 
       author={Jiongxiao Wang and Junlin Wu and Muhao Chen and Yevgeniy Vorobeychik and Chaowei Xiao},
@@ -159,16 +159,16 @@
     links:
     - type: pdf
       display: PDF
-      url: https://arxiv.org/pdf/2401.05561
+      url: 'https://arxiv.org/pdf/2401.05561'
     - type: arxiv
       display: arXiv
-      url: https://arxiv.org/abs/2401.05561
+      url: 'https://arxiv.org/abs/2401.05561'
     - type: code
       display: Code
-      url: https://github.com/HowieHwong/TrustLLM
+      url: 'https://github.com/HowieHwong/TrustLLM'
     - type: website
       display: Website
-      url: https://trustllmbenchmark.github.io/TrustLLM-Website/
+      url: 'https://trustllmbenchmark.github.io/TrustLLM-Website/'
   bibtext: '@misc{sun2024trustllmtrustworthinesslargelanguage,
       title={TrustLLM: Trustworthiness in Large Language Models}, 
       author={Lichao Sun and Yue Huang and Haoran Wang and Siyuan Wu and Qihui Zhang and Yuan Li and Chujie Gao and Yixin Huang and Wenhan Lyu and Yixuan Zhang and Xiner Li and Zhengliang Liu and Yixin Liu and Yijue Wang and Zhikun Zhang and Bertie Vidgen and Bhavya Kailkhura and Caiming Xiong and Chaowei Xiao and Chunyuan Li and Eric Xing and Furong Huang and Hao Liu and Heng Ji and Hongyi Wang and Huan Zhang and Huaxiu Yao and Manolis Kellis and Marinka Zitnik and Meng Jiang and Mohit Bansal and James Zou and Jian Pei and Jian Liu and Jianfeng Gao and Jiawei Han and Jieyu Zhao and Jiliang Tang and Jindong Wang and Joaquin Vanschoren and John Mitchell and Kai Shu and Kaidi Xu and Kai-Wei Chang and Lifang He and Lifu Huang and Michael Backes and Neil Zhenqiang Gong and Philip S. Yu and Pin-Yu Chen and Quanquan Gu and Ran Xu and Rex Ying and Shuiwang Ji and Suman Jana and Tianlong Chen and Tianming Liu and Tianyi Zhou and William Wang and Xiang Li and Xiangliang Zhang and Xiao Wang and Xing Xie and Xun Chen and Xuyu Wang and Yan Liu and Yanfang Ye and Yinzhi Cao and Yong Chen and Yue Zhao},
