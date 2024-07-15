@@ -36,7 +36,7 @@
   venue: ECCV 2024
   year: 2024
   topics: Multi-modal LLM
-  picture: /images/publications/dolphin.png
+  picture: /images/publications/dolphins.png
   links:
     - type: pdf
       display: PDF
@@ -169,6 +169,7 @@
   venue: ICML 2024
   year: 2024
   topics: LLM Safety
+  picture: /images/publications/trustllm.png
   links:
     - type: pdf
       display: PDF
@@ -197,6 +198,7 @@
   authors: Chulin Xie, De-An Huang, Wenda Chu, Daguang Xu, Chaowei Xiao, Bo Li, Anima Anandkumar
   venue: CVPR 2024
   year: 2024
+  picture: /images/publications/perada.png
   links:
     - type: pdf
       display: PDF
@@ -220,6 +222,7 @@
   venue: USENIX Security 2024
   year: 2024
   topics: LLM Safety
+  picture: /images/publications/donolistentome.png
   links:
   - type: pdf
     display: PDF
@@ -264,7 +267,7 @@
 - title: 'Instructional fingerprinting of large language models.'
   authors: Jiashu Xu, Fei Wang, Mingyu Derek Ma, Pang Wei Koh, Chaowei Xiao, Muhao Chen.
   venue: NAACL 2024
-  picture: /images/publications/figureprint.png
+  picture: /images/publications/fingerprint.png
   topics: LLM Safety
   year: 2024
   links:
@@ -292,6 +295,7 @@
   authors: Jiashu Xu, Fei Wang, Mingyu Derek Ma, Chaowei Xiao, Muhao Chen
   venue: NAACL 2024
   topics: LLM Safety
+  picture: /images/publications/backdoors.png
   year: 2024
   links:
   - type: pdf
@@ -315,6 +319,7 @@
   authors: Qin Liu, Fei Wang, Chaowei Xiao, Muhao Chen
   venue: NAACL 2024
   topics: LLM Safety
+  picture: /images/publications/backdoordefense.png
   year: 2024
   links:
   - type: pdf
@@ -341,6 +346,7 @@
   authors: Nan Xu, Fei Wang, Ben Zhou, Bangzheng Li, Chaowei Xiao, Muhao Chen
   venue: NAACL Findings 2024
   topics: LLM Safety
+  picture: /images/publications/cognitiveoverload.png
   year: 2024
   links:
   - type: pdf
@@ -364,6 +370,7 @@
   authors: Yulong Cao, Boris Ivanovic, Chaowei Xiao, Marco Pavone
   venue: ICRA 2024
   year: 2024
+  picture: /images/publications/rlhftraffic.png
   links:
   - type: pdf
     display: PDF
@@ -386,6 +393,7 @@
   authors: Shikun Liu, Linxi Fan, Edward Johns, Zhiding Yu, Chaowei Xiao, Anima Anandkumar
   venue: TLMR 2024
   topics: Multi-Modal LLM
+  picture: /images/publications/prismer.png
   year: 2024
   links:
   - type: pdf
@@ -409,7 +417,9 @@
   authors: Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, Anima Anandkumar
   venue: TLMR 2024
   topics: LLM
+  picture: /images/publications/voyager.png
   year: 2024
+  note: '* denotes equal contribution'
   links:
   - type: pdf
     display: PDF
@@ -459,6 +469,7 @@
   venue: ICLR 2024
   topics: LLM
   year: 2024
+  picture: /images/publications/chatdrug.png
   links:
     - type: pdf
       display: PDF
@@ -487,6 +498,8 @@
   authors: Jiachen Sun, Haizhong Zheng, Qingzhao Zhang, Atul Prakash, Z. Morley Mao, Chaowei Xiao
   venue: ICLR 2024
   year: 2024
+  topics: Other
+  picture: /images/publications/calico.png
   links:
     - type: pdf
       display: PDF
@@ -510,6 +523,7 @@
   authors: Shengchao Liu, Weili Nie, Chengpeng Wang, Jiarui Lu, Zhuoran Qiao, Ling Liu, Jian Tang, Chaowei Xiao, Animashree Anandkumar
   venue: Nature Machine Intelligence
   year: 2024
+  picture: /images/publications/moleculestm.png
   links:
     - type: pdf
       display: PDF
