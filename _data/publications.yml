@@ -1188,7 +1188,7 @@
   authors: Jianwei Liu, Chaowei Xiao, Kaiyan Cui, Jinsong Han, Xian Xu, Kui Ren
   venue: IEEE Transactions on Dependable and Secure Computing
   year: 2022
-  picture: /images/publications/BehaviorSensing.png
+  picture: /images/publications/BehaviorPrivacy.png
   topics: Diffusion & Security
   bibtex: '@ARTICLE{9684968,
     author={Liu, Jianwei and Xiao, Chaowei and Cui, Kaiyan and Han, Jinsong and Xu, Xian and Ren, Kui},
@@ -1355,7 +1355,7 @@
   authors: Aria Rezaei, Chaowei Xiao, Bo Li, Jie Gao
   venue: EWSN 2021
   year: 2021
-  image: '/images/publications/prgan.png'
+  image: /images/publications/prgan.png
   links:
     - type: pdf
       display: PDF
