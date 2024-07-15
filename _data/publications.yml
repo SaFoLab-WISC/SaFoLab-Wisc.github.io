@@ -1162,6 +1162,7 @@
   authors: Xiaojian Ma, Weili Nie, Zhiding Yu, Huaizu Jiang, Chaowei Xiao, Yuke Zhu, Song-Chun Zhu, Anima Anandkumar
   venue: ICLR 2022
   year: 2022
+  picture: /images/publications/RelVit.png
   links:
     - type: pdf
       display: PDF
@@ -1169,6 +1170,9 @@
     - type: arxiv
       display: arXiv
       url: 'https://arxiv.org/abs/2204.11167'
+    - type: code
+      display: Code
+      url: https://github.com/NVlabs/RelViT
   bibtex: '@misc{ma2022relvitconceptguidedvisiontransformer,
       title={RelViT: Concept-guided Vision Transformer for Visual Relational Reasoning}, 
       author={Xiaojian Ma and Weili Nie and Zhiding Yu and Huaizu Jiang and Chaowei Xiao and Yuke Zhu and Song-Chun Zhu and Anima Anandkumar},
@@ -1184,6 +1188,7 @@
   authors: Jianwei Liu, Chaowei Xiao, Kaiyan Cui, Jinsong Han, Xian Xu, Kui Ren
   venue: IEEE Transactions on Dependable and Secure Computing
   year: 2022
+  picture: /images/publications/BehaviorSensing.png
   topics: Diffusion & Security
   bibtex: '@ARTICLE{9684968,
     author={Liu, Jianwei and Xiao, Chaowei and Cui, Kaiyan and Han, Jinsong and Xu, Xian and Ren, Kui},
@@ -1203,6 +1208,7 @@
   authors: Jianwei Liu, Yinghui He, Chaowei Xiao, Jinsong Han, Le Cheng, Kui Ren
   venue: INFOCOM 2022
   year: 2022
+  picture: /images/publications/WifiBehavior.png
   topics: Diffusion & Security
   bibtex: '@INPROCEEDINGS{9796920,
     author={Liu, Jianwei and He, Yinghui and Xiao, Chaowei and Han, Jinsong and Cheng, Le and Ren, Kui},
@@ -1734,6 +1740,7 @@
   authors: Chenshu Wu, Zheng Yang, Chaowei Xiao
   venue: TMC 2017
   year: 2017
+  picture: /images/publications/AcMu.png
   topics: Indoor Localization, Radio Map, Smartphones
   links:
     - type: pdf
@@ -1756,6 +1763,7 @@
   authors: Chenshu Wu, Zheng Yang, Chaowei Xiao, Chaofan Yang, Yunhao Liu, Mingyan Liu
   venue: INFOCOM 2015
   year: 2015
+  picture: /images/publications/AcMu.png
   topics: Indoor Localization, Radio Maps, Wireless Communication
   links:
     - type: pdf
