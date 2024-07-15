@@ -222,7 +222,7 @@
   venue: USENIX Security 2024
   year: 2024
   topics: LLM Safety
-  picture: /images/publications/donolistentome.png
+  picture: /images/publications/donotlistentome.png
   links:
   - type: pdf
     display: PDF
@@ -427,6 +427,9 @@
   - type: arxiv
     display: arXiv
     url: https://arxiv.org/abs/2305.16291
+  - type: website
+    display: Website
+    url: https://voyager.minedojo.org/
   bibtex: '@misc{wang2023voyageropenendedembodiedagent,
       title={Voyager: An Open-Ended Embodied Agent with Large Language Models}, 
       author={Guanzhi Wang and Yuqi Xie and Yunfan Jiang and Ajay Mandlekar and Chaowei Xiao and Yuke Zhu and Linxi Fan and Anima Anandkumar},
@@ -619,6 +622,8 @@
   authors: Zhuofeng Wu, Chaowei Xiao, V.G. Vinod Vydiswaran
   venue: EMNLP 2023
   year: 2023
+  topics: LLM
+  picture: /images/publications/hicl.png
   links:
     - type: pdf
       display: PDF
@@ -696,6 +701,7 @@
   authors: Jiazhao Li, Zhuofeng Wu, Wei Ping, Chaowei Xiao, V.G. Vinod Vydiswaran
   venue: ACL Finding 2023
   year: 2023
+  picture: /images/publications/attdef.png
   links:
     - type: pdf
       display: PDF
@@ -721,6 +727,7 @@
   authors: Xiaogeng Liu, Shengshan Hu, Haoyu Wang, Minghui Li, Hai Jin, Dengpan Ye, Libing Wu, Chaowei Xiao
   venue: CVPR 2023
   year: 2023
+  picture: /images/publications/teco.png
   links:
     - type: pdf
       display: PDF
@@ -747,6 +754,7 @@
   authors: Yiming Li, Zhiding Yu, Chris Choy, Chaowei Xiao, Jose M. Alvarez, Sanja Fidler, Chen Feng, Anima Anandkumar
   venue: CVPR 2023
   year: 2023
+  picture: /images/publications/voxformer.png
   links:
     - type: pdf
       display: PDF
@@ -830,6 +838,8 @@
   authors: Shutong Wu, Jiongxiao Wang, Wei Ping, Weili Nie, Chaowei Xiao
   venue: ICLR 2023
   year: 2023
+  topics: Diffusion & Security
+  picture: /images/publications/voxformer.png
   links:
     - type: pdf
       display: PDF
@@ -879,6 +889,7 @@
   authors: Zhiyuan Yu, Yuanhaur Chang, Ning Zhang, Chaowei Xiao
   venue: USENIX Security 2023
   year: 2023
+  picture: '/images/publications/smack.png
   links:
     - type: pdf
       display: PDF
@@ -933,6 +944,7 @@
   authors: Manli Shu, Weili Nie, De-An Huang, Zhiding Yu, Tom Goldstein, Anima Anandkumar, Chaowei Xiao
   venue: NeurIPS 2022
   year: 2022
+  picture: '/images/publications/testtime.png'
   links:
     - type: pdf
       display: PDF
@@ -958,9 +970,12 @@
 
 # 33
 - title: 'Exploring the Limits of Domain-Adaptive Training for Detoxifying Large-Scale Language Models'
-  authors: Boxin Wang, Wei Ping, Chaowei Xiao, Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Bo Li, Anima Anandkumar, Bryan Catanzaro
+  authors: Boxin Wang†, Wei Ping†, Chaowei Xiao†, Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Bo Li, Anima Anandkumar, Bryan Catanzaro
   venue: NeurIPS 2022
   year: 2022
+  topics: LLM Safety
+  picture: '/images/publications/Retrieval-based.png'
+  note: '† denotes corresponding author.'
   links:
     - type: pdf
       display: PDF
@@ -986,6 +1001,7 @@
   authors: Yulong Cao, Danfei Xu, Xinshuo Weng, Z. Morley Mao, Anima Anandkumar, Chaowei Xiao, Marco Pavone
   venue: CORL 2022
   year: 2022
+  picture: '/images/publications/robusttraj.png'
   links:
     - type: pdf
       display: PDF
@@ -1041,13 +1057,17 @@
   authors: Daquan Zhou, Zhiding Yu, Enze Xie, Chaowei Xiao, Anima Anandkumar, Jiashi Feng, Jose M Alvarez
   venue: ICML 2022
   year: 2022
+  picture: '/images/publications/fans.png'
   links:
     - type: pdf
       display: PDF
-      url: 'https://arxiv.org/abs/2204.12451'
+      url: 'https://arxiv.org/pdf/2204.12451'
     - type: arxiv
       display: arXiv
       url: 'https://arxiv.org/abs/2204.12451'
+    - type: code
+      display: Code
+      url: 'https://github.com/NVlabs/FAN'
   bibtex: '@misc{zhou2022understandingrobustnessvisiontransformers,
       title={Understanding The Robustness in Vision Transformers}, 
       author={Daquan Zhou and Zhiding Yu and Enze Xie and Chaowei Xiao and Anima Anandkumar and Jiashi Feng and Jose M. Alvarez},
@@ -1063,6 +1083,7 @@
   authors: Yulong Cao, Chaowei Xiao, Anima Anandkumar, Danfei Xu, Marco Pavone
   venue: ECCV 2022
   year: 2022
+  picture: '/images/publications/advdo.png'
   links:
     - type: pdf
       display: PDF
@@ -1070,6 +1091,9 @@
     - type: arxiv
       display: arXiv
       url: 'https://arxiv.org/abs/2209.08744'
+    - type: website
+      display: Website
+      url: 'https://robustav.github.io/RobustPred/'
   bibtex: '@misc{cao2022advdorealisticadversarialattacks,
       title={AdvDO: Realistic Adversarial Attacks for Trajectory Prediction}, 
       author={Yulong Cao and Chaowei Xiao and Anima Anandkumar and Danfei Xu and Marco Pavone},
@@ -1085,6 +1109,7 @@
   authors: Zhuowen Yuan, Fan Wu, Yunhui Long, Chaowei Xiao, and Bo Li
   venue: ECCV 2022
   year: 2022
+  picture: '/images/publications/secretgen.png'
   links:
     - type: pdf
       display: PDF
@@ -1092,6 +1117,9 @@
     - type: arxiv
       display: arXiv
       url: 'https://arxiv.org/abs/2207.12263'
+    - type: code
+      display: Code
+      url: 'https://github.com/AI-secure/SecretGen'
   bibtex: '@misc{yuan2022secretgenprivacyrecoverypretrained,
       title={SecretGen: Privacy Recovery on Pre-Trained Models via Distribution Discrimination}, 
       author={Zhuowen Yuan and Fan Wu and Yunhui Long and Chaowei Xiao and Bo Li},
@@ -1109,6 +1137,7 @@
   authors: Sina Mohseni, Zhiding Yu, Chaowei Xiao, and Jay Yadawa, Haotao Wang, and Zhangyang Wang
   venue: ACM Computing Survey
   year: 2022
+  picture: '/images/publications/taxonomy.png'
   links:
     - type: pdf
       display: PDF
@@ -1154,6 +1183,7 @@
   authors: Jianwei Liu, Chaowei Xiao, Kaiyan Cui, Jinsong Han, Xian Xu, Kui Ren
   venue: IEEE Transactions on Dependable and Secure Computing
   year: 2022
+  topics: Diffusion & Security
   bibtex: '@ARTICLE{9684968,
     author={Liu, Jianwei and Xiao, Chaowei and Cui, Kaiyan and Han, Jinsong and Xu, Xian and Ren, Kui},
     journal={IEEE Transactions on Dependable and Secure Computing}, 
@@ -1172,6 +1202,7 @@
   authors: Jianwei Liu, Yinghui He, Chaowei Xiao, Jinsong Han, Le Cheng, Kui Ren
   venue: INFOCOM 2022
   year: 2022
+  topics: Diffusion & Security
   bibtex: '@INPROCEEDINGS{9796920,
     author={Liu, Jianwei and He, Yinghui and Xiao, Chaowei and Han, Jinsong and Cheng, Le and Ren, Kui},
     booktitle={IEEE INFOCOM 2022 - IEEE Conference on Computer Communications}, 
@@ -1189,6 +1220,8 @@
   authors: Xinlei Pan*, Chaowei Xiao*, Warren He, Jian Peng, Mingjie Sun, Jinfeng Yi, Mingyan Liu, Bo Li, Dawn Song
   venue: AAMAS 2022
   year: 2022
+  topics: Diffusion & Security
+  picture: '/images/publications/drl.png'
   note: '* denotes equal contribution'
   links:
     - type: pdf
@@ -1212,6 +1245,7 @@
   authors: Jiachen Sun, Yulong Cao, Christopher Choy, Zhiding Yu, Anima Anandkumar, Z. Morley Mao, Chaowei Xiao
   venue: NeurIPS 2021
   year: 2021
+  picture: '/images/publications/robustpointcloud.png'
   links:
     - type: pdf
       display: PDF
@@ -1265,6 +1299,8 @@
   authors: Chen Zhu, Wei Ping, Chaowei Xiao, Mohammad Shoeybi, Tom Goldstein, Anima Anandkumar, Bryan Catanzaro
   venue: NeurIPS 2021
   year: 2021
+  topics: Other
+  picture: '/images/publications/efficienttransformers.png'
   links:
     - type: pdf
       display: PDF
@@ -1289,6 +1325,8 @@
   venue: ICCV 2021
   year: 2021
   note: '* denotes equal contribution'
+  topics: Other
+  picture: '/images/publications/edgeganrob.png'
   links:
     - type: pdf
       display: PDF
@@ -1310,6 +1348,7 @@
   authors: Aria Rezaei, Chaowei Xiao, Bo Li, Jie Gao
   venue: EWSN 2021
   year: 2021
+  image: '/images/publications/prgan.png'
   links:
     - type: pdf
       display: PDF
@@ -1362,6 +1401,7 @@
   authors: Huan Zhang, Hongge Chen, Chaowei Xiao, Bo Li, Mingyan Liu, Duane Boning, Cho-Jui Hsieh
   venue: NeurIPS 2020
   year: 2020
+  picture: /images/publications/stateadvdrl.png
   links:
     - type: pdf
       display: PDF
@@ -1371,7 +1411,7 @@
       url: 'https://arxiv.org/abs/2003.08938'
     - type: code
       display: Code
-      url: 'https://github.com/AI-secure/SemanticAdv'
+      url: 'https://github.com/chenhongge/StateAdvDRL'
   bibtex: '@misc{zhang2021robustdeepreinforcementlearning,
       title={Robust Deep Reinforcement Learning against Adversarial Perturbations on State Observations}, 
       author={Huan Zhang and Hongge Chen and Chaowei Xiao and Bo Li and Mingyan Liu and Duane Boning and Cho-Jui Hsieh},
@@ -1389,6 +1429,7 @@
   venue: ECCV 2020
   year: 2020
   note: '* denotes equal contribution'
+  picture: /images/publications/SemanticAdv.png
   links:
     - type: pdf
       display: PDF
@@ -1414,6 +1455,7 @@
   authors: Huan Zhang, Hongge Chen, Chaowei Xiao, Sven Gowal, Robert Stanforth, Bo Li, Duane Boning, Cho-Jui Hsieh
   venue: ICLR 2020
   year: 2020
+  picture: /images/publications/CrownIBP.png
   links:
     - type: pdf
       display: PDF
@@ -1465,6 +1507,7 @@
   authors: Chaowei Xiao, Ruizhi Deng, Bo Li, Taesung Lee, Benjamin Edwards, Jinfeng Yi, Dawn Song, Mingyan Liu, Ian Molloy
   venue: ICCV 2019
   year: 2019
+  picture: /images/publications/AdvIT.png
   links:
     - type: pdf
       display: PDF
@@ -1483,6 +1526,8 @@
   authors: Yulong Cao, Chaowei Xiao, Benjamin Cyr, Yimeng Zhou, Won Park, Sara Rampazzi, Qi Alfred Chen, Kevin Fu, Z. Morley Mao
   venue: CCS 2019
   year: 2019
+  picture: /images/publications/AdvLidar.png
+  topics: Diffusion & Security
   links:
     - type: pdf
       display: PDF
@@ -1506,6 +1551,7 @@
   authors: Liang Tong, Bo Li, Chen Hajaj, Chaowei Xiao, Ning Zhang, Yevgeniy Vorobeychik
   venue: USENIX Security 2019
   year: 2019
+  picture: /images/publications/RobustML.png
   links:
     - type: pdf
       display: PDF
@@ -1528,6 +1574,7 @@
   authors: Kin Sum Liu, Chaowei Xiao, Bo Li, Jie Gao
   venue: ICDM 2019
   year: 2019
+  picture: /images/publications/ComembershipAttack.png
   links:
     - type: pdf
       display: PDF
@@ -1551,6 +1598,7 @@
   venue: ECCV 2018
   year: 2018
   topics: Security
+  picture: /images/publications/SemanticSpatial.png
   links:
     - type: pdf
       display: PDF
@@ -1636,7 +1684,8 @@
   authors: Chaowei Xiao, Armin Sarabi, Yang Liu, Bo Li, Tudor Dumitra, Mingyan Liu
   venue: Usenix Security 2018
   year: 2018
-  topics: Cybersecurity, Vulnerability Discovery, Risk Profiles
+  topics: Diffusion & Security
+  picture: /images/publications/RiskProfiles.png
   links:
     - type: pdf 
       display: PDF
