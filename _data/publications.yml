@@ -889,7 +889,7 @@
   authors: Zhiyuan Yu, Yuanhaur Chang, Ning Zhang, Chaowei Xiao
   venue: USENIX Security 2023
   year: 2023
-  picture: '/images/publications/smack.png
+  picture: /images/publications/smack.png
   links:
     - type: pdf
       display: PDF
