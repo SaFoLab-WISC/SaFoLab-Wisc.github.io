@@ -25,13 +25,18 @@
 
   # note: '* denotes equal contribution. † denotes equal advising.'
 
+  # Notes
+  # Topic Types: Multi-modal LLM, LLM 
+
+  #  ---- Add Publications Below This Line
   # 69 - needs image
 
 - title: 'Dolphins: Multi-modal Language Model for Driving'
   authors: Yingzi Ma, Yulong Cao, Jiachen Sun, Marco Pavone, Chaowei Xiao
   venue: ECCV 2024
   year: 2024
-  topics: Multi-modal Models
+  topics: Multi-modal LLM
+  picture: /images/publications/dolphin.png
   links:
     - type: pdf
       display: PDF
@@ -61,6 +66,7 @@
   authors: Haizhong Zheng, Jiachen Sun, Shutong Wu, Bhavya Kaikhura, Zhuoqing Mao, Chaowei Xiao, Atul Prakash
   venue: ECCV 2024
   year: 2024
+  picture: /images/publications/featuresharing.png
   links:
     - type: pdf
       display: PDF
@@ -83,6 +89,8 @@
   authors: Yu Wang, Xiaogeng Liu, Yu Li, Muhao Chen, Chaowei Xiao
   venue: ECCV 2024
   year: 2024
+  topics: Multi-modal LLM
+  picture: /images/publications/adashield.png
   links:
   - type: pdf
     display: PDF
@@ -108,6 +116,8 @@
   authors: Wenhao Ding, Yulong Cao, Ding Zhao, Chaowei Xiao, Marco Pavone
   venue: ECCV 2024
   year: 2024
+  topics: Other
+  picture: /images/publications/realgen.png
   links:
   - type: pdf
     display: PDF
@@ -135,6 +145,7 @@
   venue: ACL 2024
   year: 2024
   topics: LLM Safety
+  picture: /images/publications/rlhf.png
   links:
   - type: pdf
     display: PDF
