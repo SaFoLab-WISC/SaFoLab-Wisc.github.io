@@ -1355,7 +1355,7 @@
   authors: Aria Rezaei, Chaowei Xiao, Bo Li, Jie Gao
   venue: EWSN 2021
   year: 2021
-  image: /images/publications/prgan.png
+  picture: /images/publications/prgan.png
   links:
     - type: pdf
       display: PDF
