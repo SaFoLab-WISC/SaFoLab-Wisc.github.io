@@ -18,7 +18,7 @@
 - name: Jiongxiao Wang
   picture: /images/people/jiongxiaowang.png
   home_url: https://jiongxiao-wang.github.io/
-  description: He is a first-year Ph.D. student in Information Science at the University of Wisconsin-Madison.
+  description: Ph.D.
   rank: phd
   links:
     - type: scholar
@@ -32,7 +32,7 @@
 - name: Xiaogeng Liu
   picture: /images/people/xiaogengliu.png
   home_url: https://sheltonliu-n.github.io/
-  description: He is a first-year Ph.D. student in Information Science at the University of Wisconsin-Madison.
+  description: Ph.D.
   rank: phd
   links:
     - type: scholar
@@ -41,15 +41,19 @@
       url: https://github.com//SheltonLiu-N
     - type: twitter
       url: https://x.com/XiaogengLiu
-- name: Shutong Wu
-  picture: /images/people/shutongwu.png
-  home_url: https://cychomatica.github.io/
-  description: He is a first-year Ph.D. student at the University of Wisconsin-Madison.
+
+
+- name: Yingzi Ma
+  picture: /images/people/yingzi.png
+  home_url: https://gray311.github.io/
+  description: Ph.D.
   rank: phd
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=d_Qk95cAAAAJ
+      url: 
     - type: github
-      url: https://github.com/cychomatica
+      url: 
     - type: twitter
-      url: https://x.com/JiongxiaoW
+      url:
+
+            
