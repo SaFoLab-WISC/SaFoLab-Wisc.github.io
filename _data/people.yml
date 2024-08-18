@@ -10,7 +10,7 @@
     - type: scholar
       url: https://scholar.google.com/citations?user=Juoqtj8AAAAJ&hl=en
     - type: github
-      url: https://github.com/xiaocw11
+      url: https://github.com/SaFoLab-WISC
     - type: twitter
       url: https://twitter.com/ChaoweiX
 
@@ -23,8 +23,8 @@
   links:
     - type: scholar
       url: https://scholar.google.com/citations?user=sIGapHMAAAAJ
-    - type: github
-      url: https://github.com/Jayfeather1024
+    # - type: github
+    #   url: https://github.com/Jayfeather1024
     - type: twitter
       url: https://x.com/JiongxiaoW
 
@@ -44,7 +44,7 @@
 
 
 - name: Yingzi Ma
-  picture: /images/people/yingzi.png
+  picture: /images/people/yingzi.jpg
   home_url: https://gray311.github.io/
   description: Ph.D.
   rank: phd
