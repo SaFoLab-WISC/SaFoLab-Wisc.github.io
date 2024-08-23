@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PKGRJ48FXW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PKGRJ48FXW');
+    </script>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lander Experiment - Instructions &#8211; SaFoLab-WISC</title>
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="SaFo: Safe And secure Foundation mOdel systems Labs">
+    <meta name="robots" content="all">
+    <meta name="author" content="SaFoLab-WISC">
+    
+    
+    <link rel="canonical" href="https://safolab.github.io/experiments/lander/">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for SaFoLab-WISC" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?202408231420" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	
+    <!-- Fonts -->
+	<link rel="stylesheet" href="/css/fonts/texgyrepagella.css" type="text/css" />
+    
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <!-- MathJax -->
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+          processEscapes: true
+        },
+        messageStyle: "none",
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+	  MathJax.Hub.Config({
+  	    "HTML-CSS": {matchFontHeight: false},
+	    SVG: {matchFontHeight: false},
+	    CommonHTML: {matchFontHeight: false}
+	  });
+	  MathJax.Hub.Config({
+	    "HTML-CSS": {minScaleAdjust: 95},
+	    SVG: {minScaleAdjust: 95},
+	    CommonHTML: {minScaleAdjust: 95}
+	  });
+    </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+    </script>
+    
+
+    <!-- Verifications -->
+    
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Lander Experiment - Instructions">
+    <meta property="og:description" content="SaFo: Safe And secure Foundation mOdel systems Labs">
+    <meta property="og:url" content="https://safolab.github.io/experiments/lander/">
+    <meta property="og:site_name" content="SaFoLab-WISC">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="Lander Experiment - Instructions" />
+    <meta name="twitter:description" content="SaFo: Safe And secure Foundation mOdel systems Labs" />
+    <meta name="twitter:url" content="https://safolab.github.io/experiments/lander/" />
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+
+</head>
+
+<body class="site">
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-PKGRJ48FXW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <!--<a href="https://safolab.github.io" class="site-title">SaFoLab-WISC</a>-->
+	  <a href="https://safolab.github.io"><img id="left-logo" src=" /images/logo.png" style="float:left;" /></a>
+        
+
+
+<nav class="site-nav" id="links" style="margin-top:20px;">
+
+    
+    
+    
+    
+		
+			<a href="/people/">People</a>
+			
+    
+
+
+    
+    
+    
+    
+		
+			<a href="/research/">Research</a>
+			
+    
+
+
+    
+    
+    
+    
+		
+			<a href="/publications/">Publications</a>
+			
+    
+
+
+<a href="https://www.youtube.com/" target="_blank">Videos</a>
+
+
+  <!--<div class="social-icons" style="float: right;">
+  <div class="social-icons-right">-->
+    
+      <a class="fa fa-newspaper tooltip" href=" /press"><span class="tooltiptext">Press</span></a>
+      <a class="fa fa-camera tooltip" href=" /photos"><span class="tooltiptext">Photos</span></a>
+    
+    
+      <a class="fa fa-github tooltip" href="https://github.com/SaFoLab-WISC"><span class="tooltiptext">GitHub</span></a>
+    
+    
+      <a class="fa fa-youtube-play tooltip" href="https://youtube.com/"><span class="tooltiptext">YouTube</span></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <!--</div>
+  <div class="right">-->
+    
+    
+    
+    <!--<a class="fa fa-rss tooltip" href="/feed.xml"><span class="tooltiptext">RSS</span></a>-->
+  <!--</div>
+  </div>-->
+  <div class="clearfix"></div>
+
+</nav>
+
+
+
+
+
+<nav class="site-nav" id="dropdown" style="margin-top:20px;">
+<select onchange="location = this.value;">
+<option value="https://safolab.github.io">Home</option>
+
+    
+    
+      
+		<option value="/people/">People</option>
+	  	
+    
+
+    
+    
+      
+		<option value="/research/">Research</option>
+	  	
+    
+
+    
+    
+      
+		<option value="/publications/">Publications</option>
+	  	
+    
+
+
+    <option value="/press">Press</option>
+    
+      <option value="https://github.com/SaFoLab-WISC">GitHub</option>
+    
+    
+      <option value="https://youtube.com/">YouTube</option>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</select>
+</nav>
+       
+      </nav>
+      <a href="https://www.wisc.edu/"><img id="right-logo" src=" /images/wisc.png" style="float:left;" /></a>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div class="post">
+  <header class="post-header">
+    <h1 class="h2">Lander Experiment - Instructions</h1>
+  </header>
+  <article class="post-content">
+  <p>Please carefully read the instructions below.</p>
+<p><figure style="float:right; width:420px; margin: 10px;"><img src="interface2.gif" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">The game interface.</span></figcaption></figure>
+In this experiment, you will be playing a simple computer game where you control a lunar lander spacecraft.
+
+The game interface is shown on the right. It is important that you do <strong>NOT</strong> refresh or close the page. Otherwise, the experiment will remain incomplete and you will not have a chance to continue.
+</p>
+<p>
+ <strong>Goal.</strong> The game consists of two phases. In the first phase, you just need to stabilize the lander, i.e., keep it upright. The goal of the second phase is to safely and quickly land the spacecraft on the ground, <strong>as close as possible to the landing pad between the two flags</strong>. A landing is safe if the main body of the spacecraft does not hit the ground. Examples of successful and unsuccessful landing attempts are shown and explained below.
+</p>
+<p><div style="height:240px;">
+<figure style="float:left; width:270px; margin:5px;"><img src="case1.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">A successful attempt: the lander has been successfully landed between the flags without any collision.</span></figcaption></figure>
+<figure style="float:left; width:270px; margin:5px;"><img src="case2.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">An unsuccessful attempt: the lander is between the flags, but its main body hit the ground.</span></figcaption></figure>
+<figure style="float:left; width:270px; margin:5px;"><img src="case3.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">Another unsuccessful attempt: the lander goes out of the field of view.</span></figcaption></figure>
+</div></p>
+<p>
+After each round a score will appear on the right. You will get a green check for a successful stabilization (in the first phase) or landing (in the second phase) and a red cross for an unsuccessful one. On average, scores close to 200 and above indicate success.
+</p>
+<p>
+Even if the lander crashes or goes out of the field of view, you may still get slightly better scores if the lander is close to the landing pad or the collision is mild.
+</p>
+<p>
+ <strong>Control Input.</strong> You will be using three arrow keys to control the lander. At any time, at most one control input is active, i.e., you are not allowed to fire multiple engines at the same time. If you press more than one key, only the last one will be active. The figure below shows these controls.
+</p>
+<p><div style="height:270px;">
+<figure style="float:left; width:270px; margin:5px;"><img src="control1.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">Left arrow key fires the right engine.</span></figcaption></figure>
+<figure style="float:left; width:270px; margin:5px;"><img src="control2.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">Up arrow key fires the main engine.</span></figcaption></figure>
+<figure style="float:left; width:270px; margin:5px;"><img src="control3.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">Right arrow key fires the left engine.</span></figcaption></figure>
+</div></p>
+<p>
+ <strong>Auto Pilot.</strong> Finally, we have an <i>auto pilot</i> implemented. The auto pilot takes over the control completely once it is active, but it becomes active only automatically, so you do not have control over when it will be on or off. You can see the state of the auto pilot (on or off) at the top right corner of the game screen (see the figures below).
+</p>
+<p><div style="height:220px;">
+<figure style="float:left; width:270px; margin:5px 75px;"><img src="autopilot1.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">Auto pilot is on.</span></figcaption></figure>
+<figure style="float:left; width:270px; margin:5px 75px;"><img src="autopilot2.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">Auto pilot is off.</span></figcaption></figure>
+</div></p>
+<p>
+You will be playing the game for 20 rounds. In some of the rounds, auto pilot can take over the control often and in some it may not interfere at all. It is even possible that auto-pilot be off during all 20 rounds. In the rounds when the auto pilot occasionally becomes active, it becomes active only when you provide some suboptimal control inputs to correct your actions. Regardless of the auto pilot's being on or off, you <strong>MUST</strong> keep providing control inputs to the lander.
+</p>
+<p>
+At the end of some rounds, auto pilot may demonstrate you why it interfered by showing you some replays. This is a chance to improve your skills controlling the lander. Specifically, the auto pilot is going to tell you a bad sequence of 3 actions you took, and show you what would happen if it did not interfere. Next, it is going to show you an ideal trajectory that follows the 3 actions it recommends. An example of replays is shown in the figures below.
+</p>
+<p><div style="height:220px;">
+<figure style="float:left; width:270px; margin:5px 75px;"><img src="replay1.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">Auto pilot tells a bad sequence of actions.</span></figcaption></figure>
+<figure style="float:left; width:270px; margin:5px 75px;"><img src="replay2.png" width="100%" /><figcaption><span style="color:gray; line-height:1; font-size:0.65rem; display:block;">Auto pilot shows the recommended actions.</span></figcaption></figure>
+</div></p>
+<p>
+The first 7 rounds are the first phase, where the goal is to keep the lander upright. You will have 16 seconds in each round in the first phase. In the second phase (13 rounds), you will have 48 seconds to land the space craft in each round. The round automatically ends when the attempt is complete, either successfully or unsuccessfully.
+</p>
+<p>
+You will be compensated \$3.75 for this study. We are compensating at the rate posted on Amazon Mechanical Turk, i.e. \$0.25 per minute (\$15/hour). Payment is arranged via Amazon Mechanical Turk.
+<strong>We will be offering bonuses for workers who score highly on the games.</strong> Workers will have a chance to earn up to \$6.25 total. So make sure you try your best to do well on these games!
+Now, please complete the 2-question quiz below to start the experiment.
+</p>
+
+<ol>
+<li>What does it mean if the "Auto Pilot" indicator is green (active)?<br />
+  <input type="radio" name="q1" id="q1_option1" value="q1_option1" onclick="checkAnswers()" />
+  <label for="q1_option1">The computer controls the lander itself, so I should not provide control inputs using my arrow keys.</label><br>
+  <input type="radio" name="q1" id="q1_option2" value="q1_option2" onclick="checkAnswers()" />
+  <label for="q1_option2">My control inputs are suboptimal, so the computer takes over. But I should keep providing control inputs using my arrow keys.</label><br>
+  <input type="radio" name="q1" id="q1_option3" value="q1_option3" onclick="checkAnswers()" />
+  <label for="q1_option3">The computer has decided to take over the control for no reason, but I should still provide control inputs using my arrow keys.</label><br>
+</li>
+<li>Which of the following is true?<br />
+  <input type="radio" name="q2" id="q2_option1" value="q2_option1" onclick="checkAnswers()" />
+  <label for="q2_option1">I can refresh the experiment page.</label><br>
+  <input type="radio" name="q2" id="q2_option2" value="q2_option2" onclick="checkAnswers()" />
+  <label for="q2_option2">I can refresh the experiment page only after I pause the game.</label><br>
+  <input type="radio" name="q2" id="q2_option3" value="q2_option3" onclick="checkAnswers()" />
+  <label for="q2_option3">I cannot refresh the experiment page until the experiment finishes.</label><br>
+</li>
+</ol>
+<input type="checkbox" name="consent" value="consent" onclick="checkAnswers()" id="consent" /><label for="consent"> I have reviewed the <a href="consent.pdf" target="_blank">consent form</a> and agree the terms.</label>
+<br />
+<center><form action="http://3.16.11.143:8080" method="GET">
+    Correctly answer the questions above and agree the terms to activate the login button.<br />Please enter your AMT Worker ID which can be found on the top left corner of the AMT website.<br />
+    Your AMT Worker ID: <input type="text" name="username" id="username" disabled /> <input type="submit" value="Login" id="loginButton" disabled />
+</form></center>
+
+<script>
+function checkAnswers() {
+    if (document.getElementById('q1_option2').checked && document.getElementById('q2_option3').checked && document.getElementById('consent').checked) {
+        document.getElementById('username').disabled = false;
+        document.getElementById('loginButton').disabled = false;
+    }
+    else {
+        document.getElementById('username').value = "";
+        document.getElementById('username').disabled = true;
+        document.getElementById('loginButton').disabled = true;
+    }
+}
+</script>
+
+  </article>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+	  &copy; <script>document.write((new Date()).getFullYear());</script> SaFoLab-WISC. Powered by <a href="https://jekyllrb.com/">Jekyll</a> using the <a href="https://github.com/johno/pixyll">Pixyll</a> theme. Modified for lab use. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
+    </small>
+  </div>
+</footer>
+
+
+</body>
+</html>

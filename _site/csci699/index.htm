@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>CSCI 699 Robot Learning</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="Erdem Bıyık">
+
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="all.css">
+
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+   <script type="text/javascript" src="jquery.min.js"></script>
+   <script type="text/javascript" src="bootstrap.min.js"></script>
+   <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div class="row clearfix">
+					<br>
+					<h1>CSCI 699: Robot Learning</h1>
+					<h3>Fall 2023-2024, Class: Fri 1:00-4:20pm, THH 208</h3>
+					<br>
+                    <h3><a href="syllabus.pdf">Syllabus</a> | <a href="https://piazza.com/usc/fall2023/csci699">Piazza</a> | <a href="https://www.gradescope.com/courses/580351">Gradescope</a></h3>
+                    <br>
+					<h3>Description:</h3>
+					<p>Robot learning is an interdisciplinary field at the intersection of robotics, machine learning, cognitive science, and control theory, aiming to create intelligent and adaptable robotic systems capable of learning from their environment and experience. With rapid advances in artificial intelligence and computing power, as well as the possibility of having larger datasets, robot learning has the potential to revolutionize a wide range of applications, from manufacturing and healthcare to transportation and personal assistance. However, developing learning algorithms for real-world robotic systems poses unique challenges due to the complexities of the physical world, safety concerns, and the need for efficient and robust learning methods.</p>
+                    <p>This course provides a comprehensive introduction to the fundamentals of robot learning, covering topics such as reinforcement learning, computer vision, meta-learning, sim-to-real transfer, and multi-agent learning. Students will explore cutting-edge techniques in imitation learning, inverse reinforcement learning, representation learning, and safe and robust learning, while also discussing the real-world applications and challenges of robot learning. The course is designed to be accessible to PhD students in robotics, control theory, machine learning, artificial intelligence, optimization, and related fields; with an emphasis on both theoretical foundations and practical applications.</p>
+                    <p>In addition to lectures, the course features a series of student-led presentations on recent research papers and a course project, allowing students to gain hands-on experience with the latest advances in robot learning and explore emerging research topics. Through a combination of lectures, homework assignments, presentations, and project work, students will develop a deep understanding of robot learning techniques and their potential to transform the way we interact with and utilize robots in our everyday lives.</p>
+					<br>
+					<h3>Prerequisites:</h3>
+					<p>Students are recommended to have familiarity with fundamental concepts in machine learning. CSCI 467: Introduction to Machine Learning, and CSCI 445L: Introduction to Robotics are recommended but not required.</p>
+				</div>
+
+				<div class="hrline"> <hr> </div>
+				<div class="row clearfix">
+					<h3> Staff </h3>
+					<div class="row clearfix">
+						<div class="col-md-3 column">
+							<img class="img-thumbnail" src="erdem.png" alt="Erdem Bıyık" width="160" height="160">
+							<h3>Erdem Bıyık</h3>
+							<h4>Instructor</h4>
+							<h5>Office Hours: Fri 11AM-12PM</h5>
+							<h5>Location: PHE 214</h5>
+                            <h5>biyik [at] usc [dot] edu</h5>
+							<h5><a href="http://ebiyik.github.io/">Webpage</a></h5>
+						</div>
+						<div class="col-md-3 column">
+							<img class="img-thumbnail" src="anthony.jpg" alt="Course TA" width="160" height="160">
+							<h3>Anthony Liang</h3>
+							<h4>Teaching Assistant</h4>
+							<h5>Office Hours: Thu 1PM-2PM</h5>
+							<h5>Location: RTH Floor 4 Lounge</h5>
+                            <h5>aliang80 [at] usc [dot] edu</h5>
+							<h5><a href="https://aliang8.github.io/">Webpage</a></h5>
+						</div>
+                        <div class="col-md-3 column">
+							<img class="img-thumbnail" src="pragya.jpg" alt="Course TA" width="160" height="160">
+							<h3>Pragya Goel</h3>
+							<h4>Grader</h4>
+                            <h5>p872038 [at] usc [dot] edu</h5>
+							<h5></h5>
+							<h5></h5>
+							<h5><a href="#"></a></h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="hrline"> <hr> </div> <br>
+				<h3 id="topics">Timeline</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th style="width: 8%">Date</th>
+							<th style="width: 28%">Lecture</th>
+							<th style="width: 50%">Readings / Deadlines</th>
+							<th style="width: 14%">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="active">
+							<td><b>Week 1</b><br> 
+								Fri, Aug 25
+							</td>
+							<td>
+                                General course information<br>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Basics of robotics<br>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals of machine learning
+                            </td>
+							<td>
+								<b class="bold">Please checkout our <a href="#grading-policies">Course Policies.</a></b>
+							</td>
+							<td>
+								<a href="slides/Lecture 1.pdf">Slides</a>
+							</td>
+						</tr>
+						<tr>
+							<td><b>Week 2</b><br> 
+								Fri, Sep 1
+							</td>
+							<td>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Basics of computer vision for robotics<br>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Representation learning
+                            </td>
+							<td>
+							</td>
+							<td>
+								<a href="homeworks/hw1.pdf">Homework 1</a><br>
+								<a href="slides/Lecture 2.pdf">Slides</a>
+							</td>
+						</tr>
+						<tr class="active">
+							<td><b>Week 3</b><br> 
+								Fri, Sep 8
+							</td>
+							<td>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Representation learning<br>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Reinforcement learning
+                            </td>
+							<td>
+                                <ul style="padding:0;">
+                                    <li>Zhou et al., <a href="https://arxiv.org/pdf/1704.07813.pdf">Unsupervised Learning of Depth and Ego-Motion from Video</a> (2017).</li>
+                                    <li>Oord et al., <a href="https://arxiv.org/pdf/1807.03748.pdf">Representation Learning with Contrastive Predictive Coding</a> (2018).</li>
+                                    <li>Chen et al., <a href="https://arxiv.org/pdf/2002.05709.pdf">A Simple Framework for Contrastive Learning of Visual Representations</a> (2020).</li>
+                                    <li>Bobu et al., <a href="https://arxiv.org/pdf/2301.00810.pdf">SIRL: Similarity-based Implicit Representation Learning</a> (2023).</li>
+                                </ul>
+							</td>
+							<td>
+								<a href="slides/Lecture 3.pdf">Slides</a>
+							</td>
+						</tr>
+						<tr>
+							<td><b>Week 4</b><br> 
+								Fri, Sep 15
+							</td>
+							<td>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Reinforcement learning<br>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Reinforcement learning
+                            </td>
+							<td>
+                                <span class="label label-due text-base">Due</span><b> Homework #1</b><br>
+                                <ul style="padding:0;">
+                                    <li>Janner et al., <a href="https://arxiv.org/pdf/1906.08253.pdf">When to Trust Your Model: Model-Based Policy Optimization</a> (2019).</li>
+                                    <li>Hafner et al., <a href="https://arxiv.org/pdf/1912.01603.pdf">Dream to Control: Learning Behaviors by Latent Imagination</a> (2019).</li>
+                                    <li>Srinivas et al., <a href="https://arxiv.org/pdf/2004.04136.pdf">CURL: Contrastive Unsupervised Representations for Reinforcement Learning</a> (2020).</li>
+                                    <li>Ajay et al., <a href="https://arxiv.org/pdf/2211.15657.pdf">Is Conditional Generative Modeling All You Need for Decision-making?</a>, (2023).</li>
+                                </ul>
+							</td>
+							<td>
+								<a href="slides/Lecture 4.pdf">Slides</a>
+							</td>
+						</tr>
+						<tr class="active">
+							<td><b>Week 5</b><br> 
+								Fri, Sep 22
+							</td>
+							<td>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Reinforcement learning<br>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Imitation learning
+                            </td>
+							<td>
+                                <ul style="padding:0;">
+                                    <li>Haarnoja et al., <a href="https://arxiv.org/pdf/1801.01290.pdf">Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor</a> (2018).</li>
+                                    <li>Schulman et al., <a href="https://arxiv.org/pdf/1707.06347.pdf">Proximal Policy Optimization Algorithms</a> (2017).</li>
+                                    <li>Chen et al., <a href="https://arxiv.org/pdf/2106.01345.pdf">Decision Transformer: Reinforcement Learning via Sequence Modeling</a> (2021).</li>
+									<li>Reddy et al., <a href="https://arxiv.org/pdf/1802.01744.pdf">Shared Autonomy via Deep Reinforcement Learning</a> (2018).</li>
+                                </ul>
+							</td>
+                            <td>
+								<a href="homeworks/hw2.pdf">Homework 2</a><br>
+								<a href="slides/Lecture 5.pdf">Slides</a>
+                            </td>
+						</tr>
+						<tr>
+							<td><b>Week 6</b><br> 
+								Fri, Sep 29
+							</td>
+							<td>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Imitation learning<br>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Learning from human feedback
+							</td>
+                            <td>
+                                <ul style="padding:0;">
+                                    <li>Ross et al., <a href="https://arxiv.org/pdf/1011.0686.pdf">A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning</a> (2011).</li>
+                                    <li>Ho and Ermon, <a href="https://arxiv.org/pdf/1606.03476.pdf">Generative Adversarial Imitation Learning</a> (2016).</li>
+                                    <li>Florence et al., <a href="https://arxiv.org/pdf/2109.00137.pdf">Implicit Behavioral Cloning</a> (2021).</li>
+                                    <li>Shafiullah et al., <a href="https://arxiv.org/pdf/2206.11251.pdf">Behavior Transformers: Cloning k modes with one stone</a> (2022).</li>
+                                </ul>
+							</td>
+							<td>
+								<a href="slides/Lecture 6.pdf">Slides</a>
+                            </td>
+						</tr>
+						<tr class="active">
+							<td><b>Week 7</b><br> 
+								Fri, Oct 6
+							</td>
+							<td>
+								<i><span class="label label-lecture text-base">Lecture</span></i> Learning from human feedback<br>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Learning from human feedback
+                            </td>
+							<td>
+                                <span class="label label-due text-base">Due</span><b> Homework #2</b><br>
+                                <span class="label label-due text-base">Due</span><b> Project Proposal</b><br>
+                                <ul style="padding:0;">
+                                    <li>Myers et al., <a href="https://arxiv.org/pdf/2302.13507.pdf">Active Reward Learning from Online Preferences</a> (2023).</li>
+									<li>Bobu et al., <a href="https://arxiv.org/pdf/2201.07082.pdf">Inducing Structure in Reward Learning by Learning Features</a> (2022).</li>
+                                    <li>Hadfield-Menell et al., <a href="https://arxiv.org/pdf/1711.02827.pdf">Inverse Reward Design</a> (2017).</li>
+                                    <li>Kwon et al., <a href="https://arxiv.org/pdf/2001.04377.pdf">When Humans aren't Optimal: Robots that Collaborate with Risk-aware Humans</a> (2020).</li>
+                                </ul>
+                                
+							</td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td><b>Week 8</b><br> 
+								Fri, Oct 13
+							</td>
+							<td><b>Fall Recess:</b> No Lecture</td>
+							<td>
+							</td>
+							<td>
+								<a href="homeworks/hw3.pdf">Homework 3</a><br>
+							</td>
+						</tr>
+						<tr class="active">
+							<td><b>Week 9</b><br>
+								Fri, Oct 20
+							</td>
+							<td>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Sim-to-real transfer<br>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Sim-to-real transfer
+                            </td>
+							<td>
+                                <ul style="padding:0;">
+									<li>Bajcsy et al., <a href="https://proceedings.mlr.press/v78/bajcsy17a/bajcsy17a.pdf">Learning Robot Objectives from Physical Human Interaction</a> (2017).</li>
+                                    <li>Peng et al., <a href="https://arxiv.org/pdf/1710.06537.pdf">Sim-to-Real Transfer of Robotic Control with Dynamics Randomization</a> (2017).</li>
+									<li>Matas et al., <a href="https://arxiv.org/pdf/1806.07851.pdf">Sim-to-Real Reinforcement Learning for Deformable Object Manipulation</a> (2018).</li>
+                                    <li>James et al., <a href="https://arxiv.org/pdf/1812.07252.pdf">Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping via Randomized-to-Canonical Adaptation Networks</a> (2019).</li>
+                                    <li>Du et al., <a href="https://arxiv.org/pdf/2104.07662.pdf">Auto-Tuned Sim-to-Real Transfer</a> (2021).</li>
+                                </ul>
+                            </td>
+							<td>
+								<a href="slides/Lecture 9.pdf">Slides</a>
+                            </td>
+						</tr>
+						<tr>
+							<td><b>Week 10</b><br> 
+								Fri, Oct 27
+							</td>
+							<td>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Meta & Multi-task learning<br>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Meta & Multi-task learning
+							<td>
+                                <span class="label label-due text-base">Due</span><b> Homework #3</b><br>
+                                <ul style="padding:0;">
+									<li>Chan et al., <a href="https://arxiv.org/pdf/2111.06956.pdf">Human Irrationality: Both Bad and Good for Reward Inference</a> (2021).</li>
+                                    <li>Julian et al., <a href="https://arxiv.org/pdf/2004.10190.pdf">Never Stop Learning: The Effectiveness of Fine-Tuning in Robotic Reinforcement Learning</a> (2020).</li>
+                                    <li>Kim et al., <a href="https://arxiv.org/pdf/1806.03836.pdf">Bayesian Model-Agnostic Meta-Learning</a> (2018).</li>
+									<li>Sodhani et al., <a href="https://proceedings.mlr.press/v139/sodhani21a/sodhani21a.pdf">Multi-Task Reinforcement Learning with Context-based Representations</a> (2021).</li>
+                                    <li>Shridhar et al., <a href="https://arxiv.org/pdf/2209.05451.pdf">Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation</a> (2022).</li>
+                                </ul>
+                            </td>
+							</td>
+							<td>
+								<a href="slides/Lecture 10.pdf">Slides</a>
+                            </td>
+						</tr>
+						<tr class="active">
+							<td><b>Week 11</b><br> 
+								Fri, Nov 3
+							</td>
+							<td>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Safe and robust learning<br>
+                                <i><span class="label label-lecture text-base">Lecture</span></i> Multi-agent learning
+							</td>
+							<td>
+                                <span class="label label-due text-base">Due</span><b> Project Milestone Report</b>
+                                <ul style="padding:0;">
+                                    <li>Sui et al., <a href="http://proceedings.mlr.press/v37/sui15.pdf">Safe Exploration for Optimization with Gaussian Processes</a> (2015).</li>
+									<li>Achiam et al., <a href="https://arxiv.org/pdf/1705.10528.pdf">Constrained Policy Optimization</a> (2017).</li>
+                                    <li>Robey et al., <a href="https://arxiv.org/pdf/2004.03315.pdf">Learning Control Barrier Functions from Expert Demonstrations</a> (2020).</li>
+                                    <li>Bansal and Tomlin, <a href="https://arxiv.org/pdf/2011.02082.pdf">Deepreach: A Deep Learning Approach to High-dimensional Reachability</a> (2021).</li>
+                                </ul>
+                                
+                            </td>
+							<td>
+								<a href="slides/Lecture 11.pdf">Slides</a>
+                            </td>
+						</tr>
+						<tr>
+							<td><b>Week 12</b><br> 
+								Fri, Nov 10
+							</td>
+							<td><b>Veterans Day:</b> No Lecture</td>
+							<td></td>
+							<td></td>
+						</tr>
+                        <tr class="active">
+							<td><b>Week 13</b><br> 
+								Fri, Nov 17
+							</td>
+							<td>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Multi-agent learning<br>
+                                <i><span class="label label-presentation text-base">Presentation</span></i> Robot learning using natural language
+                            </td>
+							<td>
+                                <ul style="padding:0;">
+									<li>Jeon et al., <a href="https://arxiv.org/pdf/2005.03210.pdf">Shared Autonomy with Learned Latent Actions</a> (2020).</li>
+                                    <li>Foerster et al., <a href="https://proceedings.neurips.cc/paper_files/paper/2016/file/c7635bfd99248a2cdef8249ef7bfbef4-Paper.pdf">Learning to Communicate with Deep Multi-Agent Reinforcement Learning</a> (2016).</li>
+                                    <li>Silver et al., <a href="https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf">Mastering the Game of Go with Deep Neural Networks and Tree Search</a> (2016).</li>
+                                    <li>Hu et al., <a href="https://arxiv.org/pdf/2003.02979.pdf">“Other-Play” for Zero-Shot Coordination</a> (2021).</li>
+                                    <li>Ahn et al., <a href="https://arxiv.org/pdf/2204.01691.pdf">Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</a> (2022).</li>
+                                    <li>Sharma et al., <a href="https://arxiv.org/pdf/2204.05186.pdf">Correcting Robot Plans with Natural Language Feedback</a> (2022).</li>
+                                    <li>Singh et al., <a href="https://arxiv.org/pdf/2209.11302.pdf">ProgPrompt: Generating Situated Robot Task Plans using Large Language Models</a> (2023).</li>
+                                    <li>Brohan et al., <a href="https://arxiv.org/pdf/2307.15818.pdf">RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control</a> (2023).</li>
+                                </ul>
+                            </td>
+							<td>
+                            </td>
+						</tr>
+                        <tr>
+							<td><b>Week 14</b><br> 
+								Fri, Nov 24
+							</td>
+							<td><b>Thanksgiving Break:</b> No Lecture</td>
+							<td>
+                            </td>
+							<td>
+                            </td>
+						</tr>
+                        <tr class="active">
+							<td><b>Week 15</b><br> 
+								Fri, Dec 1
+							</td>
+							<td>
+                                <i><span class="label label-project text-base">Project</span></i> Project Presentations
+                            </td>
+							<td>
+                                <span class="label label-due text-base">Due</span><b> Final Project Report</b>
+                            </td>
+							<td>
+                            </td>
+						</tr>
+                        <tr>
+							<td><b>Finals Week</b><br> 
+								Fri, Dec 8
+							</td>
+							<td>
+                                <i>No lecture. No final exam.</i>
+                            </td>
+							<td>
+                                <span class="label label-due text-base">Due</span><b> Peer Review</b>
+                            </td>
+							<td>
+                            </td>
+						</tr>
+					</tbody>
+				</table>
+
+				<br>
+				<div class="hrline"> <hr> </div>
+				<br>
+				<div class="grading-metrics">
+					<div class="row">
+						<div class="col-md-6">
+						<h3> Grading Metrics </h3>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Component</th>
+									<th>Contribution to Grade</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Homework</td>
+									<td>45%</td>
+								</tr>
+								<tr>
+									<td>Class Presentations</td>
+									<td>15%</td>
+								</tr>
+								<tr>
+									<td>Course Project</td>
+									<td>40%</td>
+								</tr>
+								<tr class="active">
+									<td>Total</td>
+									<td>100%</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-6">
+						<h3> Project Grading </h3>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Component</th>
+									<th>Contribution to Grade</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Project Proposal Report</td>
+									<td>5%</td>
+								</tr>
+								<tr>
+									<td>Project Milestone Report</td>
+									<td>5%</td>
+								</tr>
+								<tr>
+									<td>Project Presentation (Possibly with Demo)</td>
+									<td>10%</td>
+								</tr>
+								<tr>
+									<td>Final Project Report</td>
+									<td>15%</td>
+								</tr>
+                                <tr>
+									<td>Peer Review</td>
+									<td>5%</td>
+								</tr>
+								<tr class="active">
+									<td>Total</td>
+									<td>40%</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div id="grading-policies">
+					<h3> Grading Policies </h3>
+					<br>
+					<p><b>Homework (45%)</b>: Students will be assigned three homework sets that consist of both report questions and
+programming questions (in Python). Report questions will require students to work on problems related to
+past lectures with pen and paper. Programming questions will require students to implement some of the
+methods covered in the lectures, occasionally with further improvements, and experiment them on
+simulated robot environments and/or machine learning tasks.</p>
+                    <p>Homework reports and codes will be submitted online. Students will have a total of 8 free late days that may be used for the homework assignments; a maximum of 4 late days will be allowed on a given assignment. Late days are only for homework assignments, and cannot be used for the class presentation or deadlines related to the course project.</p>
+
+					<p><b>Class Presentation (15%)</b>: Students will present research papers from literature. Presentations will be followed
+by open discussions. Students will be graded based on their presentations.</p>
+
+					<p>In case the class size is too large to have every student make a presentation, some students will be required
+ to write a short review of the papers that will be presented in class. These short reviews will be due on the beginning of the class.</p>
+
+					<p><b>Course Project (40%)</b>: Students will be required to work on a course project in groups of 2-3. The
+projects must have both robotics and machine learning components. They can be, for example, application-dependent
+improvements over an existing robot learning method, a novel robot learning related
+application of an existing technique, or a completely new method that may have potential benefits.
+Students will write a <b>2-page</b> project proposal, present their findings in an oral presentation, write a conference
+paper-style <b>6-8 pages</b> project report, and write an anonymous peer review <b>(max 1 page)</b> for the project report of another group.
+There will be a <b>2-page</b> project milestone along the way to guide progress. Instructor and teaching assistant(s)
+will provide feedback on the project milestone.</p>
+
+				</div>
+                <br>
+                <div id="grading-policies">
+					<h3> Other References </h3>
+                    This class is partially based on the following existing courses:
+                    <ul>
+                    <li><a href="https://dorsa.fyi/cs333/">Safe and Interactive Robotics (Stanford)</a></li>
+                    <li><a href="http://people.eecs.berkeley.edu/~anca/AHRI.html">Algorithmic Human-Robot Interaction (Berkeley)</a></li>
+                    <li><a href="http://web.stanford.edu/class/cs237b/">Principles of Robot Autonomy II (Stanford)</a></li>
+                    <li><a href="https://people.eecs.berkeley.edu/~pabbeel/cs287-fa19/">Advanced Robotics (Berkeley)</a></li>
+                    </ul>
+                </div>
+			</div>
+		</div>
+		
+
+
+		<!-- The footer -->
+		<div class="hrline"><hr></div><br>
+		<div class="row clearfix">
+			<div class="col-md-3 column">
+			</div>
+			<div class="col-md-6 column">
+				<div class="text-center">
+					<p>
+					&nbsp;&nbsp;&nbsp; © Erdem Bıyık 2023
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3 column">
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<!-- End of document -->
+	</div>
+
+
+</div></body></html>
