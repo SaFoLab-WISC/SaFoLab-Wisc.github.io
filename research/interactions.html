@@ -1,0 +1,95 @@
+<p>
+	<p><figure style="width:40%; float:right;"><img src="/images/research/interaction.png" /><figcaption>Shared representations (such as roles or intents) that capture the sufficient information needed for collaboration.</figcaption></figure>
+		AI agents need to collaborate and interact with humans in many different settings such as autonomous vehicles driving alongside humans, robots assisting humans in homes, AI assistants learning and leveraging human preferences. 
+		On the other hand, humans surprisingly collaborate well together even in complex tasks by adapting to each other through repeated interactions. 
+		Given humans' computational constraints (such as being bounded rational with access to limited memory or time), we believe the reason humans can easily interact with each other is that interactions, despite their apparent complexity, are inherently structured. What emerges from these repeated interactions is shared knowledge about the interaction history that enables them to trust each other. 
+	</p>
+<p>
+		Understanding repeated and long-term interaction of learning agents with humans introduces a set of theoretical and applied challenges for developing more effective AI agents that can coordinate, collaborate, or even positively influence humans. Specifically, we focus on two fundamental research directions: (1) developing representation learning algorithms that enable capturing the core of interaction for better coordination, collaboration, and influencing, and (2) effectively adapting to human partners over repeated interactions. 
+	</p>
+
+
+<!-- As robots enter our lives, many important questions about the interaction between humans and robots arise. 
+What are the equlibria that the agents reach to after repeated interactions? What are some of the emergent behaviors that are the results of repeated interactions? Can leading and following (or in other words teaching and learning) naturally emerge? Can the AI agent guide the human toward more desirable outcomes? Can the agents develop partner-specific conventions throughout the interaction? How do conventions adapt over time, i.e., how do partners adapt to each other over long-term interactions? How can repeated interactions influence trust or deception? -->
+
+<!-- </p>
+
+<p>
+	In practice, humans are able to seamlessly interact and adapt even in complex settings. Given humans' computational constraints (such as being bounded rational with access to limited memory or time), we believe the reason humans can easily interact with each other is that interactions, despite their apparent complexity, are inherently structured. Our goal is to discover such structures, and leverage them for better collaboration and influencing. We study interactions in the space of assistive teleoperation [<a href="/pdfs/publications/losey2020controlling.pdf">ICRA 2020</a>, <a href="/pdfs/publications/jeon2020shared.pdf">RSS 2020</a>, <a href="/pdfs/publications/li2020learning.pdf">IROS 2020</a>], dyadic interactions [<a href="/pdfs/publications/losey2019learning.pdf">CoRL 2019</a>, <a href="/pdfs/publications/losey2019robots.pdf">IROS 2019</a>], and autonomous driving and navigation [<a href="/pdfs/publications/sadigh2016planning.pdf">RSS 2016</a>, <a href="/pdfs/publications/sadigh2016information.pdf">IROS 2016</a>, <a href="/pdfs/publications/sadigh2018planning.pdf"> AURO 2018</a>, <a href="kwon2019influencing.pdf">RSS 2019</a>].
+</p> -->
+
+<!-- robots can influence the behaviors of humans. For that, we model the interaction as a multi-agent game which can be cooperative (tasks that involve human-robot collaboration) or competitive (e.g. traffic). We investigate the policies and implications of these games to analyze the efficiency and the safety of human-robot interactions.
+ -->
+ <p>
+ <h4> Game Theoretic Approaches for Formalizing Interaction </h4>
+ <figure style="width:30%; float:right;"><img src="/images/research/driving.png" /><figcaption>Autonomous car nudging in front of a human-driven car to influence the driver to slow down as a result of a game-theoretic planner.</figcaption></figure>
+
+ In our work [<a href="/pdfs/publications/sadigh2018planning.pdf">AURO 2018</a>], we have focused on a game-theoretic and dynamical systems approach for modeling the interaction between humans and robots. Specifically, we have formalized the interaction between autonomous cars and human-driven cars as an underactuated dynamical system in order to go beyond simplistic models of other drivers on the road, e.g., models that treat human-driven cars as moving obstacles, and instead take into account a learning-based approach that incorporates expressive models of human actions and their responses to robots. We demonstrate that we can plan to influence human-driven cars when optimizing for better safety, efficiency, and coordination. We actively gather information about the driving style of other vehicles to discover their policies and influence them toward more desirable strategies.
+
+
+ <p>
+ <h4> Representations for Repeated and Continual Interactions </h4> 
+ We build upon the important insight that humans and robots need to coordinate with each other over long-term and repeated interactions, and that game-theoretic techniques to build models of the partner are not scalable over continual repeated interactions. 
+ We have thus developed a new and orthogonal paradigm that learns a low-dimensional representation in Markov games---which we refer to as <i>conventions</i>---that capture the core of interaction. Conventions are approximations of sufficient statistics needed for multi-agent coordination. This idea can enable long-term and adaptive interactive behavior in a scalable fashion. 
+ <p>
+
+  <center>
+<img width="80%" src="/images/research/decent.gif" />
+</center>
+
+<p>
+ The learned low-dimensional representation can correspond to a diverse set of entities such as assignment of leading and following roles in multi-robot games [<a href="/pdfs/publications/li2021influencing.pdf">AURO 2021</a>], the listening and speaking roles in dyadic interactions, e.g., when two robots collaboratively transport an object [<a href="/pdfs/publications/losey2019learning.pdf">CoRL 2019</a>], a latent action space for teleoperating an assistive robot [<a href="/pdfs/publications/losey2020controlling.pdf">ICRA 2020</a>, <a href="/pdfs/publications/jeon2020shared.pdf">RSS 2020</a>, <a href="/pdfs/publications/li2020learning.pdf">IROS 2020</a>, <a href="/pdfs/publications/losey2021learning.pdf">AURO 2021</a>, <a href="/pdfs/publications/karamcheti2021learning.pdf">L4DC 2021</a>, <a href="/pdfs/publications/karamcheti2021lila.pdf">CoRL 2021</a>], a latent strategy or intent of partner policies [<a href="/pdfs/publications/xie2020learning.pdf">CoRL 2020</a>, <a href="/pdfs/publications/shih2021critical.pdf">ICLR 2021</a>, <a href="/pdfs/publications/wang2021influencing.pdf">CoRL 2021</a>], or even conventions developed through linguistic communication [<a href="/publications/hawkins2020continual.pdf">CoNLL 2020</a>]. 
+
+<figure style="width:30%; float:right;"><img src="/images/research/hockey.gif" /><figcaption>LILI: Learning and Influencing Latent Intent. We capture a low-dimensional latent strategy of the other agent's policy and leverage that for better coordination in a game of air-hockey.</figcaption></figure>
+
+<p>
+ We demonstrate that we can train a deep reinforcement learning policy that leverages these learned representations to better model the non-stationary partner strategy and further to plan and even influence the partner for reaching more effective long-term outcomes. Our algorithm <i><a href=""/pdfs/publications/xie2020learning.pdf">LILI: Learning and Influencing Latent Intent</a></i> can play a game of air-hockey with another partner (robot or human) without any prior knowledge of their strategy in real-time [<a href="/pdfs/publications/xie2020learning.pdf">CoRL 2020</a>]. 
+
+
+Building upon this work, we have studied how to reduce non-stationarity in multi-agent reinforcement learning by stabilizing these learned representations.  Our algorithm, <i><a href="/pdfs/publications/wang2021influencing.pdf">SILI: Stable Influencing of Latent Intent</a></i> stabilizes partner strategies in an effective way that leads to role assignments and solving an easier learning problem in multi-agent collaborations [<a href="/pdfs/publications/wang2021influencing.pdf">CoRL 2021</a>]. In addition, we have studied how these conventions adapt over repeated interactions and have proposed a modular approach that separately learns these conventions and their evolution [<a href="/pdfs/publications/shih2021critical.pdf">ICLR 2021</a>].
+
+
+ <p>
+
+ <h4> An Application of Learned Representations: Assistive Teleoperation </h4>
+ For almost one million American adults living with physical disabilities, picking up a bite of food or pouring a glass of water presents a significant challenge. Wheelchair-mounted robotic arms -- and other physically assistive devices -- hold the promise of increasing user autonomy, reducing reliance on caregivers, and improving quality of life. Unfortunately, the very dexterity that makes these robotic assistants useful also makes them hard for humans to control. Today's users must teleoperate their assistive robots throughout entire tasks. For instance, when users control an assistive robot for eating, they would need to carefully orchestrate the position and orientation of the end-effector to move a fork to the plate, spear a morsel of food, and then guide the food back towards their mouth. These challenges are often prohibitive: users living with disabilities have reported that they choose not to leverage their assistive robot when eating because of the associated difficulty. Our key insight is that controlling high-dimensional robots can become easier by learning and leveraging low-dimensional representations of actions, which enable users to convey their intentions, goals, and plans to the robot using simple, intuitive, and low-dimensional inputs.
+</p>
+
+ <center>
+<img width="49%" src="/images/posts/losey2019controlling/image4.gif" />
+<img width="49%" src="/images/posts/losey2019controlling/image5.gif" />
+</center>
+<!-- <p>
+One can think a latent space as a manifold that captures the most important aspects of your data (e.g., if your data is a matrix, then the latent space could be the first few eigenvectors of that matrix). 
+</p> -->
+<p>
+Imagine that you are working with the assistive robot to grab food from your plate. Here we placed three marshmallows on a table in front of the user, and the person needs to make the robot grab one of these marshmallows using their joystick.
+
+<center>
+<img width="80%" src="/images/posts/losey2019controlling/image11.gif" />
+</center>
+
+Importantly, the robot does not know which marshmellow the human wants! Ideally, the robot will make this task easier by learning a simple mapping between the person's inputs and their desired marshmallow.
+</p>
+<p>
+Our work addresses challenges in assistive teleoperation and specifically assistive feeding by <a href="/pdfs/publications/losey2020controlling.pdf">leveraging latent representations of actions</a> to enable intuitive control of the robots, <a href="/pdfs/publications/jeon2020shared.pdf">integrating shared autonomy and latent actions</a> to enable precise manipulation for food acquisition and transfer, and <a href="/pdfs/publications/li2020learning.pdf">learning personalized controllers</a> to enable faster adaptations to specific users. More recently, we have developed <i><a href="/pdfs/publications/karamcheti2021lila.pdf">LILA: Language-Informed Latent Actions</a></i> that incorporates language instructions as another input to disambiguate and enable a more intuitive teleoperation interface.
+</p>
+
+
+<strong>Incomplete List of Related Publications:</strong>
+<ul style="font-size: small;">
+<li>Woodrow Zhouyuan Wang, Andy Shih, Annie Xie, Dorsa Sadigh. <strong>Influencing Towards Stable Multi-Agent Interactions</strong>. <i>Proceedings of the 5th Conference on Robot Learning (CoRL), 2021</i>. <a href="/pdfs/publications/wang2021influencing.pdf">[PDF]</a></li>
+<li>Annie Xie, Dylan Losey, Ryan Tolsma, Chelsea Finn, Dorsa Sadigh. <strong>Learning Latent Representations to Influence Multi-Agent Interaction</strong>. <i>Proceedings of the 4th Conference on Robot Learning (CoRL), 2020</i>. <a href="/pdfs/publications/xie2020learning.pdf">[PDF]</a></li>
+<li>Andy Shih, Arjun Sawhney, Jovana Kondic, Stefano Ermon, Dorsa Sadigh. <strong>On the Critical Role of Conventions in Adaptive Human-AI Collaboration</strong>. <i>9th International Conference on Learning Representations (ICLR), 2021</i>. <a href="/pdfs/publications/shih2021critical.pdf">[PDF]</a></li>
+<li>Siddharth Karamcheti*, Megha Srivastava*, Percy Liang, Dorsa Sadigh. <strong>LILA: Language-Informed Latent Actions</strong>. <i>Proceedings of the 5th Conference on Robot Learning (CoRL), 2021</i>. <a href="/pdfs/publications/karamcheti2021lila.pdf">[PDF]</a></li>
+<li>Dylan Losey, Hong Jun Jeon, Mengxi Li, Krishnan Srinivasan, Ajay Mandlekar, Animesh Garg, Jeannette Bohg, Dorsa Sadigh. <strong>Learning Latent Actions to Control Assistive Robots</strong>. <i>Journal of Autonomous Robots (AURO), 2021</i>. <a href="/pdfs/publications/li2021influencing.pdf">[PDF]</a></li>
+<li> Hong Jun Jeon, Dylan Losey, Dorsa Sadigh. <strong>Shared Autonomy with Learned Latent Actions</strong>. <i> Proceedings of Robotics: Science and Systems (RSS), July 2020</i>. <a href="/pdfs/publications/jeon2020shared.pdf">[PDF]</a></li>
+<li>Mengxi Li*, Minae Kwon*, Dorsa Sadigh. <strong>Influencing Leading and Following in Human-Robot Teams</strong>. <i>Journal of Autonomous Robots (AURO), 2021</i>. <a href="/pdfs/publications/li2021influencing.pdf">[PDF]</a></li>
+<li>Dorsa Sadigh, Nick Landolfi, S. Shankar Sastry, Sanjit A. Seshia, Anca D. Dragan. <strong>Planning for Cars that Coordinate with People: Leveraging Effects on Human Actions for Planning and Active Information Gathering over Human Internal State</strong>. <i>Autonomous Robots (AURO), October 2018</i>. <a href="/pdfs/publications/sadigh2018planning.pdf">[PDF]</a></li>
+<!-- <li>Dorsa Sadigh, S. Shankar Sastry, Sanjit A. Seshia, Anca Dragan. <strong>Information Gathering Actions over Human Internal State</strong>. <i>Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 2016</i>. <a href="/pdfs/publications/sadigh2016information.pdf">[PDF]</a></li>
+<li>Dorsa Sadigh, S. Shankar Sastry, Sanjit A. Seshia, Anca D. Dragan. <strong>Planning for Autonomous Cars that Leverage Effects on Human Actions</strong>. <i>Proceedings of Robotics: Science and Systems (RSS), June 2016</i>. <a href="/pdfs/publications/sadigh2016planning.pdf">[PDF]</a></li>
+ -->
+
+
+
+</ul>
