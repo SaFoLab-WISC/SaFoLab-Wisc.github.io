@@ -4,7 +4,7 @@ email:
 author:      SaFoLab-WISC
 description: "SaFo: Safe And secure Foundation mOdel systems Labs"
 baseurl:     ""
-url:         "https://safolab-wisc.github.io/"
+url:         "https://safolab.github.io/"
 date_format: "%b, %Y"
 header_pages:
  - people.html
