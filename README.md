@@ -1,4 +1,4 @@
-# USC Lira Lab
+# SaFo Lab (Safe Foundational Models Lab)
 SaFoLab's website, hosted on GitHub Pages!
 
 ## Developing the Website
