@@ -1,0 +1,51 @@
+# For ranks and link types, see people_disp_order variable in _config.yml
+# PI
+- name: Chaowei Xiao
+  picture: /images/people/chaoweixiao.jpg
+  home_url: https://xiaocw11.github.io
+  description: Chaowei is an assistant professor at the University of Wisconsin, Madison, and also a research scientist at NVIDIA.
+  rank: faculty
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=Juoqtj8AAAAJ&hl=en
+    - type: github
+      url: https://github.com/SaFoLab-WISC
+    - type: twitter
+      url: https://twitter.com/ChaoweiX
+# Phd students
+- name: Jiongxiao Wang
+  picture: /images/people/jiongxiaowang.png
+  home_url: https://jiongxiao-wang.github.io/
+  description: Ph.D.
+  rank: phd
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=sIGapHMAAAAJ
+    # - type: github
+    #   url: https://github.com/Jayfeather1024
+    - type: twitter
+      url: https://x.com/JiongxiaoW
+- name: Xiaogeng Liu
+  picture: /images/people/xiaogengliu.png
+  home_url: https://sheltonliu-n.github.io/
+  description: Ph.D.
+  rank: phd
+  links:
+    - type: scholar
+      url: https://scholar.google.com.hk/citations?user=Gvs5nz8AAAAJ&hl=zh-CN
+    - type: github
+      url: https://github.com//SheltonLiu-N
+    - type: twitter
+      url: https://x.com/XiaogengLiu
+- name: Yingzi Ma
+  picture: /images/people/yingzi.jpg
+  home_url: https://gray311.github.io/
+  description: Ph.D.
+  rank: phd
+  links:
+    - type: scholar
+      url: 
+    - type: github
+      url: 
+    - type: twitter
+      url:
